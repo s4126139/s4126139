@@ -32,7 +32,7 @@ More web engineering: [Weekly Reading List](https://github.com/s4126139/weekly-r
 
 ![Repository language footprint: Python 10 of 18, CSS 5, HTML 5, Jupyter Notebook 3, JavaScript 2, and EJS 1](assets/language-footprint.svg)
 
-Counts are the number of my **18 non-fork public repositories** whose GitHub language metadata includes each language, checked 25 September 2026. Repositories can count toward more than one language; this is repository presence, not code volume or a proficiency score.
+Counts are the number of my **18 non-fork public project repositories** whose GitHub language metadata includes each language, checked 25 September 2026. The profile README repository created for this redesign is excluded. Repositories can count toward more than one language; this is repository presence, not code volume or a proficiency score.
 
 ## Direction
 
