@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="356" viewBox="0 0 920 356" role="img" aria-labelledby="title desc">
+  <title id="title">Languages across public repositories</title>
+  <desc id="desc">Among 18 non-fork public repositories, GitHub detects Python in 10, CSS in 5, HTML in 5, Jupyter Notebook in 3, JavaScript in 2, and EJS in 1.</desc>
+  <rect width="920" height="356" rx="20" fill="#111b24"/>
+  <text x="36" y="46" fill="#f2f1e8" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">LANGUAGE FOOTPRINT</text>
+  <text x="36" y="71" fill="#9eafae" font-family="Arial, Helvetica, sans-serif" font-size="13">Repository presence · 18 non-fork public repositories · 25 Sep 2026</text>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="15">
+    <text x="36" y="119" fill="#edf2ed">Python</text>
+    <rect x="208" y="102" width="478" height="20" rx="10" fill="#26343b"/>
+    <rect x="208" y="102" width="478" height="20" rx="10" fill="#80ddc0"/>
+    <text x="713" y="119" fill="#edf2ed" font-weight="700">10 / 18</text>
+
+    <text x="36" y="163" fill="#edf2ed">CSS</text>
+    <rect x="208" y="146" width="478" height="20" rx="10" fill="#26343b"/>
+    <rect x="208" y="146" width="239" height="20" rx="10" fill="#d9a66d"/>
+    <text x="713" y="163" fill="#edf2ed" font-weight="700">5 / 18</text>
+
+    <text x="36" y="207" fill="#edf2ed">HTML</text>
+    <rect x="208" y="190" width="478" height="20" rx="10" fill="#26343b"/>
+    <rect x="208" y="190" width="239" height="20" rx="10" fill="#93acd9"/>
+    <text x="713" y="207" fill="#edf2ed" font-weight="700">5 / 18</text>
+
+    <text x="36" y="251" fill="#edf2ed">Jupyter Notebook</text>
+    <rect x="208" y="234" width="478" height="20" rx="10" fill="#26343b"/>
+    <rect x="208" y="234" width="143" height="20" rx="10" fill="#cb9cce"/>
+    <text x="713" y="251" fill="#edf2ed" font-weight="700">3 / 18</text>
+
+    <text x="36" y="295" fill="#edf2ed">JavaScript</text>
+    <rect x="208" y="278" width="478" height="20" rx="10" fill="#26343b"/>
+    <rect x="208" y="278" width="96" height="20" rx="10" fill="#f0d56f"/>
+    <text x="713" y="295" fill="#edf2ed" font-weight="700">2 / 18</text>
+
+    <text x="36" y="339" fill="#edf2ed">EJS</text>
+    <rect x="208" y="322" width="478" height="20" rx="10" fill="#26343b"/>
+    <rect x="208" y="322" width="48" height="20" rx="10" fill="#f19c79"/>
+    <text x="713" y="339" fill="#edf2ed" font-weight="700">1 / 18</text>
+  </g>
+  <text x="808" y="119" fill="#829596" font-family="Arial, Helvetica, sans-serif" font-size="11">PRESENCE</text>
+</svg>

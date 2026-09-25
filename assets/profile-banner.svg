@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Kai Nguyen — Problem, Data, Model, System</title>
+  <desc id="desc">A dark navy technical banner with a mint and amber pipeline from problem framing through data and models to a complete system.</desc>
+  <defs>
+    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#132430"/>
+      <stop offset="1" stop-color="#10171f"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#b9d8d0" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="340" rx="24" fill="url(#wash)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
+  <path d="M0 286C160 238 233 320 395 273s231-58 372-4 253 31 433-31" fill="none" stroke="#83d9c1" stroke-opacity=".11" stroke-width="2"/>
+  <path d="M0 305C157 257 251 338 407 291s232-58 372-4 250 30 421-28" fill="none" stroke="#f1b879" stroke-opacity=".09" stroke-width="2"/>
+
+  <text x="68" y="73" fill="#9ee5d1" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3">KAI NGUYEN  /  RMIT VIETNAM</text>
+  <text x="68" y="151" fill="#f4f1e8" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" letter-spacing="-.8">BUILDING THE WHOLE SYSTEM</text>
+  <text x="70" y="192" fill="#bdc9c8" font-family="Arial, Helvetica, sans-serif" font-size="18">Applied AI · backend · data · systems</text>
+  <rect x="68" y="229" width="104" height="4" rx="2" fill="#83d9c1"/>
+  <rect x="178" y="229" width="42" height="4" rx="2" fill="#f1b879"/>
+  <rect x="226" y="229" width="42" height="4" rx="2" fill="#83d9c1"/>
+
+  <path d="M647 169H1110" fill="none" stroke="#6c9c91" stroke-opacity=".75" stroke-width="2" stroke-dasharray="4 8"/>
+  <circle cx="694" cy="169" r="5" fill="#83d9c1"/>
+  <circle cx="832" cy="169" r="5" fill="#83d9c1"/>
+  <circle cx="970" cy="169" r="5" fill="#f1b879"/>
+  <circle cx="1108" cy="169" r="5" fill="#83d9c1"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="636" y="117" width="116" height="104" rx="16" fill="#192b35" stroke="#376052"/>
+    <text x="654" y="145" fill="#86c6b5" font-size="12" font-weight="700" letter-spacing="1.3">01</text>
+    <text x="654" y="184" fill="#f4f1e8" font-size="15" font-weight="700">PROBLEM</text>
+
+    <rect x="774" y="117" width="116" height="104" rx="16" fill="#192b35" stroke="#376052"/>
+    <text x="792" y="145" fill="#86c6b5" font-size="12" font-weight="700" letter-spacing="1.3">02</text>
+    <text x="792" y="184" fill="#f4f1e8" font-size="15" font-weight="700">DATA</text>
+
+    <rect x="912" y="117" width="116" height="104" rx="16" fill="#292b2d" stroke="#94724d"/>
+    <text x="930" y="145" fill="#f1b879" font-size="12" font-weight="700" letter-spacing="1.3">03</text>
+    <text x="930" y="184" fill="#f4f1e8" font-size="15" font-weight="700">MODEL</text>
+
+    <rect x="1050" y="117" width="116" height="104" rx="16" fill="#192b35" stroke="#376052"/>
+    <text x="1068" y="145" fill="#86c6b5" font-size="12" font-weight="700" letter-spacing="1.3">04</text>
+    <text x="1068" y="184" fill="#f4f1e8" font-size="15" font-weight="700">SYSTEM</text>
+  </g>
+  <text x="647" y="270" fill="#829596" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="1.8">FROM QUESTION TO WORKING SOFTWARE</text>
+</svg>
