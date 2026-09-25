@@ -1,7 +1,8 @@
 <div align="center">
 
-  <h1>Kai Nguyen</h1>
-  <p><code>Problem &rarr; Data &rarr; Model &rarr; System</code></p>
+  <a href="https://github.com/s4126139">
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=2DD4BF&text=Kai%20Nguyen&height=65&fontSize=48&animation=false&fontAlignY=50&fontFamily=Consolas" alt="Kai Nguyen" />
+  </a>
 
   <!-- Dynamic Typing Subtitle -->
   <a href="https://github.com/s4126139">
