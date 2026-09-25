@@ -4,7 +4,7 @@
 
   <!-- Dynamic Typing Subtitle -->
   <a href="https://github.com/s4126139">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1200&color=2DD4BF&center=true&vCenter=true&random=false&width=780&lines=Applied+AI+%2F+AI+Engineering+%C2%B7+RMIT+Vietnam;Building+End-to-End%3A+Problem+%E2%86%92+Data+%E2%86%92+Model+%E2%86%92+System;AI+%C3%97+Finance+%C2%B7+Machine+Learning+%C2%B7+Full-Stack;Data%2C+Model+Evaluation%2C+Backend+%26+Interfaces" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1200&color=2DD4BF&center=true&vCenter=true&random=false&width=780&lines=Applied+AI+%2F+AI+Engineering+%C2%B7+RMIT+Vietnam;Building+End-to-End%3A+Problem+%E2%86%92+Data+%E2%86%92+Model+%E2%86%92+System;AI+%C3%97+Finance+%C2%B7+Machine+Learning+%C2%B7+Systems;MIT+Math+%26+Computing+Foundations+%C2%B7+RMIT+Scholarship" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -28,7 +28,33 @@
 - 🎓 **Education**: Bachelor of Information Technology @ **RMIT University Vietnam** (Saigon South)
 - 🏆 **Academic**: **50% Tuition Merit Scholarship** · Engineering Mathematics: **97.6%**
 - 🎯 **Trajectory**: Developing toward **Applied AI / AI Engineering** with a complete-systems mindset (*Problem → Data → Model → Backend → Deploy*).
-- 🔬 **Interests**: **AI × Finance / FinTech**, Model Evaluation, Rigorous Applied Research, and Forward Deployed Engineering.
+- 🔬 **Interests**: **AI × Finance / FinTech**, Rigorous Model Evaluation, Applied Research, and Forward Deployed Engineering.
+
+---
+
+### 📐 Mathematical & Systems Foundations
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🧮 Mathematics for AI / ML</h4>
+      <ul>
+        <li><b>Calculus</b>: MIT 18.01 (Single Variable) · MIT 18.02 (Multivariable)</li>
+        <li><b>Linear Algebra</b>: MIT 18.06 (Linear Algebra &amp; Matrix Methods)</li>
+        <li><b>Probability &amp; Statistics</b>: MIT 18.05 · Imperial College <i>Math for ML &amp; DS</i></li>
+        <li><b>Engineering Mathematics (RMIT)</b>: 97.6%</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>💻 Systems &amp; Computing Foundations</h4>
+      <ul>
+        <li><b>Nand2Tetris</b>: Logic Gates → RAM → Hack CPU &amp; Assembly (<code>Mult.asm</code>, <code>Rect.asm</code>)</li>
+        <li><b>Linux &amp; OS</b>: Shell, POSIX permissions, filesystem hierarchy → Docker containers</li>
+        <li><b>Data Comm &amp; Networking</b>: Cisco Packet Tracer (VLSM <code>172.16.0.0/19</code>) · Wireshark (TLS 1.3, TCP/IP, NAT)</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -98,7 +124,7 @@
     <td width="50%" valign="top">
       <h3>🧠 Fashion Intelligence</h3>
       <p><i>Team Applied-ML Product</i></p>
-      <p>Fashion-image classification across 4 attributes with Top-K visual similarity search. Engineered season workflow, evaluation handoff, model comparisons, and integration.</p>
+      <p>Fashion-image classification across 4 attributes (article type, season, gender, usage) with Top-K visual similarity search. Preprocessed ~38,000 images (4K → 128×128). Engineered season workflow, evaluation handoff, model comparisons, and integration.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/badge/Computer%20Vision-2563eb?style=flat-square" alt="CV" />
@@ -117,7 +143,7 @@
     <td width="50%" valign="top">
       <h3>🛒 RME · Learning Marketplace</h3>
       <p><i>Team Web Product</i></p>
-      <p>Full-stack learning platform with course catalog, discussion forum, blog, cart/checkout, and admin tools. Led the <b>Product Rating &amp; Reviews</b> module with dynamic rating UI and review workflows.</p>
+      <p>Full-stack learning platform with course catalog, discussion forum, blog, cart/checkout, and admin tools (13 collections, ~1,300 documents). Led the <b>Product Rating &amp; Reviews</b> module with dynamic rating UI, aggregate counters, and review workflows.</p>
       <p>
         <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node" />
         <img src="https://img.shields.io/badge/Express%205-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
@@ -132,7 +158,7 @@
     <td width="50%" valign="top">
       <h3>🔬 ImmuniScope</h3>
       <p><i>Individually Owned Data Application</i></p>
-      <p>A six-page infectious-disease and immunisation data explorer using a layered Python WSGI architecture, SQLite, parameterized SQL queries, dynamic charts, CSV export, and test suite.</p>
+      <p>A six-page infectious-disease and immunisation data explorer using a layered Python WSGI architecture, SQLite, parameterized SQL queries, allowlisted sorting, dynamic charts, CSV export, and test suite.</p>
       <p>
         <img src="https://img.shields.io/badge/Python%20WSGI-3776AB?style=flat-square&logo=python&logoColor=white" alt="WSGI" />
         <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
@@ -145,7 +171,7 @@
     <td width="50%" valign="top">
       <h3>🌐 Network Architecture &amp; Analysis</h3>
       <p><i>Coursework Simulations &amp; Packet Inspection</i></p>
-      <p>Enterprise network design in Cisco Packet Tracer (VLANs, Inter-VLAN routing, <code>172.16.0.0/19</code> IP planning) and individual Wireshark traffic analysis (TCP/IP encapsulation, TLS 1.3, NAT).</p>
+      <p>Enterprise network design in Cisco Packet Tracer (VLSM IP planning on <code>172.16.0.0/19</code>, VLANs, Inter-VLAN routing) and individual Wireshark protocol analysis (TCP/IP encapsulation, TLS 1.3 handshake, NAT).</p>
       <p>
         <img src="https://img.shields.io/badge/Cisco%20PT-1BA0D7?style=flat-square&logo=cisco&logoColor=white" alt="Cisco" />
         <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark" />
