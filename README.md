@@ -1,6 +1,7 @@
 <div align="center">
 
-  <h1>Hi there, I'm Kai Nguyen 👋</h1>
+  <h1>Kai Nguyen</h1>
+  <p><code>Problem &rarr; Data &rarr; Model &rarr; System</code></p>
 
   <!-- Dynamic Typing Subtitle -->
   <a href="https://github.com/s4126139">
