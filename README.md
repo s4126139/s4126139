@@ -1,12 +1,12 @@
 <div align="center">
 
   <a href="https://github.com/s4126139">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=38BDF8&text=Kai%20Nguyen&height=65&fontSize=48&animation=false&fontAlignY=50&fontFamily=Consolas" alt="Kai Nguyen" />
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=F8FAFC&text=Kai%20Nguyen&height=65&fontSize=48&animation=false&fontAlignY=50&fontFamily=Consolas" alt="Kai Nguyen" />
   </a>
 
   <!-- Dynamic Typing Subtitle -->
   <a href="https://github.com/s4126139">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&random=false&width=780&lines=Applied+AI+%2F+AI+Engineering+%C2%B7+RMIT+Vietnam;Building+End-to-End%3A+Problem+%E2%86%92+Data+%E2%86%92+Model+%E2%86%92+System;AI+%C3%97+Finance+%C2%B7+Machine+Learning+%C2%B7+Systems;MIT+Math+%26+Computing+Foundations+%C2%B7+RMIT+Scholarship" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1200&color=2DD4BF&center=true&vCenter=true&random=false&width=780&lines=Applied+AI+%2F+AI+Engineering+%C2%B7+RMIT+Vietnam;Building+End-to-End%3A+Problem+%E2%86%92+Data+%E2%86%92+Model+%E2%86%92+System;AI+%C3%97+Finance+%C2%B7+Machine+Learning+%C2%B7+Systems;MIT+Math+%26+Computing+Foundations+%C2%B7+RMIT+Scholarship" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -17,7 +17,7 @@
     <img src="https://img.shields.io/badge/Focus-Applied%20AI%20%26%20Systems-06b6d4?style=for-the-badge&logo=openai&logoColor=white" alt="Applied AI & Systems" />
     <img src="https://img.shields.io/badge/Location-Ho%20Chi%20Minh%2C%20VN-8b5cf6?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
     <br/>
-    <img src="https://komarev.com/ghpvc/?username=s4126139&label=Profile%20Views&color=38bdf8&style=for-the-badge" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=s4126139&label=Profile%20Views&color=2dd4bf&style=for-the-badge" alt="Profile Views" />
     <a href="https://github.com/s4126139?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-Explorer-6366f1?style=for-the-badge&logo=github&logoColor=white" alt="Open Source Explorer" /></a>
   </p>
 
@@ -193,10 +193,10 @@
   <table border="0">
     <tr>
       <td>
-        <img src="https://github-readme-stats-fast.vercel.app/api?username=s4126139&show_icons=true&theme=tokyonight&bg_color=060913&title_color=38bdf8&text_color=94a3b8&icon_color=38bdf8&border_color=1e293b&hide_border=false" alt="Kai Nguyen's GitHub Stats" height="175" />
+        <img src="https://github-readme-stats-fast.vercel.app/api?username=s4126139&show_icons=true&theme=tokyonight&bg_color=060913&title_color=2dd4bf&text_color=94a3b8&icon_color=2dd4bf&border_color=1e293b&hide_border=false" alt="Kai Nguyen's GitHub Stats" height="175" />
       </td>
       <td>
-        <img src="https://streak-stats.demolab.com/?user=s4126139&theme=tokyonight&background=060913&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8&sideNums=cbd5e1&sideLabels=94a3b8&border=1e293b&hide_border=false" alt="Kai Nguyen's GitHub Streak" height="175" />
+        <img src="https://streak-stats.demolab.com/?user=s4126139&theme=tokyonight&background=060913&ring=2dd4bf&fire=2dd4bf&currStreakLabel=2dd4bf&sideNums=cbd5e1&sideLabels=94a3b8&border=1e293b&hide_border=false" alt="Kai Nguyen's GitHub Streak" height="175" />
       </td>
     </tr>
   </table>
