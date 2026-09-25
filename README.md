@@ -1,7 +1,11 @@
 <div align="center">
 
   <a href="https://github.com/s4126139">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=F8FAFC&text=Kai%20Nguyen&height=65&fontSize=48&animation=false&fontAlignY=50&fontFamily=Consolas" alt="Kai Nguyen" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=transparent&fontColor=F8FAFC&text=Kai%20Nguyen&height=65&fontSize=48&animation=false&fontAlignY=50&fontFamily=Consolas" />
+      <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=transparent&fontColor=0F172A&text=Kai%20Nguyen&height=65&fontSize=48&animation=false&fontAlignY=50&fontFamily=Consolas" />
+      <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=0F172A&text=Kai%20Nguyen&height=65&fontSize=48&animation=false&fontAlignY=50&fontFamily=Consolas" alt="Kai Nguyen" />
+    </picture>
   </a>
 
   <!-- Dynamic Typing Subtitle -->
