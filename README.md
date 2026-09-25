@@ -61,9 +61,10 @@
   <tr>
     <td><b>Databases</b></td>
     <td>
-      <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+      <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL" />
       <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
       <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
     </td>
   </tr>
   <tr>
@@ -122,10 +123,11 @@
     <td width="50%" valign="top">
       <h3>🔬 ImmuniScope</h3>
       <p><i>Individually Owned Data Application</i></p>
-      <p>A six-page infectious-disease and immunisation data explorer using a layered Python WSGI architecture, SQLite, parameterized queries, dynamic charts, CSV export, and test suite.</p>
+      <p>A six-page infectious-disease and immunisation data explorer using a layered Python WSGI architecture, SQLite, parameterized SQL queries, dynamic charts, CSV export, and test suite.</p>
       <p>
         <img src="https://img.shields.io/badge/Python%20WSGI-3776AB?style=flat-square&logo=python&logoColor=white" alt="WSGI" />
         <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+        <img src="https://img.shields.io/badge/Parameterized%20SQL-336791?style=flat-square&logo=sqlite&logoColor=white" alt="SQL" />
       </p>
       <a href="https://github.com/s4126139/ImmuniScope">
         <img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repo" />
