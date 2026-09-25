@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Profile Contributions & Snake
 
 on:
   schedule:
@@ -17,6 +17,20 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate Yearly Contribution Activity Graphs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: python scripts/generate_yearly_graph.py
+
       - name: Generate GitHub Contribution Grid Snake
         uses: Platane/snk/svg-only@v3
         with:
@@ -25,7 +39,7 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#2dd4bf&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
-      - name: Push Snake SVG to Output Branch
+      - name: Push Assets to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
