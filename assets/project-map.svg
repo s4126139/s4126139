@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="326" viewBox="0 0 1200 326" role="img" aria-labelledby="title desc">
+  <title id="title">Selected project map</title>
+  <desc id="desc">Three illustrated project cards show fashion image classification and retrieval, a SQLite health-data explorer, and a TCP-based HTTP server.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14242f"/>
+      <stop offset="1" stop-color="#10171f"/>
+    </linearGradient>
+    <linearGradient id="ai" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a5f2d9"/>
+      <stop offset="1" stop-color="#58bca9"/>
+    </linearGradient>
+    <linearGradient id="data" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1cb7c"/>
+      <stop offset="1" stop-color="#df9468"/>
+    </linearGradient>
+    <linearGradient id="web" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5c69d"/>
+      <stop offset="1" stop-color="#dc8b72"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="326" rx="22" fill="url(#bg)"/>
+  <text x="34" y="38" fill="#9ee5d1" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2.4">PROJECT MAP</text>
+  <text x="1166" y="38" text-anchor="end" fill="#839597" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="1.2">THREE SCALES OF ENGINEERING</text>
+
+  <!-- Applied AI card -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="30" y="58" width="364" height="238" rx="17" fill="#172831" stroke="#345b52"/>
+    <rect x="30" y="58" width="364" height="4" rx="2" fill="url(#ai)"/>
+    <text x="50" y="88" fill="#9ee5d1" font-size="11" font-weight="700" letter-spacing="1.8">01 · APPLIED AI · TEAM</text>
+    <text x="50" y="117" fill="#f4f1e8" font-size="20" font-weight="700">Fashion Intelligence</text>
+    <g transform="translate(50 139)">
+      <rect x="0" y="0" width="75" height="58" rx="9" fill="#213942" stroke="#4c8175"/>
+      <rect x="10" y="10" width="20" height="18" rx="4" fill="#75c9b4" opacity=".9"/>
+      <rect x="38" y="10" width="25" height="4" rx="2" fill="#d3e9df" opacity=".8"/>
+      <rect x="38" y="20" width="19" height="4" rx="2" fill="#d3e9df" opacity=".5"/>
+      <rect x="10" y="38" width="53" height="5" rx="2.5" fill="#75c9b4" opacity=".58"/>
+      <path d="M89 29h29m-8-8 8 8-8 8" fill="none" stroke="#82dbc4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="131" y="2" width="76" height="14" rx="7" fill="#29443e"/>
+      <rect x="131" y="22" width="76" height="14" rx="7" fill="#29443e"/>
+      <rect x="131" y="42" width="76" height="14" rx="7" fill="#29443e"/>
+      <text x="169" y="12" text-anchor="middle" fill="#bcecdf" font-size="8" font-weight="700">4 ATTRIBUTES</text>
+      <text x="169" y="32" text-anchor="middle" fill="#bcecdf" font-size="8" font-weight="700">EVALUATION</text>
+      <text x="169" y="52" text-anchor="middle" fill="#bcecdf" font-size="8" font-weight="700">TOP-K SEARCH</text>
+      <path d="M221 29h27m-8-8 8 8-8 8" fill="none" stroke="#82dbc4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="260" y="2" width="50" height="14" rx="5" fill="#5c8175"/>
+      <rect x="260" y="22" width="40" height="14" rx="5" fill="#40645b"/>
+      <rect x="260" y="42" width="29" height="14" rx="5" fill="#314e48"/>
+    </g>
+    <text x="50" y="227" fill="#b7c8c5" font-size="12">Images → attributes → ranked visual results</text>
+    <text x="50" y="260" fill="#83d9c1" font-size="11" font-weight="700" letter-spacing="1">MODEL WORK + EVALUATION</text>
+  </g>
+
+  <!-- Data application card -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="418" y="58" width="364" height="238" rx="17" fill="#2a2925" stroke="#735c42"/>
+    <rect x="418" y="58" width="364" height="4" rx="2" fill="url(#data)"/>
+    <text x="438" y="88" fill="#edc98a" font-size="11" font-weight="700" letter-spacing="1.8">02 · DATA PRODUCT · OWNED</text>
+    <text x="438" y="117" fill="#f4f1e8" font-size="20" font-weight="700">ImmuniScope</text>
+    <g transform="translate(438 139)">
+      <rect x="0" y="0" width="76" height="58" rx="8" fill="#3b3931" stroke="#90724d"/>
+      <path d="M0 15h76M25 0v58M50 0v58M0 30h76M0 44h76" stroke="#a1845b" stroke-opacity=".6"/>
+      <circle cx="13" cy="8" r="2" fill="#f0c97e"/><circle cx="38" cy="23" r="2" fill="#f0c97e"/><circle cx="63" cy="37" r="2" fill="#f0c97e"/>
+      <path d="M91 29h29m-8-8 8 8-8 8" fill="none" stroke="#efc780" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="132" y="2" width="78" height="14" rx="7" fill="#514435"/>
+      <rect x="132" y="22" width="78" height="14" rx="7" fill="#514435"/>
+      <rect x="132" y="42" width="78" height="14" rx="7" fill="#514435"/>
+      <text x="171" y="12" text-anchor="middle" fill="#f3dfb9" font-size="8" font-weight="700">SQL QUERIES</text>
+      <text x="171" y="32" text-anchor="middle" fill="#f3dfb9" font-size="8" font-weight="700">FILTERS</text>
+      <text x="171" y="52" text-anchor="middle" fill="#f3dfb9" font-size="8" font-weight="700">CSV EXPORT</text>
+      <path d="M224 29h27m-8-8 8 8-8 8" fill="none" stroke="#efc780" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M267 53V27l12-9 11 6 14-17" fill="none" stroke="#f1b879" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="304" cy="7" r="4" fill="#f1b879"/>
+    </g>
+    <text x="438" y="227" fill="#c9c5b9" font-size="12">SQLite → parameterised queries → charts</text>
+    <text x="438" y="260" fill="#f1b879" font-size="11" font-weight="700" letter-spacing="1">SIX-PAGE DATA EXPLORER</text>
+  </g>
+
+  <!-- Web app card -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="806" y="58" width="364" height="238" rx="17" fill="#2b2527" stroke="#74544b"/>
+    <rect x="806" y="58" width="364" height="4" rx="2" fill="url(#web)"/>
+    <text x="826" y="88" fill="#f5c69d" font-size="11" font-weight="700" letter-spacing="1.8">03 · FULL-STACK · TEAM</text>
+    <text x="826" y="117" fill="#f4f1e8" font-size="20" font-weight="700">WebStu / RME</text>
+    <g transform="translate(826 139)">
+      <rect x="0" y="2" width="82" height="54" rx="8" fill="#403238" stroke="#956b5e"/>
+      <path d="M0 15h82" stroke="#956b5e"/>
+      <circle cx="10" cy="9" r="2" fill="#f4b289"/><circle cx="18" cy="9" r="2" fill="#e78f77"/><circle cx="26" cy="9" r="2" fill="#d7bd8d"/>
+      <rect x="9" y="23" width="18" height="25" rx="3" fill="#e8b184"/>
+      <rect x="32" y="23" width="18" height="25" rx="3" fill="#c68a73"/>
+      <rect x="55" y="23" width="18" height="25" rx="3" fill="#987568"/>
+      <path d="M94 29h29m-8-8 8 8-8 8" fill="none" stroke="#f2b994" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="135" y="4" width="75" height="14" rx="7" fill="#543d3a"/>
+      <rect x="135" y="24" width="75" height="14" rx="7" fill="#543d3a"/>
+      <rect x="135" y="44" width="75" height="14" rx="7" fill="#543d3a"/>
+      <text x="172" y="14" text-anchor="middle" fill="#f4d2b3" font-size="8" font-weight="700">CATALOGUE</text>
+      <text x="172" y="34" text-anchor="middle" fill="#f4d2b3" font-size="8" font-weight="700">REVIEWS</text>
+      <text x="172" y="54" text-anchor="middle" fill="#f4d2b3" font-size="8" font-weight="700">CHECKOUT</text>
+      <path d="M224 29h26m-8-8 8 8-8 8" fill="none" stroke="#f2b994" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <ellipse cx="284" cy="9" rx="25" ry="7" fill="#684b47" stroke="#bb8571"/>
+      <path d="M259 9v35c0 4 11 8 25 8s25-4 25-8V9" fill="#4a3938" stroke="#bb8571"/>
+      <path d="M259 26c0 4 11 8 25 8s25-4 25-8" fill="none" stroke="#bb8571"/>
+      <path d="M259 43c0 4 11 8 25 8s25-4 25-8" fill="none" stroke="#bb8571"/>
+    </g>
+    <text x="826" y="227" fill="#d0c1bc" font-size="12">Express → module workflows → MongoDB</text>
+    <text x="826" y="260" fill="#f5c69d" font-size="11" font-weight="700" letter-spacing="1">KAI: PRODUCT RATING & REVIEWS</text>
+  </g>
+</svg>

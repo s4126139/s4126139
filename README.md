@@ -2,11 +2,13 @@
 
 # Kai Nguyen
 
-**B.IT student at RMIT Vietnam · building toward Applied AI / AI Engineering**
+<p align="center"><strong>INFORMATION TECHNOLOGY · RMIT VIETNAM · APPLIED AI / SYSTEMS</strong><br>Data, model evaluation, backend, and interfaces—connected around a real problem.</p>
 
-I’m learning to take real problems through data, model evaluation, backend design, and a usable interface. I’m especially interested in AI × Finance and applied research, while staying open to other problem domains.
+I’m building toward Applied AI / AI Engineering, with AI × Finance as one domain of interest and applied research as a possible capstone direction.
 
 ## Selected work
+
+![Three project diagrams: Fashion Intelligence maps images to four classification attributes and Top-K retrieval; ImmuniScope maps SQLite data through queries to charts and CSV; RME maps a learning marketplace through course, review, and checkout modules](assets/project-map.svg)
 
 ### Fashion Intelligence · team project
 
@@ -20,13 +22,13 @@ A team system for four fashion-image labels and Top-K visual search. My merged w
 
 A six-page infectious-disease and immunisation data explorer. It uses a layered Python WSGI app, SQLite, parameterised queries, charts, CSV export, and tests around database, query, and route behavior.
 
-### Systems Lab · Week 1
+### WebStu (RME) · learning marketplace · team project
 
-[Repository](https://github.com/s4126139/systems-lab) · [HTTP server notes](https://github.com/s4126139/systems-lab/tree/main/01-networking/http-server)
+[Live demo](https://rme-zmfj.onrender.com) · source repository is private
 
-A learning build of a minimal HTTP/1.1 server directly on TCP sockets, with request-line parsing, response serialization, a health route, and 10 automated tests. The longer systems roadmap is planned work; Week 1 is the implemented milestone.
+An Express 5/EJS/MongoDB marketplace deployed on Render, with a course catalogue, forum, blog, reviews, checkout, learner accounts, and admin tools. My assigned module was Product Rating & Reviews; my merged work includes the dynamic rating UI and review/report fixes.
 
-More web engineering: [Weekly Reading List](https://github.com/s4126139/weekly-reading-list-mock-test) is an RMIT lab app with an Express/MongoDB catalogue, search, pagination, book details, and a shared wishlist.
+Other web work: [Weekly Reading List](https://github.com/s4126139/weekly-reading-list-mock-test), an RMIT lab app with a searchable, paginated book catalogue and shared wishlist.
 
 ## Language footprint
 
@@ -34,8 +36,8 @@ More web engineering: [Weekly Reading List](https://github.com/s4126139/weekly-r
 
 Counts are the number of my **18 non-fork public project repositories** whose GitHub language metadata includes each language, checked 25 September 2026. The profile README repository created for this redesign is excluded. Repositories can count toward more than one language; this is repository presence, not code volume or a proficiency score.
 
-## Direction
+## Current direction
 
-I’m strengthening the foundations behind complete AI/software systems: algorithms, probability, linear algebra, backend engineering, and computer systems. I’m interested in a research-oriented capstone and collaborations where careful evaluation matters.
+I’m strengthening the foundations behind complete AI/software systems: algorithms, probability, linear algebra, backend engineering, and computer systems. I’m open to research-oriented capstone and collaboration opportunities where careful evaluation matters.
 
 **Education:** Bachelor of Information Technology, RMIT University Vietnam · 50% tuition scholarship · Engineering Mathematics: approximately 97.6%.
