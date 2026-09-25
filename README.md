@@ -214,6 +214,15 @@
 
   <br/>
 
+  <!-- Dynamic Contribution Activity Graph -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-activity-graph.vercel.app/graph?username=s4126139&bg_color=060913&color=94a3b8&title_color=2dd4bf&line=2dd4bf&point=2dd4bf&area=true&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-activity-graph.vercel.app/graph?username=s4126139&bg_color=ffffff&color=475569&title_color=0d9488&line=0d9488&point=0d9488&area=true&hide_border=true" />
+    <img src="https://github-activity-graph.vercel.app/graph?username=s4126139&bg_color=060913&color=94a3b8&title_color=2dd4bf&line=2dd4bf&point=2dd4bf&area=true&hide_border=true" alt="Kai Nguyen's Contribution Graph" width="100%" />
+  </picture>
+
+  <br/>
+
   <!-- Dynamic Contribution Grid Snake -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/s4126139/s4126139/output/github-contribution-grid-snake-dark.svg" />
