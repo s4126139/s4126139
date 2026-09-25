@@ -124,11 +124,12 @@
     <td width="50%" valign="top">
       <h3>🧠 Fashion Intelligence</h3>
       <p><i>Team Applied-ML Product</i></p>
-      <p>Fashion-image classification across 4 attributes (article type, season, gender, usage) with Top-K visual similarity search. Preprocessed ~38,000 images (4K → 128×128). Engineered season workflow, evaluation handoff, model comparisons, and integration.</p>
+      <p>Fashion-image classification across 4 attributes (article type, season, gender, usage) with Top-K visual similarity search. Led end-to-end data preprocessing (~38,000 images from 4K → 128×128), model evaluation reporting, season workflow, and system integration.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/badge/Computer%20Vision-2563eb?style=flat-square" alt="CV" />
-        <img src="https://img.shields.io/badge/Evaluation-10b981?style=flat-square" alt="Evaluation" />
+        <img src="https://img.shields.io/badge/Data%20Pipeline-f59e0b?style=flat-square" alt="Data Pipeline" />
+        <img src="https://img.shields.io/badge/Model%20Evaluation%20%26%20Report-10b981?style=flat-square" alt="Evaluation & Report" />
       </p>
       <a href="https://github.com/TrnLin/MLA2">
         <img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repo" />
