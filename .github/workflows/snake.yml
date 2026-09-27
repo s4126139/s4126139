@@ -34,6 +34,9 @@ jobs:
       - name: Generate Animated Market Ticker Tape
         run: python scripts/generate_market_ticker.py
 
+      - name: Generate Monte Carlo Stochastic Simulation Graphics
+        run: python scripts/generate_monte_carlo.py
+
       - name: Generate GitHub Contribution Grid Snake
         uses: Platane/snk/svg-only@v3
         with:

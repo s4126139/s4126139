@@ -73,6 +73,17 @@
   </tr>
 </table>
 
+<br/>
+
+<!-- Stochastic Monte Carlo Simulation Graphic -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/s4126139/s4126139/output/monte-carlo-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/s4126139/s4126139/output/monte-carlo-light.svg" />
+    <img src="https://raw.githubusercontent.com/s4126139/s4126139/output/monte-carlo-dark.svg" alt="Monte Carlo Stochastic Simulation" width="100%" />
+  </picture>
+</div>
+
 ---
 
 ### 🛠️ Technical Arsenal
