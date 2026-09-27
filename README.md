@@ -74,53 +74,53 @@
   <tr>
     <td width="22%"><b>Languages</b></td>
     <td>
-      <img src="https://img.shields.io/badge/Python-2547A8?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/Java-2547A8?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-      <img src="https://img.shields.io/badge/R-2547A8?style=for-the-badge&logo=r&logoColor=white" alt="R" />
-      <img src="https://img.shields.io/badge/JavaScript-2547A8?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/C-2547A8?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+      <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
     </td>
   </tr>
   <tr>
     <td><b>AI / ML &amp; Data</b></td>
     <td>
-      <img src="https://img.shields.io/badge/PyTorch-2547A8?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-      <img src="https://img.shields.io/badge/Scikit--Learn-2547A8?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
-      <img src="https://img.shields.io/badge/Pandas-2547A8?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-      <img src="https://img.shields.io/badge/NumPy-2547A8?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-      <img src="https://img.shields.io/badge/Matplotlib-2547A8?style=for-the-badge&logo=python&logoColor=white" alt="Matplotlib" />
-      <img src="https://img.shields.io/badge/Jupyter-2547A8?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+      <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
+      <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+      <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+      <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white" alt="Matplotlib" />
+      <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
     </td>
   </tr>
   <tr>
     <td><b>Backend &amp; Web</b></td>
     <td>
-      <img src="https://img.shields.io/badge/Node.js-2547A8?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-      <img src="https://img.shields.io/badge/Express.js-2547A8?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
-      <img src="https://img.shields.io/badge/Python%20WSGI-2547A8?style=for-the-badge&logo=python&logoColor=white" alt="WSGI" />
-      <img src="https://img.shields.io/badge/HTML5-2547A8?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-      <img src="https://img.shields.io/badge/CSS3-2547A8?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-      <img src="https://img.shields.io/badge/EJS-2547A8?style=for-the-badge&logo=ejs&logoColor=white" alt="EJS" />
+      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+      <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
+      <img src="https://img.shields.io/badge/Python%20WSGI-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="WSGI" />
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+      <img src="https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge&logo=ejs&logoColor=black" alt="EJS" />
     </td>
   </tr>
   <tr>
     <td><b>Databases</b></td>
     <td>
-      <img src="https://img.shields.io/badge/SQL-2547A8?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL" />
-      <img src="https://img.shields.io/badge/SQLite-2547A8?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
-      <img src="https://img.shields.io/badge/PostgreSQL-2547A8?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-      <img src="https://img.shields.io/badge/MongoDB-2547A8?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+      <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL" />
+      <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
     </td>
   </tr>
   <tr>
     <td><b>Tools &amp; Systems</b></td>
     <td>
-      <img src="https://img.shields.io/badge/Git-2547A8?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-      <img src="https://img.shields.io/badge/GitHub-2547A8?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-      <img src="https://img.shields.io/badge/Linux%20%2F%20WSL-2547A8?style=for-the-badge&logo=linux&logoColor=white" alt="Linux" />
-      <img src="https://img.shields.io/badge/Docker-2547A8?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-      <img src="https://img.shields.io/badge/Wireshark-2547A8?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
-      <img src="https://img.shields.io/badge/Packet%20Tracer-2547A8?style=for-the-badge&logo=cisco&logoColor=white" alt="Packet Tracer" />
+      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+      <img src="https://img.shields.io/badge/Linux%20%2F%20WSL-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+      <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
+      <img src="https://img.shields.io/badge/Packet%20Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Packet Tracer" />
     </td>
   </tr>
 </table>
@@ -136,7 +136,7 @@
       <p><i>Team Applied-ML Product</i></p>
       <p>Fashion-image classification across 4 attributes (article type, season, gender, usage) with Top-K visual similarity search. Led end-to-end data preprocessing (~38,000 images from 4K → 128×128), model evaluation reporting, season workflow, and system integration.</p>
       <p>
-        <img src="https://img.shields.io/badge/Python-2547A8?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/badge/Computer%20Vision-2547A8?style=flat-square" alt="CV" />
         <img src="https://img.shields.io/badge/Data%20Pipeline-A32170?style=flat-square" alt="Data Pipeline" />
         <img src="https://img.shields.io/badge/Model%20Evaluation%20%26%20Report-A32170?style=flat-square" alt="Evaluation & Report" />
@@ -156,9 +156,9 @@
       <p><i>Team Web Product</i></p>
       <p>Full-stack learning platform with course catalog, discussion forum, blog, cart/checkout, and admin tools (13 collections, ~1,300 documents). Led the <b>Product Rating &amp; Reviews</b> module with dynamic rating UI, aggregate counters, and review workflows.</p>
       <p>
-        <img src="https://img.shields.io/badge/Node.js-2547A8?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node" />
-        <img src="https://img.shields.io/badge/Express%205-2547A8?style=flat-square&logo=express&logoColor=white" alt="Express" />
-        <img src="https://img.shields.io/badge/MongoDB-2547A8?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node" />
+        <img src="https://img.shields.io/badge/Express%205-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+        <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
       </p>
       <a href="https://rme-zmfj.onrender.com">
         <img src="https://img.shields.io/badge/Live%20Demo-A32170?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo" />
@@ -171,9 +171,9 @@
       <p><i>Individually Owned Data Application</i></p>
       <p>A six-page infectious-disease and immunisation data explorer using a layered Python WSGI architecture, SQLite, parameterized SQL queries, allowlisted sorting, dynamic charts, CSV export, and test suite.</p>
       <p>
-        <img src="https://img.shields.io/badge/Python%20WSGI-2547A8?style=flat-square&logo=python&logoColor=white" alt="WSGI" />
-        <img src="https://img.shields.io/badge/SQLite-2547A8?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-        <img src="https://img.shields.io/badge/Parameterized%20SQL-2547A8?style=flat-square&logo=sqlite&logoColor=white" alt="SQL" />
+        <img src="https://img.shields.io/badge/Python%20WSGI-3776AB?style=flat-square&logo=python&logoColor=white" alt="WSGI" />
+        <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+        <img src="https://img.shields.io/badge/Parameterized%20SQL-336791?style=flat-square&logo=sqlite&logoColor=white" alt="SQL" />
       </p>
       <a href="https://github.com/s4126139/ImmuniScope">
         <img src="https://img.shields.io/badge/Repository-2547A8?style=for-the-badge&logo=github&logoColor=white" alt="Repo" />
@@ -184,8 +184,8 @@
       <p><i>Coursework Simulations &amp; Packet Inspection</i></p>
       <p>Enterprise network design in Cisco Packet Tracer (VLSM IP planning on <code>172.16.0.0/19</code>, VLANs, Inter-VLAN routing) and individual Wireshark protocol analysis (TCP/IP encapsulation, TLS 1.3 handshake, NAT).</p>
       <p>
-        <img src="https://img.shields.io/badge/Cisco%20PT-2547A8?style=flat-square&logo=cisco&logoColor=white" alt="Cisco" />
-        <img src="https://img.shields.io/badge/Wireshark-2547A8?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark" />
+        <img src="https://img.shields.io/badge/Cisco%20PT-1BA0D7?style=flat-square&logo=cisco&logoColor=white" alt="Cisco" />
+        <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark" />
       </p>
     </td>
   </tr>
