@@ -37,6 +37,9 @@ jobs:
       - name: Generate Monte Carlo Stochastic Simulation Graphics
         run: python scripts/generate_monte_carlo.py
 
+      - name: Generate Animated Probability & Game Theory Icons
+        run: python scripts/generate_probability_icons.py
+
       - name: Generate GitHub Contribution Grid Snake
         uses: Platane/snk/svg-only@v3
         with:

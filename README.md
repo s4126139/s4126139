@@ -75,6 +75,17 @@
 
 <br/>
 
+<!-- Animated Probability & Game Theory Foundations -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/s4126139/s4126139/output/probability-icons-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/s4126139/s4126139/output/probability-icons-light.svg" />
+    <img src="https://raw.githubusercontent.com/s4126139/s4126139/output/probability-icons-dark.svg" alt="Animated Probability &amp; Game Theory Icons" width="100%" />
+  </picture>
+</div>
+
+<br/>
+
 <!-- Quantitative Stochastic & Volatility Topology Graphic -->
 <div align="center">
   <picture>
