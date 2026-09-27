@@ -29,6 +29,13 @@
     <a href="https://github.com/s4126139?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-Explorer-2547A8?style=for-the-badge&logo=github&logoColor=white" alt="Open Source Explorer" /></a>
   </p>
 
+  <!-- Live Global Markets Ticker Tape -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/s4126139/s4126139/output/market-ticker-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/s4126139/s4126139/output/market-ticker-light.svg" />
+    <img src="https://raw.githubusercontent.com/s4126139/s4126139/output/market-ticker-dark.svg" alt="Live Global Markets Ticker" width="100%" />
+  </picture>
+
 </div>
 
 ---
