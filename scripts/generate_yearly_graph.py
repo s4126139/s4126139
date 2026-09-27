@@ -109,23 +109,23 @@ def build_svg(
     plot_height = height - padding_top - padding_bottom
 
     if theme == "dark":
-        bg_color = "#060913"
-        card_stroke = "#1e293b"
-        title_color = "#2dd4bf"
-        text_color = "#94a3b8"
-        grid_color = "rgba(148, 163, 184, 0.12)"
-        line_color = "#2dd4bf"
-        point_fill = "#2dd4bf"
-        point_stroke = "#060913"
+        bg_color = "#0D1117"
+        card_stroke = "#30384D"
+        title_color = "#8FB6FF"
+        text_color = "#A3ADC0"
+        grid_color = "rgba(163, 173, 192, 0.12)"
+        line_color = "#8FB6FF"
+        point_fill = "#8FB6FF"
+        point_stroke = "#0D1117"
         area_opacity = 0.42
     else:
         bg_color = "#ffffff"
-        card_stroke = "#e2e8f0"
-        title_color = "#0d9488"
-        text_color = "#475569"
-        grid_color = "rgba(71, 85, 105, 0.10)"
-        line_color = "#0d9488"
-        point_fill = "#0d9488"
+        card_stroke = "#D0D7DE"
+        title_color = "#2547A8"
+        text_color = "#58657A"
+        grid_color = "rgba(88, 101, 122, 0.10)"
+        line_color = "#2547A8"
+        point_fill = "#2547A8"
         point_stroke = "#ffffff"
         area_opacity = 0.35
 
