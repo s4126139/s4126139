@@ -1,11 +1,21 @@
 {
-  "total_bets": 18,
+  "total_bets": 19,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -18775,
-  "house_wins": 7,
+  "house_table_deficit": -18740,
+  "house_wins": 8,
   "player_wins": 11,
-  "house_win_rate": "41.5%",
+  "house_win_rate": "42.1%",
   "recent_bets": [
+    {
+      "player": "s4126139",
+      "game": "Roulette",
+      "bet": "\ud83d\udfe2 ZERO",
+      "roll": "\u26ab BLACK 4",
+      "outcome": "\ud83d\udc80 HOUSE WINS",
+      "delta": "-100",
+      "balance": 1770,
+      "time": "10:52 UTC"
+    },
     {
       "player": "StochasticTrader",
       "game": "Roulette",
@@ -115,9 +125,9 @@
       "best_win": 2500
     },
     "s4126139": {
-      "chips": 1870,
+      "chips": 1770,
       "wins": 6,
-      "losses": 2,
+      "losses": 3,
       "best_win": 300
     },
     "QuantExplorer": {
