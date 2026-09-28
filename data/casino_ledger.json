@@ -1,19 +1,29 @@
 {
-  "total_bets": 12,
+  "total_bets": 13,
   "house_vault_reserve": 1000000,
-  "house_chips_won": 8400,
+  "house_chips_won": 8500,
   "house_chips_paid": 5300,
-  "house_net_profit": 3100,
-  "house_wins": 7,
+  "house_net_profit": 3200,
+  "house_wins": 8,
   "player_wins": 5,
-  "house_win_rate": "58.3%",
+  "house_win_rate": "61.5%",
   "recent_bets": [
     {
       "player": "s4126139",
+      "game": "Slot 777",
+      "bet": "\ud83c\udfb0 3 REELS",
+      "roll": "[\u2660 \ud83d\udc8e \ud83c\udf4b]",
+      "outcome": "\ud83d\udc80 HOUSE WINS",
+      "delta": "-100",
+      "balance": 1700,
+      "time": "08:21 UTC"
+    },
+    {
+      "player": "s4126139",
       "game": "Roulette",
-      "bet": "🔴 RED",
-      "roll": "🔴 Red 27",
-      "outcome": "🎉 WIN",
+      "bet": "\ud83d\udd34 RED",
+      "roll": "\ud83d\udd34 Red 27",
+      "outcome": "\ud83c\udf89 WIN",
       "delta": "+100",
       "balance": 1800,
       "time": "14:30 UTC"
@@ -21,9 +31,9 @@
     {
       "player": "StochasticTrader",
       "game": "Slot 777",
-      "bet": "🎰 3 REELS",
-      "roll": "[💎 💎 💎]",
-      "outcome": "🏆 DIAMOND JACKPOT",
+      "bet": "\ud83c\udfb0 3 REELS",
+      "roll": "[\ud83d\udc8e \ud83d\udc8e \ud83d\udc8e]",
+      "outcome": "\ud83c\udfc6 DIAMOND JACKPOT",
       "delta": "+2500",
       "balance": 3500,
       "time": "14:15 UTC"
@@ -31,9 +41,9 @@
     {
       "player": "QuantExplorer",
       "game": "Roulette",
-      "bet": "⚫ BLACK",
-      "roll": "⚫ Black 22",
-      "outcome": "🎉 WIN",
+      "bet": "\u26ab BLACK",
+      "roll": "\u26ab Black 22",
+      "outcome": "\ud83c\udf89 WIN",
       "delta": "+100",
       "balance": 1200,
       "time": "13:50 UTC"
@@ -41,9 +51,9 @@
     {
       "player": "MarkovChain",
       "game": "Roulette",
-      "bet": "🟢 ZERO",
-      "roll": "🔴 Red 1",
-      "outcome": "💀 HOUSE WINS",
+      "bet": "\ud83d\udfe2 ZERO",
+      "roll": "\ud83d\udd34 Red 1",
+      "outcome": "\ud83d\udc80 HOUSE WINS",
       "delta": "-100",
       "balance": 900,
       "time": "12:10 UTC"
@@ -57,9 +67,9 @@
       "best_win": 2500
     },
     "s4126139": {
-      "chips": 1800,
+      "chips": 1700,
       "wins": 4,
-      "losses": 1,
+      "losses": 2,
       "best_win": 300
     },
     "QuantExplorer": {
