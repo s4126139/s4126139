@@ -139,10 +139,27 @@ def render_markdown_tables(ledger: dict) -> str:
     recent = ledger.get("recent_bets", [])[:6]
     leaderboard = ledger.get("leaderboard", {})
 
+    vault_base = ledger.get("house_vault_reserve", 1000000)
+    net_profit = ledger.get("house_net_profit", 3100)
+    total_bets = ledger.get("total_bets", len(recent))
+    win_rate = ledger.get("house_win_rate", "58.3%")
+    vault_total = vault_base + net_profit
+    profit_prefix = "+" if net_profit >= 0 else ""
+
     # Sort leaderboard by chips descending
     sorted_players = sorted(leaderboard.items(), key=lambda x: x[1].get("chips", 0), reverse=True)[:5]
 
     lines = []
+    # House Vault & Profit Banner
+    lines.append('<table width="100%">')
+    lines.append('  <tr>')
+    lines.append(f'    <td align="center">🏦 <b>House Vault:</b> <code>{vault_total:,} VIP</code></td>')
+    lines.append(f'    <td align="center">📈 <b>House Net Profit (Nhà Cái Thắng):</b> <code style="color: #34D399;">{profit_prefix}{net_profit:,} VIP</code></td>')
+    lines.append(f'    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>{total_bets}</code></td>')
+    lines.append(f'    <td align="center">⚖️ <b>House Win Rate:</b> <code>{win_rate}</code></td>')
+    lines.append('  </tr>')
+    lines.append('</table>')
+    lines.append('')
     lines.append('<table width="100%">')
     lines.append('  <tr>')
     lines.append('    <th width="60%"><b>🎲 Recent High-Roller Bets</b></th>')
@@ -297,6 +314,28 @@ def main():
     else:
         player_data["losses"] = player_data.get("losses", 0) + 1
 
+    # Update House global statistics
+    total_bets = ledger.get("total_bets", 0) + 1
+    ledger["total_bets"] = total_bets
+    house_wins = ledger.get("house_wins", 0)
+    player_wins = ledger.get("player_wins", 0)
+    house_chips_won = ledger.get("house_chips_won", 0)
+    house_chips_paid = ledger.get("house_chips_paid", 0)
+
+    if res["won"]:
+        player_wins += 1
+        house_chips_paid += (res["payout"] - 100)
+    else:
+        house_wins += 1
+        house_chips_won += 100
+
+    ledger["house_wins"] = house_wins
+    ledger["player_wins"] = player_wins
+    ledger["house_chips_won"] = house_chips_won
+    ledger["house_chips_paid"] = house_chips_paid
+    ledger["house_net_profit"] = house_chips_won - house_chips_paid
+    ledger["house_win_rate"] = f"{(house_wins / total_bets * 100):.1f}%" if total_bets > 0 else "0.0%"
+
     # Record recent bet
     now_str = datetime.now(timezone.utc).strftime("%H:%M UTC")
     record = {
@@ -325,6 +364,8 @@ def main():
     repo = os.environ.get("GITHUB_REPOSITORY", "s4126139/s4126139")
     if token and issue_number > 0:
         reload_msg = "\n> 💡 *Your chip stack was depleted! The Casino granted you a complimentary +500 VIP Reload Chips!*" if res["reloaded"] else ""
+        vault_total = ledger.get("house_vault_reserve", 1000000) + ledger.get("house_net_profit", 0)
+        profit_str = f"{'+' if ledger.get('house_net_profit', 0) >= 0 else ''}{ledger.get('house_net_profit', 0):,} VIP"
         comment = f"""### 🎰 CASINO ROYALE SETTLEMENT RECEIPT 🎰
 
 Hello @{user}, thank you for placing your wager at the High-Roller Table!
@@ -333,13 +374,16 @@ Hello @{user}, thank you for placing your wager at the High-Roller Table!
 ═══════════════════════════════════════════════════
   CASINO DE MONTE CARLO · QUANT SYSTEMS DIVISION
 ═══════════════════════════════════════════════════
-  Player      : @{user}
-  Game        : {res['game']}
-  Your Bet    : {res['bet']} (100 VIP Chips)
-  Wheel Roll  : {res['roll']}
-  Result      : {res['outcome']}
-  Settlement  : {res['delta']} Chips
-  New Balance : {res['balance']:,} VIP Chips
+  Player          : @{user}
+  Game            : {res['game']}
+  Your Bet        : {res['bet']} (100 VIP Chips)
+  Wheel Roll      : {res['roll']}
+  Result          : {res['outcome']}
+  Settlement      : {res['delta']} Chips
+  New Balance     : {res['balance']:,} VIP Chips
+───────────────────────────────────────────────────
+  House Vault     : {vault_total:,} VIP ({profit_str} Net)
+  House Win Rate  : {ledger.get('house_win_rate', '50.0%')}
 ═══════════════════════════════════════════════════
 ```
 {reload_msg}

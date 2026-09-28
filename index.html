@@ -370,9 +370,168 @@
     }
 
     .footer-links a:hover { text-decoration: underline; }
+
+    /* Reload Button Cooldown State */
+    .btn-reload.cooling {
+      background: #334155;
+      color: #94A3B8;
+      cursor: not-allowed;
+      transform: none !important;
+      box-shadow: none !important;
+    }
+
+    /* Toast Notification System */
+    .toast-container {
+      position: fixed;
+      top: 24px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 99999;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      pointer-events: none;
+      max-width: 90vw;
+    }
+    .toast-msg {
+      background: rgba(10, 28, 18, 0.96);
+      border: 1px solid var(--gold-mid);
+      color: #F8FAFC;
+      padding: 12px 20px;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 600;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8), 0 0 15px rgba(245, 158, 11, 0.2);
+      pointer-events: auto;
+      animation: toastIn 0.3s cubic-bezier(0.16, 1, 0.3, 1), toastOut 0.4s ease 3.6s forwards;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      backdrop-filter: blur(8px);
+    }
+    .toast-msg.toast-warn {
+      border-color: #F59E0B;
+      color: #FEF3C7;
+    }
+    .toast-msg.toast-success {
+      border-color: #10B981;
+      color: #D1FAE5;
+    }
+    @keyframes toastIn {
+      from { opacity: 0; transform: translateY(-20px) scale(0.95); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+    @keyframes toastOut {
+      from { opacity: 1; transform: translateY(0) scale(1); }
+      to { opacity: 0; transform: translateY(-20px) scale(0.95); }
+    }
+
+    /* House Vault & Statistics Dashboard */
+    .stats-dashboard {
+      background: rgba(4, 15, 9, 0.85);
+      border: 2px solid rgba(212, 175, 55, 0.45);
+      border-radius: 16px;
+      padding: 22px;
+      margin-bottom: 24px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.7);
+    }
+    .stats-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+      padding-bottom: 12px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .stats-title {
+      font-family: 'Cinzel', serif;
+      font-size: 19px;
+      font-weight: 800;
+      color: var(--gold-bright);
+      letter-spacing: 0.5px;
+    }
+    .stats-subtitle {
+      font-size: 12px;
+      color: #94A3B8;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 16px;
+    }
+    .stat-card {
+      background: rgba(10, 28, 18, 0.75);
+      border: 1px solid rgba(212, 175, 55, 0.25);
+      border-radius: 12px;
+      padding: 14px 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      transition: all 0.25s ease;
+    }
+    .stat-card.highlight {
+      border-color: rgba(245, 158, 11, 0.7);
+      background: rgba(16, 46, 28, 0.85);
+      box-shadow: 0 0 16px rgba(245, 158, 11, 0.15);
+    }
+    .stat-card:hover {
+      border-color: var(--gold-mid);
+      transform: translateY(-2px);
+    }
+    .stat-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: #94A3B8;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+    }
+    .stat-val {
+      font-family: 'Cinzel', monospace;
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--gold-bright);
+      transition: color 0.3s;
+    }
+    .stat-sub {
+      font-size: 11px;
+      color: #64748B;
+    }
+    .stats-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 16px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      font-size: 11px;
+      color: #64748B;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .btn-reset-stats {
+      background: transparent;
+      border: 1px solid #475569;
+      color: #94A3B8;
+      padding: 4px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 11px;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .btn-reset-stats:hover {
+      color: #F8FAFC;
+      border-color: #94A3B8;
+      background: rgba(255, 255, 255, 0.05);
+    }
   </style>
 </head>
 <body>
+
+  <!-- Floating In-Game Toast Notifications -->
+  <div id="toastContainer" class="toast-container"></div>
 
   <!-- Fullscreen Confetti Canvas -->
   <canvas id="confettiCanvas"></canvas>
@@ -396,7 +555,7 @@
       </div>
       <div class="status-controls">
         <button class="btn-sound" id="btnSound" onclick="toggleSound()">🔊 SOUND: ON</button>
-        <button class="btn-reload" onclick="reloadChips()">+500 Chips</button>
+        <button class="btn-reload" id="btnReload" onclick="reloadChips()">+500 Chips</button>
       </div>
     </div>
 
@@ -454,6 +613,47 @@
 
     </div>
 
+    <!-- ================= HOUSE VAULT & QUANT ANALYTICS DASHBOARD ================= -->
+    <div class="stats-dashboard">
+      <div class="stats-header">
+        <div>
+          <div class="stats-title">🏛️ THE HOUSE VAULT &amp; QUANT ANALYTICS</div>
+          <div class="stats-subtitle">Live Staking Engine · European Roulette &amp; RNG Slots Edge Statistics</div>
+        </div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-label">🏦 HOUSE VAULT RESERVE</div>
+          <div class="stat-val" id="statHouseVault">1,028,400 🪙</div>
+          <div class="stat-sub">Starting Reserve: 1,000,000 VIP</div>
+        </div>
+
+        <div class="stat-card highlight">
+          <div class="stat-label">📈 HOUSE NET PROFIT (NHÀ CÁI THẮNG)</div>
+          <div class="stat-val" id="statHouseProfit" style="color: #34D399;">+28,400 🪙</div>
+          <div class="stat-sub" id="statHouseWinRate">House Win Rate: 54.4%</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-label">🎲 TOTAL WAGERS PROCESSED</div>
+          <div class="stat-val" id="statTotalSpins">342</div>
+          <div class="stat-sub">Across All Games</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-label">🏆 TOTAL PLAYER PAYOUTS</div>
+          <div class="stat-val" id="statTotalJackpots">45,000 🪙</div>
+          <div class="stat-sub" id="statPlayerSession">Your Session: 0 🪙 (0 spins)</div>
+        </div>
+      </div>
+
+      <div class="stats-footer">
+        <span>💡 <i>Mathematical House Edge: 2.70% (European Single-Zero Roulette) · 8.2% (Lucky 777 Slots). Expected value E[X] &gt; 0 over large N trials.</i></span>
+        <button class="btn-reset-stats" onclick="resetHouseStats()">↺ Reset Session Stats</button>
+      </div>
+    </div>
+
     <!-- Footer & Profile Link -->
     <div class="footer-links">
       <p>Want your score permanently recorded on the GitHub Profile? <a href="https://github.com/s4126139/s4126139#🎲-the-high-roller-table-place-your-bet">Wager via Dealer Bot on GitHub Profile ↗</a></p>
@@ -489,11 +689,157 @@
       }
     }
 
+    // =========================================================================
+    // IN-GAME FLOATING TOAST NOTIFICATION SYSTEM
+    // =========================================================================
+    function showToast(message, type = 'info') {
+      const container = document.getElementById('toastContainer');
+      if (!container) return;
+      const toast = document.createElement('div');
+      toast.className = `toast-msg toast-${type}`;
+      toast.innerHTML = message;
+      container.appendChild(toast);
+      setTimeout(() => {
+        if (toast.parentNode) toast.parentNode.removeChild(toast);
+      }, 4000);
+    }
+
+    // =========================================================================
+    // SMART RELOAD & COOLDOWN LOGIC (Anti-Spam & Low-Balance Enforcement)
+    // =========================================================================
+    const COOLDOWN_SECONDS = 60;
+    const MIN_RELOAD_BALANCE = 200;
+
+    function checkReloadCooldown() {
+      const cooldownUntil = parseInt(localStorage.getItem('casino_reload_cooldown_until')) || 0;
+      const now = Date.now();
+      const btn = document.getElementById('btnReload');
+      if (!btn) return false;
+
+      if (now < cooldownUntil) {
+        const remaining = Math.ceil((cooldownUntil - now) / 1000);
+        btn.disabled = true;
+        btn.classList.add('cooling');
+        btn.innerHTML = `⏳ Wait ${remaining}s`;
+        return true;
+      } else {
+        btn.disabled = false;
+        btn.classList.remove('cooling');
+        btn.innerHTML = `+500 Chips`;
+        return false;
+      }
+    }
+    setInterval(checkReloadCooldown, 1000);
+
     function reloadChips() {
+      initAudio();
+      const cooldownUntil = parseInt(localStorage.getItem('casino_reload_cooldown_until')) || 0;
+      const now = Date.now();
+
+      if (now < cooldownUntil) {
+        const remaining = Math.ceil((cooldownUntil - now) / 1000);
+        showToast(`⏳ Cooldown active! Vui lòng chờ <b>${remaining} giây</b> để nhận tiếp tế tiếp theo.`, 'warn');
+        soundEffects.lossBuzzer();
+        return;
+      }
+
+      if (chips >= MIN_RELOAD_BALANCE) {
+        showToast(`⚠️ Bạn vẫn còn <b>${chips.toLocaleString()} VIP Chips</b>! Tiếp tế miễn phí chỉ dành cho người chơi có số dư dưới 200 Chips.`, 'warn');
+        soundEffects.lossBuzzer();
+        return;
+      }
+
       chips += 500;
       updateChipDisplay();
+      localStorage.setItem('casino_reload_cooldown_until', Date.now() + COOLDOWN_SECONDS * 1000);
+      checkReloadCooldown();
       soundEffects.winChime();
-      triggerConfetti(25);
+      triggerConfetti(35);
+      showToast(`🎁 Đã tiếp tế <b>+500 VIP Chips</b> từ Nhà Cái Monte Carlo!`, 'success');
+    }
+
+    // =========================================================================
+    // HOUSE VAULT & QUANT ANALYTICS ENGINE
+    // =========================================================================
+    const BASELINE_HOUSE_STATS = {
+      baseReserve: 1000000,
+      houseProfit: 28400,
+      totalWagers: 342,
+      houseWins: 186,
+      playerWins: 156,
+      totalJackpotsPaid: 45000,
+      sessionSpins: 0,
+      sessionPlayerNet: 0
+    };
+
+    let houseStats = loadHouseStats();
+
+    function loadHouseStats() {
+      try {
+        const saved = localStorage.getItem('casino_house_stats');
+        if (saved) return Object.assign({}, BASELINE_HOUSE_STATS, JSON.parse(saved));
+      } catch (e) {}
+      return Object.assign({}, BASELINE_HOUSE_STATS);
+    }
+
+    function saveHouseStats() {
+      localStorage.setItem('casino_house_stats', JSON.stringify(houseStats));
+      updateHouseStatsDisplay();
+    }
+
+    function resetHouseStats() {
+      houseStats = Object.assign({}, BASELINE_HOUSE_STATS, {
+        sessionSpins: 0,
+        sessionPlayerNet: 0
+      });
+      saveHouseStats();
+      showToast(`🔄 Đã đặt lại dữ liệu thống kê về mặc định!`, 'info');
+    }
+
+    function recordHouseRound(playerWon, netPayout) {
+      houseStats.totalWagers++;
+      houseStats.sessionSpins++;
+
+      if (playerWon) {
+        houseStats.playerWins++;
+        houseStats.houseProfit -= netPayout;
+        houseStats.totalJackpotsPaid += (netPayout + 100);
+        houseStats.sessionPlayerNet += netPayout;
+      } else {
+        houseStats.houseWins++;
+        houseStats.houseProfit += 100;
+        houseStats.sessionPlayerNet -= 100;
+      }
+
+      saveHouseStats();
+    }
+
+    function updateHouseStatsDisplay() {
+      const vaultVal = houseStats.baseReserve + houseStats.houseProfit;
+      const winRate = houseStats.totalWagers > 0
+        ? ((houseStats.houseWins / houseStats.totalWagers) * 100).toFixed(1)
+        : '50.0';
+
+      const elVault = document.getElementById('statHouseVault');
+      const elProfit = document.getElementById('statHouseProfit');
+      const elWinRate = document.getElementById('statHouseWinRate');
+      const elSpins = document.getElementById('statTotalSpins');
+      const elJackpots = document.getElementById('statTotalJackpots');
+      const elSession = document.getElementById('statPlayerSession');
+
+      if (elVault) elVault.textContent = vaultVal.toLocaleString() + ' 🪙';
+      if (elProfit) {
+        const prefix = houseStats.houseProfit >= 0 ? '+' : '';
+        elProfit.textContent = `${prefix}${houseStats.houseProfit.toLocaleString()} 🪙`;
+        elProfit.style.color = houseStats.houseProfit >= 0 ? '#34D399' : '#F87171';
+      }
+      if (elWinRate) elWinRate.textContent = `House Win Rate: ${winRate}%`;
+      if (elSpins) elSpins.textContent = houseStats.totalWagers.toLocaleString();
+      if (elJackpots) elJackpots.textContent = houseStats.totalJackpotsPaid.toLocaleString() + ' 🪙';
+      if (elSession) {
+        const sPrefix = houseStats.sessionPlayerNet >= 0 ? '+' : '';
+        elSession.textContent = `Your Session: ${sPrefix}${houseStats.sessionPlayerNet.toLocaleString()} 🪙 (${houseStats.sessionSpins} spins)`;
+      }
     }
 
     // =========================================================================
@@ -754,7 +1100,8 @@
       initAudio();
 
       if (chips < 100) {
-        alert('Insufficient chips! Click "+500 Chips" to reload.');
+        showToast('⚠️ Không đủ phỉnh! Bạn cần ít nhất 100 Chips để gạt cần. Bấm "+500 Chips" để nhận tiếp tế.', 'warn');
+        soundEffects.lossBuzzer();
         return;
       }
       isSpinningSlot = true;
@@ -828,6 +1175,7 @@
           let winAmount = final1 === '7️⃣' ? 5000 : (final1 === '💎' ? 2500 : 1000);
           chips += winAmount;
           updateChipDisplay();
+          recordHouseRound(true, winAmount - 100);
           soundEffects.jackpotFanfare();
           triggerConfetti(120, true);
           container.classList.add('shake');
@@ -837,11 +1185,13 @@
         } else if (final1 === final2 || final2 === final3 || final1 === final3) {
           chips += 150;
           updateChipDisplay();
+          recordHouseRound(true, 50);
           soundEffects.winChime();
           triggerConfetti(40);
           resBanner.className = 'result-banner win-flash';
           resBanner.innerHTML = `<span style="color: #34D399;">✨ PAIR MATCH! (+50 Chips)</span>`;
         } else {
+          recordHouseRound(false, 0);
           soundEffects.lossBuzzer();
           resBanner.innerHTML = `<span style="color: #F87171;">💀 No match (-100 Chips). Pull again!</span>`;
         }
@@ -911,7 +1261,8 @@
       initAudio();
 
       if (chips < 100) {
-        alert('Insufficient chips! Click "+500 Chips" to reload.');
+        showToast('⚠️ Không đủ phỉnh! Bạn cần ít nhất 100 Chips để quay bánh xe. Bấm "+500 Chips" để nhận tiếp tế.', 'warn');
+        soundEffects.lossBuzzer();
         return;
       }
       isSpinningRoulette = true;
@@ -952,6 +1303,7 @@
             let payout = color === 'zero' ? 3600 : 200;
             chips += payout;
             updateChipDisplay();
+            recordHouseRound(true, payout - 100);
             if (color === 'zero') {
               soundEffects.jackpotFanfare();
               triggerConfetti(100, true);
@@ -962,6 +1314,7 @@
             resBanner.className = 'result-banner win-flash';
             resBanner.innerHTML = `<span style="color: #34D399;">🎉 YOU WON! ${colorDisplay} (+${payout - 100} Chips)</span>`;
           } else {
+            recordHouseRound(false, 0);
             soundEffects.lossBuzzer();
             resBanner.innerHTML = `<span style="color: #F87171;">💀 Result: ${colorDisplay} (House Wins -100 Chips)</span>`;
           }
@@ -969,7 +1322,10 @@
       }, 35);
     }
 
+    // Page initialization
     updateChipDisplay();
+    updateHouseStatsDisplay();
+    checkReloadCooldown();
   </script>
 </body>
 </html>

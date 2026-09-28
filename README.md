@@ -90,6 +90,15 @@
 <!-- CASINO_TABLE_START -->
 <table width="100%">
   <tr>
+    <td align="center">🏦 <b>House Vault:</b> <code>1,003,100 VIP</code></td>
+    <td align="center">📈 <b>House Net Profit (Nhà Cái Thắng):</b> <code style="color: #34D399;">+3,100 VIP</code></td>
+    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>12</code></td>
+    <td align="center">⚖️ <b>House Win Rate:</b> <code>58.3%</code></td>
+  </tr>
+</table>
+
+<table width="100%">
+  <tr>
     <th width="60%"><b>🎲 Recent High-Roller Bets</b></th>
     <th width="40%"><b>🏆 Casino Leaderboard</b></th>
   </tr>
