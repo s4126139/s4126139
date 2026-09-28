@@ -53,20 +53,33 @@
 
 ### 🎲 The High-Roller Table: Place Your Bet!
 
-> 💡 **Welcome, Guest Player!** Every visitor receives **1,000 complimentary VIP Casino Chips**.
-> Click any wager below to place your bet. The **Dealer Bot** spins the wheel, calculates your payout, and records your score on the live Leaderboard!
+> 💡 **Welcome, Guest Player!** You receive **1,000 complimentary VIP Casino Chips**.
+> Experience the Casino in two interactive ways:
 
 <div align="center">
 
+  <!-- Instant Browser Game Launcher -->
   <p>
-    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Abet%3Ared&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+European+Roulette%0A%E2%96%B6+**Wager**%3A+RED+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+2x+%28%2B100+Chips%29%0A%0A---%0A%3E+%E2%9CA8+**Click+%22Submit+new+issue%22+below+to+spin+the+wheel%21**%0A%3E+The+Dealer+bot+will+settle+your+bet+and+record+your+score+automatically."><img src="https://img.shields.io/badge/BET%20ON%20RED-Pays%202x-E11D48?style=for-the-badge&logo=target&logoColor=white&labelColor=0A1E14" alt="Bet on Red" /></a>
-    &nbsp;
-    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Abet%3Ablack&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+European+Roulette%0A%E2%96%B6+**Wager**%3A+BLACK+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+2x+%28%2B100+Chips%29%0A%0A---%0A%3E+%E2%9CA8+**Click+%22Submit+new+issue%22+below+to+spin+the+wheel%21**%0A%3E+The+Dealer+bot+will+settle+your+bet+and+record+your+score+automatically."><img src="https://img.shields.io/badge/BET%20ON%20BLACK-Pays%202x-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0A1E14" alt="Bet on Black" /></a>
-    &nbsp;
-    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Abet%3Azero&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+European+Roulette%0A%E2%96%B6+**Wager**%3A+ZERO+0+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+36x+Jackpot+%28%2B3%2C500+Chips%29%0A%0A---%0A%3E+%E2%9CA8+**Click+%22Submit+new+issue%22+below+to+spin+the+wheel%21**%0A%3E+The+Dealer+bot+will+settle+your+bet+and+record+your+score+automatically."><img src="https://img.shields.io/badge/BET%20ON%20ZERO-Pays%2036x-059669?style=for-the-badge&logo=target&logoColor=white&labelColor=0A1E14" alt="Bet on Zero" /></a>
-    &nbsp;
-    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Aspin%3Aslot&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+Lucky+777+Slot+Machine%0A%E2%96%B6+**Wager**%3A+Pull+Slot+Lever+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+Up+to+50x+Mega+Jackpot+%28777%29%0A%0A---%0A%3E+%E2%9CA8+**Click+%22Submit+new+issue%22+below+to+pull+the+lever%21**%0A%3E+The+Dealer+bot+will+spin+the+reels+and+settle+your+payout."><img src="https://img.shields.io/badge/SPIN%20SLOTS-Win%2050x-D4AF37?style=for-the-badge&logo=counterstrike&logoColor=white&labelColor=0A1E14" alt="Spin Slots" /></a>
+    <a href="https://s4126139.github.io/s4126139/">
+      <img src="https://img.shields.io/badge/%F0%9F%8E%B0_PLAY_INSTANT_CASINO_WEB_APP-Roulette_%26_Lucky_777_Slots-D4AF37?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0A1E14" alt="Play Live Casino Web App" />
+    </a>
   </p>
+  <sub><i>👉 Click above to play the full interactive game in your browser with animated Roulette wheel, audio, and Lucky 777 slots!</i></sub>
+
+  <br/><br/>
+
+  <!-- Bot Betting Buttons -->
+  <p><b>Or Wager via GitHub Actions Bot (Recorded on Profile Leaderboard):</b></p>
+  <p>
+    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Abet%3Ared&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+European+Roulette%0A%E2%96%B6+**Wager**%3A+RED+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+2x+%28%2B100+Chips%29%0A%0A---%0A%3E+%E2%9C%A8+**HOW+TO+PLAY%3A**+Click+**%22Submit+new+issue%22**+below+to+spin+the+wheel%21%0A%3E+The+Dealer+bot+settles+your+payout+and+updates+the+Leaderboard+in+15+seconds."><img src="https://img.shields.io/badge/BET%20ON%20RED-Pays%202x-E11D48?style=for-the-badge&logo=target&logoColor=white&labelColor=0A1E14" alt="Bet on Red" /></a>
+    &nbsp;
+    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Abet%3Ablack&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+European+Roulette%0A%E2%96%B6+**Wager**%3A+BLACK+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+2x+%28%2B100+Chips%29%0A%0A---%0A%3E+%E2%9C%A8+**HOW+TO+PLAY%3A**+Click+**%22Submit+new+issue%22**+below+to+spin+the+wheel%21%0A%3E+The+Dealer+bot+settles+your+payout+and+updates+the+Leaderboard+in+15+seconds."><img src="https://img.shields.io/badge/BET%20ON%20BLACK-Pays%202x-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0A1E14" alt="Bet on Black" /></a>
+    &nbsp;
+    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Abet%3Azero&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+European+Roulette%0A%E2%96%B6+**Wager**%3A+ZERO+0+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+36x+Jackpot+%28%2B3%2C500+Chips%29%0A%0A---%0A%3E+%E2%9C%A8+**HOW+TO+PLAY%3A**+Click+**%22Submit+new+issue%22**+below+to+spin+the+wheel%21%0A%3E+The+Dealer+bot+settles+your+payout+and+updates+the+Leaderboard+in+15+seconds."><img src="https://img.shields.io/badge/BET%20ON%20ZERO-Pays%2036x-059669?style=for-the-badge&logo=target&logoColor=white&labelColor=0A1E14" alt="Bet on Zero" /></a>
+    &nbsp;
+    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Aspin%3Aslot&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+Lucky+777+Slot+Machine%0A%E2%96%B6+**Wager**%3A+Pull+Slot+Lever+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+Up+to+50x+Mega+Jackpot+%28777%29%0A%0A---%0A%3E+%E2%9CA8+**HOW+TO+PLAY%3A**+Click+**%22Submit+new+issue%22**+below+to+pull+the+lever%21%0A%3E+The+Dealer+bot+will+settle+your+payout+in+15+seconds."><img src="https://img.shields.io/badge/SPIN%20SLOTS-Win%2050x-D4AF37?style=for-the-badge&logo=counterstrike&logoColor=white&labelColor=0A1E14" alt="Spin Slots" /></a>
+  </p>
+  <sub><i>(After clicking a button above, press the green <b>"Submit new issue"</b> button to roll the wheel)</i></sub>
 
 </div>
 

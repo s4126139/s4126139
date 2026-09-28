@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casino Royale · Kai Nguyen (s4126139) High-Stakes Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800;900&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --gold-bright: #FFE57F;
+      --gold-mid: #F59E0B;
+      --gold-dark: #B45309;
+      --felt-dark: #07150E;
+      --felt-mid: #0D2418;
+      --card-bg: #0A1C13;
+      --card-border: #D4AF37;
+      --red-accent: #EF4444;
+      --text-light: #F8FAFC;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: radial-gradient(circle at 50% 20%, #0F3121 0%, #06110B 100%);
+      color: var(--text-light);
+      font-family: 'JetBrains Mono', monospace;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24px 16px;
+      overflow-x: hidden;
+    }
+
+    /* Outer Cabinet Frame */
+    .casino-container {
+      max-width: 980px;
+      width: 100%;
+      background: var(--card-bg);
+      border: 3px solid var(--card-border);
+      border-radius: 18px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8), 0 0 30px rgba(245, 158, 11, 0.2);
+      padding: 24px;
+      position: relative;
+    }
+
+    /* Marquee Header */
+    .marquee-header {
+      text-align: center;
+      border-bottom: 2px dashed rgba(212, 175, 55, 0.4);
+      padding-bottom: 18px;
+      margin-bottom: 20px;
+    }
+
+    .marquee-sub {
+      color: var(--gold-mid);
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .marquee-title {
+      font-family: 'Cinzel', serif;
+      font-size: 38px;
+      font-weight: 900;
+      letter-spacing: 4px;
+      background: linear-gradient(180deg, #FFF5C0 0%, #F59E0B 50%, #92400E 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 4px 0 8px;
+      text-shadow: 0 4px 16px rgba(0,0,0,0.6);
+    }
+
+    .status-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.5);
+      border: 1px solid rgba(212, 175, 55, 0.5);
+      border-radius: 12px;
+      padding: 12px 20px;
+      margin-bottom: 24px;
+    }
+
+    .chip-count {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--gold-bright);
+    }
+
+    .chip-badge {
+      background: linear-gradient(135deg, #F59E0B, #B45309);
+      color: #000;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 900;
+      box-shadow: 0 2px 8px rgba(245, 158, 11, 0.4);
+    }
+
+    .game-tabs {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 20px;
+      justify-content: center;
+    }
+
+    .tab-btn {
+      background: rgba(0, 0, 0, 0.6);
+      border: 2px solid var(--card-border);
+      color: var(--gold-bright);
+      padding: 10px 24px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 14px;
+      transition: all 0.2s;
+    }
+
+    .tab-btn.active, .tab-btn:hover {
+      background: linear-gradient(180deg, #F59E0B, #B45309);
+      color: #000;
+      box-shadow: 0 0 15px rgba(245, 158, 11, 0.5);
+    }
+
+    .game-section {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .game-section.active {
+      display: flex;
+    }
+
+    /* Roulette Styling */
+    .roulette-board {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      width: 100%;
+    }
+
+    #rouletteCanvas {
+      background: transparent;
+      border-radius: 50%;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.9), 0 0 15px rgba(212, 175, 55, 0.3);
+    }
+
+    .betting-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      max-width: 600px;
+    }
+
+    .bet-btn {
+      padding: 12px 20px;
+      font-size: 14px;
+      font-weight: 800;
+      border-radius: 8px;
+      border: 2px solid transparent;
+      cursor: pointer;
+      transition: transform 0.1s, box-shadow 0.2s;
+      color: white;
+    }
+
+    .bet-btn:active {
+      transform: scale(0.96);
+    }
+
+    .bet-red { background: #DC2626; border-color: #EF4444; }
+    .bet-black { background: #1E293B; border-color: #475569; }
+    .bet-zero { background: #059669; border-color: #10B981; }
+
+    .action-btn {
+      background: linear-gradient(180deg, #FFE57F 0%, #F59E0B 50%, #B45309 100%);
+      color: #0F172A;
+      font-size: 16px;
+      font-weight: 900;
+      padding: 14px 40px;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+      letter-spacing: 1px;
+    }
+
+    .action-btn:hover {
+      box-shadow: 0 0 25px rgba(245, 158, 11, 0.8);
+      transform: translateY(-2px);
+    }
+
+    /* Slot Machine Styling */
+    .slot-machine {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+    }
+
+    .slot-frame {
+      background: #050B08;
+      border: 4px solid var(--card-border);
+      border-radius: 16px;
+      padding: 24px;
+      display: flex;
+      gap: 16px;
+      box-shadow: inset 0 0 20px rgba(0,0,0,0.9), 0 0 20px rgba(245, 158, 11, 0.3);
+    }
+
+    .reel-window {
+      width: 100px;
+      height: 120px;
+      background: #0B1E13;
+      border: 2px solid var(--gold-mid);
+      border-radius: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 52px;
+      box-shadow: inset 0 0 15px rgba(0,0,0,0.8);
+    }
+
+    .result-banner {
+      min-height: 48px;
+      font-size: 18px;
+      font-weight: 800;
+      text-align: center;
+      color: var(--gold-bright);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .footer-links {
+      margin-top: 24px;
+      text-align: center;
+      border-top: 1px solid rgba(212, 175, 55, 0.3);
+      padding-top: 16px;
+      font-size: 12px;
+      color: #94A3B8;
+    }
+
+    .footer-links a {
+      color: var(--gold-bright);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="casino-container">
+    <div class="marquee-header">
+      <div class="marquee-sub">★ MONTE CARLO QUANT & SYSTEMS LAB ★</div>
+      <h1 class="marquee-title">CASINO ROYALE</h1>
+      <p style="font-size: 13px; color: #CBD5E1;">High-Stakes Interactive Gaming Table · Kai Nguyen (@s4126139)</p>
+    </div>
+
+    <!-- Status & Chips Stack -->
+    <div class="status-bar">
+      <div>
+        <span style="font-size: 12px; color: #94A3B8;">PLAYER:</span>
+        <strong style="color: var(--gold-bright);">GUEST HIGH-ROLLER</strong>
+      </div>
+      <div class="chip-count">
+        <span>CHIPS:</span>
+        <span id="chipBalance" class="chip-badge">1,000 🪙</span>
+      </div>
+      <button onclick="reloadChips()" style="background: none; border: 1px solid var(--gold-mid); color: var(--gold-bright); padding: 4px 10px; border-radius: 6px; cursor: pointer; font-size: 11px;">+ Reload Chips</button>
+    </div>
+
+    <!-- Game Tabs -->
+    <div class="game-tabs">
+      <button class="tab-btn active" onclick="switchGame('roulette')">🔴 EUROPEAN ROULETTE</button>
+      <button class="tab-btn" onclick="switchGame('slot')">🎰 LUCKY 777 SLOTS</button>
+    </div>
+
+    <!-- ROULETTE GAME -->
+    <div id="rouletteGame" class="game-section active">
+      <div class="roulette-board">
+        <canvas id="rouletteCanvas" width="280" height="280"></canvas>
+        <div id="rouletteResult" class="result-banner">Place your wager and spin the wheel!</div>
+        
+        <div style="font-size: 12px; color: #94A3B8;">SELECT BET TYPE (100 CHIPS):</div>
+        <div class="betting-buttons">
+          <button class="bet-btn bet-red" onclick="setRouletteBet('red')">🔴 BET ON RED (2x)</button>
+          <button class="bet-btn bet-black" onclick="setRouletteBet('black')">⚫ BET ON BLACK (2x)</button>
+          <button class="bet-btn bet-zero" onclick="setRouletteBet('zero')">🟢 ZERO 0 (36x JACKPOT)</button>
+        </div>
+
+        <button id="spinRouletteBtn" class="action-btn" onclick="spinRouletteWheel()">SPIN THE WHEEL 🎲</button>
+      </div>
+    </div>
+
+    <!-- SLOT MACHINE GAME -->
+    <div id="slotGame" class="game-section">
+      <div class="slot-machine">
+        <div class="slot-frame">
+          <div id="reel1" class="reel-window">7️⃣</div>
+          <div id="reel2" class="reel-window">💎</div>
+          <div id="reel3" class="reel-window">♠</div>
+        </div>
+        <div id="slotResult" class="result-banner">Match 3 symbols to trigger the Mega Jackpot!</div>
+        <button id="spinSlotBtn" class="action-btn" onclick="pullSlotLever()">PULL LEVER (100 CHIPS) 🎰</button>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <p>Want to record your score permanently on the GitHub Profile? <a href="https://github.com/s4126139/s4126139#🎲-the-high-roller-table-place-your-bet">Play via GitHub Actions Bot on README ↗</a></p>
+      <p style="margin-top: 6px;">Built by <a href="https://github.com/s4126139">Kai Nguyen</a> · <i>Problem → Data → Model → System</i></p>
+    </div>
+  </div>
+
+  <script>
+    // State
+    let chips = parseInt(localStorage.getItem('casino_chips')) || 1000;
+    let selectedRouletteBet = 'red';
+    let isSpinning = false;
+
+    const RED_NUMS = [1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30, 32, 34, 36];
+    const SLOT_SYMBOLS = ['7️⃣', '💎', '🍒', '♠', '🔔', '🍋'];
+
+    function updateChipDisplay() {
+      document.getElementById('chipBalance').textContent = chips.toLocaleString() + ' 🪙';
+      localStorage.setItem('casino_chips', chips);
+    }
+
+    function reloadChips() {
+      chips += 500;
+      updateChipDisplay();
+      playSound('win');
+    }
+
+    // Audio synthesizer using Web Audio API
+    let audioCtx = null;
+    function getAudioCtx() {
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      return audioCtx;
+    }
+
+    function playSound(type) {
+      try {
+        const ctx = getAudioCtx();
+        const now = ctx.currentTime;
+        if (type === 'click') {
+          const osc = ctx.createOscillator();
+          const gain = ctx.createGain();
+          osc.frequency.setValueAtTime(600, now);
+          gain.gain.setValueAtTime(0.1, now);
+          gain.gain.exponentialRampToValueAtTime(0.01, now + 0.05);
+          osc.connect(gain);
+          gain.connect(ctx.destination);
+          osc.start();
+          osc.stop(now + 0.05);
+        } else if (type === 'win') {
+          [523.25, 659.25, 783.99, 1046.50].forEach((freq, i) => {
+            const osc = ctx.createOscillator();
+            const gain = ctx.createGain();
+            osc.frequency.setValueAtTime(freq, now + i * 0.08);
+            gain.gain.setValueAtTime(0.15, now + i * 0.08);
+            gain.gain.exponentialRampToValueAtTime(0.01, now + i * 0.08 + 0.25);
+            osc.connect(gain);
+            gain.connect(ctx.destination);
+            osc.start(now + i * 0.08);
+            osc.stop(now + i * 0.08 + 0.25);
+          });
+        }
+      } catch (e) {}
+    }
+
+    function switchGame(game) {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.game-section').forEach(s => s.classList.remove('active'));
+      if (game === 'roulette') {
+        document.querySelector('.tab-btn:nth-child(1)').classList.add('active');
+        document.getElementById('rouletteGame').classList.add('active');
+      } else {
+        document.querySelector('.tab-btn:nth-child(2)').classList.add('active');
+        document.getElementById('slotGame').classList.add('active');
+      }
+    }
+
+    function setRouletteBet(type) {
+      selectedRouletteBet = type;
+      document.querySelectorAll('.bet-btn').forEach(b => b.style.outline = 'none');
+      event.target.style.outline = '3px solid #FFE57F';
+      playSound('click');
+    }
+
+    // Draw Roulette Wheel Canvas
+    const canvas = document.getElementById('rouletteCanvas');
+    const ctx = canvas.getContext('2d');
+    let currentAngle = 0;
+
+    function drawWheel(angle) {
+      const cx = 140, cy = 140, r = 130;
+      ctx.clearRect(0, 0, 280, 280);
+
+      // Outer gold rim
+      ctx.beginPath();
+      ctx.arc(cx, cy, r, 0, Math.PI * 2);
+      ctx.fillStyle = '#D4AF37';
+      ctx.fill();
+
+      // Pockets
+      const totalPockets = 37;
+      const arc = (Math.PI * 2) / totalPockets;
+      for (let i = 0; i < totalPockets; i++) {
+        ctx.beginPath();
+        ctx.moveTo(cx, cy);
+        ctx.arc(cx, cy, r - 6, angle + i * arc, angle + (i + 1) * arc);
+        if (i === 0) ctx.fillStyle = '#059669';
+        else if (RED_NUMS.includes(i)) ctx.fillStyle = '#DC2626';
+        else ctx.fillStyle = '#0F172A';
+        ctx.fill();
+        ctx.stroke();
+      }
+
+      // Center cap
+      ctx.beginPath();
+      ctx.arc(cx, cy, 32, 0, Math.PI * 2);
+      ctx.fillStyle = '#F59E0B';
+      ctx.fill();
+      ctx.strokeStyle = '#FFE57F';
+      ctx.lineWidth = 3;
+      ctx.stroke();
+
+      // Center jewel
+      ctx.beginPath();
+      ctx.arc(cx, cy, 12, 0, Math.PI * 2);
+      ctx.fillStyle = '#92400E';
+      ctx.fill();
+    }
+    drawWheel(0);
+
+    function spinRouletteWheel() {
+      if (isSpinning) return;
+      if (chips < 100) {
+        alert('Insufficient chips! Click + Reload Chips to get 500 complimentary chips.');
+        return;
+      }
+      isSpinning = true;
+      chips -= 100;
+      updateChipDisplay();
+
+      const btn = document.getElementById('spinRouletteBtn');
+      btn.disabled = true;
+      const resBanner = document.getElementById('rouletteResult');
+      resBanner.textContent = 'Spinning the wheel...';
+
+      let speed = 0.45;
+      const decel = 0.005;
+      const spinInterval = setInterval(() => {
+        currentAngle += speed;
+        speed -= decel;
+        drawWheel(currentAngle);
+        playSound('click');
+
+        if (speed <= 0) {
+          clearInterval(spinInterval);
+          isSpinning = false;
+          btn.disabled = false;
+
+          // Determine number
+          const landedNum = Math.floor(Math.random() * 37);
+          let color = landedNum === 0 ? 'zero' : (RED_NUMS.includes(landedNum) ? 'red' : 'black');
+          let colorDisplay = color === 'zero' ? '🟢 ZERO 0' : (color === 'red' ? '🔴 RED ' + landedNum : '⚫ BLACK ' + landedNum);
+
+          if (selectedRouletteBet === color) {
+            let payout = color === 'zero' ? 3600 : 200;
+            chips += payout;
+            updateChipDisplay();
+            playSound('win');
+            resBanner.innerHTML = `<span style="color: #34D399;">🎉 YOU WON! ${colorDisplay} (+${payout - 100} Chips)</span>`;
+          } else {
+            resBanner.innerHTML = `<span style="color: #F87171;">💀 Result: ${colorDisplay} (House Wins -100 Chips)</span>`;
+          }
+        }
+      }, 35);
+    }
+
+    // Slot Machine Logic
+    function pullSlotLever() {
+      if (isSpinning) return;
+      if (chips < 100) {
+        alert('Insufficient chips! Click + Reload Chips to get 500 complimentary chips.');
+        return;
+      }
+      isSpinning = true;
+      chips -= 100;
+      updateChipDisplay();
+
+      const btn = document.getElementById('spinSlotBtn');
+      btn.disabled = true;
+      const resBanner = document.getElementById('slotResult');
+      resBanner.textContent = 'Spinning the reels...';
+
+      const r1 = document.getElementById('reel1');
+      const r2 = document.getElementById('reel2');
+      const r3 = document.getElementById('reel3');
+
+      let ticks = 0;
+      const interval = setInterval(() => {
+        ticks++;
+        r1.textContent = SLOT_SYMBOLS[Math.floor(Math.random() * SLOT_SYMBOLS.length)];
+        r2.textContent = SLOT_SYMBOLS[Math.floor(Math.random() * SLOT_SYMBOLS.length)];
+        r3.textContent = SLOT_SYMBOLS[Math.floor(Math.random() * SLOT_SYMBOLS.length)];
+        playSound('click');
+
+        if (ticks >= 20) {
+          clearInterval(interval);
+          isSpinning = false;
+          btn.disabled = false;
+
+          const s1 = r1.textContent;
+          const s2 = r2.textContent;
+          const s3 = r3.textContent;
+
+          if (s1 === s2 && s2 === s3) {
+            let winAmount = s1 === '7️⃣' ? 5000 : (s1 === '💎' ? 2500 : 1000);
+            chips += winAmount;
+            updateChipDisplay();
+            playSound('win');
+            resBanner.innerHTML = `<span style="color: #FDE047;">⚡ JACKPOT! 3x ${s1} (+${winAmount - 100} Chips) ⚡</span>`;
+          } else if (s1 === s2 || s2 === s3 || s1 === s3) {
+            chips += 150;
+            updateChipDisplay();
+            playSound('win');
+            resBanner.innerHTML = `<span style="color: #34D399;">✨ PAIR MATCH! (+50 Chips)</span>`;
+          } else {
+            resBanner.innerHTML = `<span style="color: #F87171;">💀 No match! Better luck on the next pull (-100 Chips)</span>`;
+          }
+        }
+      }, 80);
+    }
+
+    updateChipDisplay();
+  </script>
+</body>
+</html>
