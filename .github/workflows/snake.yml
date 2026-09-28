@@ -31,6 +31,9 @@ jobs:
           GITHUB_USER: ${{ github.repository_owner }}
         run: python scripts/generate_yearly_graph.py
 
+      - name: Generate Animated Casino Royale Hero Marquee
+        run: python scripts/generate_casino_hero.py
+
       - name: Generate Animated Market Ticker Tape
         run: python scripts/generate_market_ticker.py
 
