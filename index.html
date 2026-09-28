@@ -526,6 +526,167 @@
       border-color: #94A3B8;
       background: rgba(255, 255, 255, 0.05);
     }
+
+    /* Live High-Roller Ticker */
+    .live-ticker-wrap {
+      display: flex;
+      align-items: center;
+      background: rgba(8, 20, 14, 0.92);
+      border: 1px solid rgba(212, 175, 55, 0.5);
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 22px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+    }
+    .live-ticker-badge {
+      background: linear-gradient(135deg, #DC2626, #991B1B);
+      color: #FFF;
+      font-size: 11px;
+      font-weight: 900;
+      padding: 10px 16px;
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+      z-index: 2;
+      box-shadow: 3px 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .pulse-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #FFF;
+      box-shadow: 0 0 8px #FFF;
+      animation: pulseDot 1.2s infinite alternate;
+    }
+    @keyframes pulseDot {
+      0% { opacity: 0.3; transform: scale(0.8); }
+      100% { opacity: 1; transform: scale(1.2); }
+    }
+    .live-ticker-marquee {
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+      flex: 1;
+      padding: 8px 0;
+    }
+    .ticker-content {
+      display: inline-block;
+      white-space: nowrap;
+      animation: marqueeScroll 45s linear infinite;
+    }
+    .live-ticker-wrap:hover .ticker-content {
+      animation-play-state: paused;
+    }
+    @keyframes marqueeScroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .ticker-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin: 0 18px;
+      font-size: 12px;
+      color: #E2E8F0;
+    }
+    .ticker-item strong {
+      color: var(--gold-bright);
+    }
+    .ticker-item .delta-pos {
+      color: #34D399;
+      font-weight: 700;
+    }
+    .ticker-item .delta-neg {
+      color: #F87171;
+      font-weight: 700;
+    }
+
+    /* Community Tables Grid in Stats Dashboard */
+    .community-tables-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-top: 22px;
+    }
+    @media (max-width: 860px) {
+      .community-tables-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .community-card {
+      background: rgba(0, 0, 0, 0.45);
+      border: 1px solid rgba(212, 175, 55, 0.25);
+      border-radius: 12px;
+      padding: 16px;
+      overflow: hidden;
+    }
+    .community-card-title {
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--gold-bright);
+      letter-spacing: 0.8px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .community-card-title a {
+      font-size: 10px;
+      color: #94A3B8;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .community-card-title a:hover {
+      color: var(--gold-bright);
+      text-decoration: underline;
+    }
+    .table-scroll-wrap {
+      max-height: 240px;
+      overflow-y: auto;
+      border-radius: 8px;
+    }
+    .table-scroll-wrap::-webkit-scrollbar {
+      width: 5px;
+    }
+    .table-scroll-wrap::-webkit-scrollbar-thumb {
+      background: rgba(212, 175, 55, 0.4);
+      border-radius: 4px;
+    }
+    .casino-data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 11px;
+      text-align: left;
+    }
+    .casino-data-table th {
+      background: rgba(15, 25, 18, 0.95);
+      color: var(--gold-bright);
+      padding: 8px 10px;
+      font-weight: 700;
+      border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+    .casino-data-table td {
+      padding: 8px 10px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      color: #CBD5E1;
+    }
+    .casino-data-table tr:hover {
+      background: rgba(212, 175, 55, 0.08);
+    }
+    .casino-data-table a {
+      color: var(--gold-bright);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .casino-data-table a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -541,6 +702,24 @@
       <div class="marquee-sub">★ MONTE CARLO QUANT & SYSTEMS LAB ★</div>
       <h1 class="marquee-title">CASINO ROYALE</h1>
       <p style="font-size: 13px; color: #CBD5E1;">High-Stakes Live Gaming Floor · Kai Nguyen (@s4126139)</p>
+    </div>
+
+    <!-- Live High-Roller Activity Ticker -->
+    <div class="live-ticker-wrap">
+      <div class="live-ticker-badge">
+        <span class="pulse-dot"></span>
+        <span>LIVE FLOOR WINS</span>
+      </div>
+      <div class="live-ticker-marquee">
+        <div class="ticker-content" id="liveTickerContent">
+          <span class="ticker-item">🏆 <strong>@StochasticTrader</strong>: <span class="delta-pos">+2,500 VIP</span> (Diamond 777)</span>
+          <span class="ticker-item">✨ <strong>@s4126139</strong>: <span class="delta-pos">+20 Chips</span> (Pair Match)</span>
+          <span class="ticker-item">🔴 <strong>@QuantExplorer</strong>: <span class="delta-pos">+100 Chips</span> (Black 22)</span>
+          <span class="ticker-item">🎲 <strong>@MarkovChain</strong>: <span class="delta-pos">+20 Chips</span> (Pair Match)</span>
+          <span class="ticker-item">✨ <strong>@BayesMaster</strong>: <span class="delta-pos">+20 Chips</span> (Pair Match)</span>
+          <span class="ticker-item">🔔 <strong>@DeepAlpha</strong>: <span class="delta-pos">+400 Chips</span> (3x Bells)</span>
+        </div>
+      </div>
     </div>
 
     <!-- Status & Chips Stack -->
@@ -645,6 +824,56 @@
           <div class="stat-label">🏆 TOTAL PLAYER PAYOUTS</div>
           <div class="stat-val" id="statTotalJackpots">45,000 🪙</div>
           <div class="stat-sub" id="statPlayerSession">Your Session: 0 🪙 (0 spins)</div>
+        </div>
+      </div>
+
+      <!-- Live High-Roller Hall of Fame & Recent Bets (Synced with GitHub Ledger) -->
+      <div class="community-tables-grid">
+        <!-- Table 1: Recent Bets -->
+        <div class="community-card">
+          <div class="community-card-title">
+            <span>🎲 RECENT HIGH-ROLLER WAGERS</span>
+            <a href="https://github.com/s4126139/s4126139#-the-high-roller-table-place-your-bet" target="_blank">Live Ledger ↗</a>
+          </div>
+          <div class="table-scroll-wrap">
+            <table class="casino-data-table">
+              <thead>
+                <tr>
+                  <th>Player</th>
+                  <th>Bet</th>
+                  <th>Result</th>
+                  <th>Outcome</th>
+                  <th>Chips</th>
+                </tr>
+              </thead>
+              <tbody id="recentBetsBody">
+                <!-- Dynamically populated -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Table 2: Leaderboard -->
+        <div class="community-card">
+          <div class="community-card-title">
+            <span>🏆 HIGH-ROLLER LEADERBOARD</span>
+            <a href="https://github.com/s4126139/s4126139#-the-high-roller-table-place-your-bet" target="_blank">GitHub Profile ↗</a>
+          </div>
+          <div class="table-scroll-wrap">
+            <table class="casino-data-table">
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>High Roller</th>
+                  <th>Record</th>
+                  <th>Chip Stack</th>
+                </tr>
+              </thead>
+              <tbody id="leaderboardBody">
+                <!-- Dynamically populated -->
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
 
@@ -1195,6 +1424,15 @@
           setTimeout(() => container.classList.remove('shake'), 600);
           resBanner.className = 'result-banner win-flash';
           resBanner.innerHTML = `<span style="color: #FDE047;">⚡ MEGA JACKPOT! 3x ${final1} (+${winAmount - 100} Chips) ⚡</span>`;
+          addLiveCasinoEvent({
+            player: 'You (VIP Guest)',
+            game: 'Slot 777',
+            bet: '🎰 3 REELS',
+            roll: `[${final1} ${final2} ${final3}]`,
+            outcome: `⚡ 3x ${final1}`,
+            delta: `+${winAmount - 100}`,
+            chips: chips
+          });
         } else if (final1 === final2 || final2 === final3 || final1 === final3) {
           chips += 120;
           updateChipDisplay();
@@ -1203,10 +1441,28 @@
           triggerConfetti(40);
           resBanner.className = 'result-banner win-flash';
           resBanner.innerHTML = `<span style="color: #34D399;">✨ PAIR MATCH! (+20 Chips)</span>`;
+          addLiveCasinoEvent({
+            player: 'You (VIP Guest)',
+            game: 'Slot 777',
+            bet: '🎰 3 REELS',
+            roll: `[${final1} ${final2} ${final3}]`,
+            outcome: '✨ PAIR MATCH',
+            delta: '+20',
+            chips: chips
+          });
         } else {
           recordHouseRound(false, 0);
           soundEffects.lossBuzzer();
           resBanner.innerHTML = `<span style="color: #F87171;">💀 No match (-100 Chips). Pull again!</span>`;
+          addLiveCasinoEvent({
+            player: 'You (VIP Guest)',
+            game: 'Slot 777',
+            bet: '🎰 3 REELS',
+            roll: `[${final1} ${final2} ${final3}]`,
+            outcome: '💀 HOUSE WINS',
+            delta: '-100',
+            chips: chips
+          });
         }
       }, 2100);
     }
@@ -1326,19 +1582,262 @@
             }
             resBanner.className = 'result-banner win-flash';
             resBanner.innerHTML = `<span style="color: #34D399;">🎉 YOU WON! ${colorDisplay} (+${payout - 100} Chips)</span>`;
+            addLiveCasinoEvent({
+              player: 'You (VIP Guest)',
+              game: 'Roulette',
+              bet: selectedRouletteBet.toUpperCase(),
+              roll: colorDisplay,
+              outcome: color === 'zero' ? '👑 MEGA ZERO WIN' : '🎉 WIN',
+              delta: `+${payout - 100}`,
+              chips: chips
+            });
           } else {
             recordHouseRound(false, 0);
             soundEffects.lossBuzzer();
             resBanner.innerHTML = `<span style="color: #F87171;">💀 Result: ${colorDisplay} (House Wins -100 Chips)</span>`;
+            addLiveCasinoEvent({
+              player: 'You (VIP Guest)',
+              game: 'Roulette',
+              bet: selectedRouletteBet.toUpperCase(),
+              roll: colorDisplay,
+              outcome: '💀 HOUSE WINS',
+              delta: '-100',
+              chips: chips
+            });
           }
         }
       }, 35);
+    }
+
+    // =========================================================================
+    // LIVE COMMUNITY FEED & HIGH-ROLLER SYNC ENGINE
+    // =========================================================================
+    let recentBetsCache = [
+      { player: 'StochasticTrader', game: 'Slot 777', bet: '🎰 3 REELS', roll: '[💎 💎 💎]', outcome: '🏆 DIAMOND JACKPOT', delta: '+2500', chips: 3500 },
+      { player: 's4126139', game: 'Slot 777', bet: '🎰 3 REELS', roll: '[🍒 🍒 💎]', outcome: '✨ PAIR MATCH', delta: '+20', chips: 1870 },
+      { player: 'QuantExplorer', game: 'Roulette', bet: '⚫ BLACK', roll: '⚫ Black 22', outcome: '🎉 WIN', delta: '+100', chips: 1200 },
+      { player: 'MarkovChain', game: 'Slot 777', bet: '🎰 3 REELS', roll: '[🍋 🍋 🍒]', outcome: '✨ PAIR MATCH', delta: '+20', chips: 920 },
+      { player: 'BayesMaster', game: 'Slot 777', bet: '🎰 3 REELS', roll: '[🍋 🍒 🍒]', outcome: '✨ PAIR MATCH', delta: '+20', chips: 1020 }
+    ];
+
+    const AI_GUEST_PLAYERS = [
+      'StochasticTrader',
+      'QuantExplorer',
+      'MarkovChain',
+      'DeepAlpha',
+      'BayesMaster',
+      'AlphaGoose',
+      'EntropyHedge'
+    ];
+
+    function renderRecentBetsTable(items) {
+      const tbody = document.getElementById('recentBetsBody');
+      if (!tbody) return;
+      tbody.innerHTML = '';
+      items.slice(0, 10).forEach(item => {
+        const tr = document.createElement('tr');
+        const isPos = String(item.delta || '').startsWith('+');
+        const deltaColor = isPos ? '#34D399' : '#F87171';
+        const pName = item.player || 'Anonymous';
+        const pLink = pName.includes('(') ? `<b style="color: #FFE57F;">${pName}</b>` : `<a href="https://github.com/${pName}" target="_blank">@${pName}</a>`;
+        tr.innerHTML = `
+          <td>${pLink}</td>
+          <td><code>${item.bet || item.game || '-'}</code></td>
+          <td><code>${item.roll || '-'}</code></td>
+          <td><b>${item.outcome || '-'}</b></td>
+          <td><code style="color: ${deltaColor};">${item.chips ? item.chips.toLocaleString() : '-'}</code></td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function renderLeaderboardTable(leaderboard) {
+      const tbody = document.getElementById('leaderboardBody');
+      if (!tbody) return;
+      tbody.innerHTML = '';
+      const medals = ["🥇", "🥈", "🥉", "4️⃣", "5️⃣", "6️⃣", "7️⃣"];
+      const sorted = Object.entries(leaderboard || {}).sort((a, b) => (b[1].chips || 0) - (a[1].chips || 0));
+      sorted.slice(0, 7).forEach(([p, stats], idx) => {
+        const tr = document.createElement('tr');
+        const medal = medals[idx] || `#${idx + 1}`;
+        const chips = stats.chips || 1000;
+        const wins = stats.wins || 0;
+        const losses = stats.losses || 0;
+        tr.innerHTML = `
+          <td align="center">${medal}</td>
+          <td><a href="https://github.com/${p}" target="_blank"><b>@${p}</b></a></td>
+          <td><span style="color: #94A3B8;">${wins}W / ${losses}L</span></td>
+          <td><b style="color: var(--gold-bright);">${chips.toLocaleString()} VIP</b></td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function renderLiveTicker(items) {
+      const container = document.getElementById('liveTickerContent');
+      if (!container) return;
+      const html = items.slice(0, 8).map(item => {
+        const isPos = String(item.delta || '').startsWith('+');
+        const deltaClass = isPos ? 'delta-pos' : 'delta-neg';
+        const p = item.player || 'HighRoller';
+        return `<span class="ticker-item">🎲 <strong>@${p}</strong>: <span class="${deltaClass}">${item.delta} Chips</span> (${item.outcome})</span>`;
+      }).join(' · ');
+      container.innerHTML = html + ' · ' + html;
+    }
+
+    function addLiveCasinoEvent(event) {
+      recentBetsCache.unshift(event);
+      if (recentBetsCache.length > 25) recentBetsCache.pop();
+      renderRecentBetsTable(recentBetsCache);
+      renderLiveTicker(recentBetsCache);
+    }
+
+    function simulateLiveFloorAction() {
+      const guest = AI_GUEST_PLAYERS[Math.floor(Math.random() * AI_GUEST_PLAYERS.length)];
+      const isSlot = Math.random() < 0.65;
+      let event;
+
+      if (isSlot) {
+        const rollType = Math.random();
+        if (rollType < 0.05) {
+          event = {
+            player: guest,
+            game: 'Slot 777',
+            bet: '🎰 3 REELS',
+            roll: '[7️⃣ 7️⃣ 7️⃣]',
+            outcome: '⚡ 777 JACKPOT',
+            delta: '+2900',
+            chips: 4500
+          };
+          showToast(`🏆 FLOOR JACKPOT: @${guest} just struck [7️⃣ 7️⃣ 7️⃣] (+2,900 VIP)!`, 'success');
+        } else if (rollType < 0.15) {
+          event = {
+            player: guest,
+            game: 'Slot 777',
+            bet: '🎰 3 REELS',
+            roll: '[💎 💎 💎]',
+            outcome: '💎 DIAMOND WIN',
+            delta: '+1400',
+            chips: 3200
+          };
+          showToast(`💎 HIGH-ROLLER WIN: @${guest} hit [💎 💎 💎] (+1,400 VIP)!`, 'success');
+        } else if (rollType < 0.65) {
+          const syms = ['🍒', '♠', '🔔', '🍋'];
+          const s = syms[Math.floor(Math.random() * syms.length)];
+          const other = syms[(syms.indexOf(s) + 1) % syms.length];
+          event = {
+            player: guest,
+            game: 'Slot 777',
+            bet: '🎰 3 REELS',
+            roll: `[${s} ${s} ${other}]`,
+            outcome: '✨ PAIR MATCH',
+            delta: '+20',
+            chips: Math.floor(Math.random() * 800) + 1200
+          };
+        } else {
+          event = {
+            player: guest,
+            game: 'Slot 777',
+            bet: '🎰 3 REELS',
+            roll: '[♠ 💎 🍋]',
+            outcome: '💀 HOUSE WINS',
+            delta: '-100',
+            chips: 1100
+          };
+        }
+      } else {
+        const num = Math.floor(Math.random() * 37);
+        const isRed = RED_NUMS.includes(num);
+        const win = Math.random() < 0.52;
+        if (num === 0 && Math.random() < 0.08) {
+          event = {
+            player: guest,
+            game: 'Roulette',
+            bet: '🟢 ZERO',
+            roll: '🟢 Zero 0',
+            outcome: '👑 MEGA ZERO WIN',
+            delta: '+3500',
+            chips: 5200
+          };
+          showToast(`🟢 ULTRA WIN: @${guest} hit Green Zero (+3,500 VIP)!`, 'success');
+        } else if (win) {
+          event = {
+            player: guest,
+            game: 'Roulette',
+            bet: isRed ? '🔴 RED' : '⚫ BLACK',
+            roll: `${isRed ? '🔴 Red' : '⚫ Black'} ${num}`,
+            outcome: '🎉 WIN',
+            delta: '+100',
+            chips: Math.floor(Math.random() * 500) + 1300
+          };
+        } else {
+          event = {
+            player: guest,
+            game: 'Roulette',
+            bet: isRed ? '⚫ BLACK' : '🔴 RED',
+            roll: `${isRed ? '🔴 Red' : '⚫ Black'} ${num}`,
+            outcome: '💀 HOUSE WINS',
+            delta: '-100',
+            chips: 950
+          };
+        }
+      }
+
+      addLiveCasinoEvent(event);
+
+      const nextDelay = Math.floor(Math.random() * 18000) + 20000;
+      setTimeout(simulateLiveFloorAction, nextDelay);
+    }
+
+    async function initLiveCommunityFeatures() {
+      // Render initial cache
+      renderRecentBetsTable(recentBetsCache);
+      renderLiveTicker(recentBetsCache);
+
+      // Fetch real ledger from GitHub
+      try {
+        const ledgerUrl = 'https://raw.githubusercontent.com/s4126139/s4126139/main/data/casino_ledger.json?t=' + Date.now();
+        const res = await fetch(ledgerUrl, { cache: 'no-store' });
+        if (res.ok) {
+          const data = await res.json();
+          if (data.recent_bets && data.recent_bets.length > 0) {
+            recentBetsCache = data.recent_bets;
+            renderRecentBetsTable(recentBetsCache);
+            renderLiveTicker(recentBetsCache);
+          }
+          if (data.leaderboard) {
+            renderLeaderboardTable(data.leaderboard);
+          }
+          if (data.house_vault_reserve) {
+            const elV = document.getElementById('statHouseVault');
+            if (elV) elV.textContent = data.house_vault_reserve.toLocaleString() + ' 🪙';
+          }
+          if (data.house_table_deficit) {
+            const elD = document.getElementById('statHouseDeficit');
+            if (elD) elD.textContent = `${data.house_table_deficit.toLocaleString()} 🪙`;
+          }
+          if (data.house_win_rate) {
+            const elW = document.getElementById('statHouseWinRate');
+            if (elW) elW.textContent = `House Win Rate: ${data.house_win_rate} (Sub-50% Edge)`;
+          }
+          if (data.total_bets) {
+            const elS = document.getElementById('statTotalSpins');
+            if (elS) elS.textContent = data.total_bets.toLocaleString();
+          }
+        }
+      } catch (err) {
+        console.warn('Using local casino ledger cache:', err);
+      }
+
+      // Start floor simulation after 8s
+      setTimeout(simulateLiveFloorAction, 8000);
     }
 
     // Page initialization
     updateChipDisplay();
     updateHouseStatsDisplay();
     checkReloadCooldown();
+    initLiveCommunityFeatures();
   </script>
 </body>
 </html>

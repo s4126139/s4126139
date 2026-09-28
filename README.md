@@ -91,8 +91,8 @@
 <table width="100%">
   <tr>
     <td align="center">🏦 <b>House Vault:</b> <code>1,000,000 VIP</code></td>
-    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,770 VIP</code></td>
-    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>15</code></td>
+    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,775 VIP</code></td>
+    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>18</code></td>
     <td align="center">⚖️ <b>House Win Rate:</b> <code>41.5%</code></td>
   </tr>
 </table>
@@ -111,6 +111,27 @@
           <th>Result</th>
           <th>Outcome</th>
           <th>Chips</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/StochasticTrader"><b>@StochasticTrader</b></a></td>
+          <td><code>🔴 RED</code></td>
+          <td><code>⚫ BLACK 13</code></td>
+          <td><b>💀 HOUSE WINS</b></td>
+          <td><code>3,400</code></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/MarkovChain"><b>@MarkovChain</b></a></td>
+          <td><code>🎰 3 REELS</code></td>
+          <td><code>[🍋 🍋 🍒]</code></td>
+          <td><b>✨ PAIR MATCH</b></td>
+          <td><code>920</code></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/BayesMaster"><b>@BayesMaster</b></a></td>
+          <td><code>🎰 3 REELS</code></td>
+          <td><code>[🍋 🍒 🍒]</code></td>
+          <td><b>✨ PAIR MATCH</b></td>
+          <td><code>1,020</code></td>
         </tr>
         <tr>
           <td><a href="https://github.com/s4126139"><b>@s4126139</b></a></td>
@@ -147,13 +168,6 @@
           <td><b>🏆 DIAMOND JACKPOT</b></td>
           <td><code>3,500</code></td>
         </tr>
-        <tr>
-          <td><a href="https://github.com/QuantExplorer"><b>@QuantExplorer</b></a></td>
-          <td><code>⚫ BLACK</code></td>
-          <td><code>⚫ Black 22</code></td>
-          <td><b>🎉 WIN</b></td>
-          <td><code>1,200</code></td>
-        </tr>
       </table>
     </td>
     <td valign="top">
@@ -166,7 +180,7 @@
         <tr>
           <td align="center">🥇</td>
           <td><a href="https://github.com/StochasticTrader"><b>@StochasticTrader</b></a></td>
-          <td><b>3,500 VIP</b></td>
+          <td><b>3,400 VIP</b></td>
         </tr>
         <tr>
           <td align="center">🥈</td>
@@ -180,8 +194,13 @@
         </tr>
         <tr>
           <td align="center">4️⃣</td>
+          <td><a href="https://github.com/BayesMaster"><b>@BayesMaster</b></a></td>
+          <td><b>1,020 VIP</b></td>
+        </tr>
+        <tr>
+          <td align="center">5️⃣</td>
           <td><a href="https://github.com/MarkovChain"><b>@MarkovChain</b></a></td>
-          <td><b>900 VIP</b></td>
+          <td><b>920 VIP</b></td>
         </tr>
       </table>
     </td>

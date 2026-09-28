@@ -138,7 +138,7 @@ def settle_wager(bet_type: str, current_balance: int):
 
 
 def render_markdown_tables(ledger: dict) -> str:
-    recent = ledger.get("recent_bets", [])[:6]
+    recent = ledger.get("recent_bets", [])[:8]
     leaderboard = ledger.get("leaderboard", {})
 
     vault_base = ledger.get("house_vault_reserve", 1000000)
@@ -268,6 +268,7 @@ def main():
     parser.add_argument("--user", default=os.environ.get("ISSUE_USER", "GuestPlayer"))
     parser.add_argument("--title", default=os.environ.get("ISSUE_TITLE", "casino:bet:red"))
     parser.add_argument("--issue", type=int, default=int(os.environ.get("ISSUE_NUMBER", "0")))
+    parser.add_argument("--simulate", action="store_true", help="Simulate an AI High-Roller bet")
     args = parser.parse_args()
 
     repo_root = Path(__file__).resolve().parent.parent
@@ -285,18 +286,33 @@ def main():
     else:
         ledger = {"recent_bets": [], "leaderboard": {}}
 
-    user = args.user.strip()
-    title = args.title.strip()
-    issue_number = args.issue
+    AI_GUESTS = [
+        "StochasticTrader",
+        "QuantExplorer",
+        "MarkovChain",
+        "DeepAlpha",
+        "BayesMaster",
+        "AlphaGoose",
+        "EntropyHedge",
+    ]
 
-    # Determine bet
-    parts = title.split(":")
-    if len(parts) >= 3:
-        bet_arg = parts[2].lower().strip()
-    elif len(parts) == 2:
-        bet_arg = parts[1].lower().strip()
+    if args.simulate:
+        user = random.choice(AI_GUESTS)
+        bet_arg = random.choice(["slot", "slot", "slot", "red", "black", "zero"])
+        issue_number = 0
     else:
-        bet_arg = "red"
+        user = args.user.strip()
+        title = args.title.strip()
+        issue_number = args.issue
+
+        # Determine bet
+        parts = title.split(":")
+        if len(parts) >= 3:
+            bet_arg = parts[2].lower().strip()
+        elif len(parts) == 2:
+            bet_arg = parts[1].lower().strip()
+        else:
+            bet_arg = "red"
 
     # Get player stats
     leaderboard = ledger.setdefault("leaderboard", {})
@@ -351,7 +367,7 @@ def main():
         "time": now_str,
     }
     ledger.setdefault("recent_bets", []).insert(0, record)
-    ledger["recent_bets"] = ledger["recent_bets"][:10]  # keep top 10
+    ledger["recent_bets"] = ledger["recent_bets"][:15]  # keep top 15
 
     # Save ledger
     ledger_path.write_text(json.dumps(ledger, indent=2), encoding="utf-8")

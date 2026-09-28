@@ -3,6 +3,10 @@ name: Casino Royale Dealer Bot
 on:
   issues:
     types: [opened]
+  schedule:
+    # Run every 4 hours to simulate active casino floor bets from community high-rollers
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -10,7 +14,7 @@ permissions:
 
 jobs:
   settle-wager:
-    if: startsWith(github.event.issue.title, 'casino:')
+    if: github.event_name != 'issues' || startsWith(github.event.issue.title, 'casino:')
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
@@ -27,14 +31,20 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-          ISSUE_NUMBER: ${{ github.event.issue.number }}
-          ISSUE_USER: ${{ github.event.issue.user.login }}
-          ISSUE_TITLE: ${{ github.event.issue.title }}
-        run: python scripts/play_casino.py
+          EVENT_NAME: ${{ github.event_name }}
+          ISSUE_NUMBER: ${{ github.event.issue.number || 0 }}
+          ISSUE_USER: ${{ github.event.issue.user.login || '' }}
+          ISSUE_TITLE: ${{ github.event.issue.title || '' }}
+        run: |
+          if [ "$EVENT_NAME" = "schedule" ] || [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            python scripts/play_casino.py --simulate
+          else
+            python scripts/play_casino.py
+          fi
 
       - name: Commit & Push Ledger Updates
         run: |
           git config --global user.name "casino-dealer-bot[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(casino): settle bet for @${{ github.event.issue.user.login }} [skip ci]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(casino): update live ledger and high-roller table [skip ci]" && git push)
