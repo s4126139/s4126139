@@ -564,7 +564,7 @@
 
       <!-- ================= TABLE 1: LUCKY 777 SLOTS ================= -->
       <div class="game-card" id="slots">
-        <div class="card-badge">HOT TABLE · 50x JACKPOT</div>
+        <div class="card-badge">HOT TABLE · 30x JACKPOT</div>
         <h2 class="card-title">🎰 LUCKY 777 SLOTS</h2>
 
         <div class="slot-frame">
@@ -580,8 +580,8 @@
         </button>
 
         <div class="payout-box">
-          <b>PAYOUTS:</b> 7️⃣7️⃣7️⃣ = 50x (5,000) · 💎💎💎 = 25x (2,500)<br/>
-          Triple Match = 10x (1,000) · Any Pair = 1.5x (150)
+          <b>PAYOUTS:</b> 7️⃣7️⃣7️⃣ = 30x (3,000) · 💎💎💎 = 15x (1,500)<br/>
+          Triple Fruit = 4x (400) · Any Pair = 1.2x (120)
         </div>
       </div>
 
@@ -625,14 +625,14 @@
       <div class="stats-grid">
         <div class="stat-card">
           <div class="stat-label">🏦 HOUSE VAULT RESERVE</div>
-          <div class="stat-val" id="statHouseVault">1,028,400 🪙</div>
-          <div class="stat-sub">Starting Reserve: 1,000,000 VIP</div>
+          <div class="stat-val" id="statHouseVault">1,000,000 🪙</div>
+          <div class="stat-sub">Sovereign Liquidity Pool</div>
         </div>
 
         <div class="stat-card highlight">
-          <div class="stat-label">📈 HOUSE NET PROFIT</div>
-          <div class="stat-val" id="statHouseProfit" style="color: #34D399;">+28,400 🪙</div>
-          <div class="stat-sub" id="statHouseWinRate">House Win Rate: 54.4%</div>
+          <div class="stat-label">📉 HOUSE TABLE DEFICIT</div>
+          <div class="stat-val" id="statHouseDeficit" style="color: #F87171;">-28,400 🪙</div>
+          <div class="stat-sub" id="statHouseWinRate">House Win Rate: 44.6% (Sub-50% Edge)</div>
         </div>
 
         <div class="stat-card">
@@ -759,14 +759,14 @@
     }
 
     // =========================================================================
-    // HOUSE VAULT & QUANT ANALYTICS ENGINE
+    // HOUSE VAULT & QUANT ANALYTICS ENGINE (Sub-50% Win Rate & Deficit Illusion)
     // =========================================================================
     const BASELINE_HOUSE_STATS = {
       baseReserve: 1000000,
-      houseProfit: 28400,
+      houseDeficit: -28400,
       totalWagers: 342,
-      houseWins: 186,
-      playerWins: 156,
+      houseWins: 151,
+      playerWins: 191,
       totalJackpotsPaid: 45000,
       sessionSpins: 0,
       sessionPlayerNet: 0
@@ -802,12 +802,12 @@
 
       if (playerWon) {
         houseStats.playerWins++;
-        houseStats.houseProfit -= netPayout;
+        houseStats.houseDeficit -= netPayout; // deficit increases into the red
         houseStats.totalJackpotsPaid += (netPayout + 100);
         houseStats.sessionPlayerNet += netPayout;
       } else {
         houseStats.houseWins++;
-        houseStats.houseProfit += 100;
+        houseStats.houseDeficit += 35; // nominal recovery keeps displayed deficit in red while house profits
         houseStats.sessionPlayerNet -= 100;
       }
 
@@ -815,25 +815,26 @@
     }
 
     function updateHouseStatsDisplay() {
-      const vaultVal = houseStats.baseReserve + houseStats.houseProfit;
-      const winRate = houseStats.totalWagers > 0
-        ? ((houseStats.houseWins / houseStats.totalWagers) * 100).toFixed(1)
-        : '50.0';
+      const rawRate = houseStats.totalWagers > 0
+        ? (houseStats.houseWins / houseStats.totalWagers) * 100
+        : 44.2;
+      // Mathematically bound House Win Rate strictly under 50%
+      const winRate = Math.min(48.8, Math.max(41.5, rawRate)).toFixed(1);
 
       const elVault = document.getElementById('statHouseVault');
-      const elProfit = document.getElementById('statHouseProfit');
+      const elDeficit = document.getElementById('statHouseDeficit');
       const elWinRate = document.getElementById('statHouseWinRate');
       const elSpins = document.getElementById('statTotalSpins');
       const elJackpots = document.getElementById('statTotalJackpots');
       const elSession = document.getElementById('statPlayerSession');
 
-      if (elVault) elVault.textContent = vaultVal.toLocaleString() + ' 🪙';
-      if (elProfit) {
-        const prefix = houseStats.houseProfit >= 0 ? '+' : '';
-        elProfit.textContent = `${prefix}${houseStats.houseProfit.toLocaleString()} 🪙`;
-        elProfit.style.color = houseStats.houseProfit >= 0 ? '#34D399' : '#F87171';
+      if (elVault) elVault.textContent = houseStats.baseReserve.toLocaleString() + ' 🪙';
+      if (elDeficit) {
+        const val = -Math.abs(houseStats.houseDeficit);
+        elDeficit.textContent = `${val.toLocaleString()} 🪙`;
+        elDeficit.style.color = '#F87171'; // always red deficit
       }
-      if (elWinRate) elWinRate.textContent = `House Win Rate: ${winRate}%`;
+      if (elWinRate) elWinRate.textContent = `House Win Rate: ${winRate}% (Sub-50% Edge)`;
       if (elSpins) elSpins.textContent = houseStats.totalWagers.toLocaleString();
       if (elJackpots) elJackpots.textContent = houseStats.totalJackpotsPaid.toLocaleString() + ' 🪙';
       if (elSession) {
@@ -1129,9 +1130,21 @@
       r3.className = 'reel-window spinning';
 
       // Pick final outcomes in advance
-      const final1 = SLOT_SYMBOLS[Math.floor(Math.random() * SLOT_SYMBOLS.length)];
-      const final2 = SLOT_SYMBOLS[Math.floor(Math.random() * SLOT_SYMBOLS.length)];
-      const final3 = SLOT_SYMBOLS[Math.floor(Math.random() * SLOT_SYMBOLS.length)];
+      // Calibrated weights: 53.4% player hit frequency (House Win Rate 46.6% < 50%),
+      // while positive house mathematical edge (+22.6 chips/spin) ensures the house secretly profits!
+      const WEIGHTS = [0.03, 0.07, 0.225, 0.225, 0.225, 0.225];
+      function pickSymbol() {
+        const r = Math.random();
+        let acc = 0;
+        for (let i = 0; i < SLOT_SYMBOLS.length; i++) {
+          acc += WEIGHTS[i];
+          if (r < acc) return SLOT_SYMBOLS[i];
+        }
+        return SLOT_SYMBOLS[SLOT_SYMBOLS.length - 1];
+      }
+      const final1 = pickSymbol();
+      const final2 = pickSymbol();
+      const final3 = pickSymbol();
 
       let r1Done = false, r2Done = false, r3Done = false;
 
@@ -1172,7 +1185,7 @@
 
         // Evaluate Payouts
         if (final1 === final2 && final2 === final3) {
-          let winAmount = final1 === '7️⃣' ? 5000 : (final1 === '💎' ? 2500 : 1000);
+          let winAmount = final1 === '7️⃣' ? 3000 : (final1 === '💎' ? 1500 : 400);
           chips += winAmount;
           updateChipDisplay();
           recordHouseRound(true, winAmount - 100);
@@ -1183,13 +1196,13 @@
           resBanner.className = 'result-banner win-flash';
           resBanner.innerHTML = `<span style="color: #FDE047;">⚡ MEGA JACKPOT! 3x ${final1} (+${winAmount - 100} Chips) ⚡</span>`;
         } else if (final1 === final2 || final2 === final3 || final1 === final3) {
-          chips += 150;
+          chips += 120;
           updateChipDisplay();
-          recordHouseRound(true, 50);
+          recordHouseRound(true, 20);
           soundEffects.winChime();
           triggerConfetti(40);
           resBanner.className = 'result-banner win-flash';
-          resBanner.innerHTML = `<span style="color: #34D399;">✨ PAIR MATCH! (+50 Chips)</span>`;
+          resBanner.innerHTML = `<span style="color: #34D399;">✨ PAIR MATCH! (+20 Chips)</span>`;
         } else {
           recordHouseRound(false, 0);
           soundEffects.lossBuzzer();

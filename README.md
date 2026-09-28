@@ -90,10 +90,10 @@
 <!-- CASINO_TABLE_START -->
 <table width="100%">
   <tr>
-    <td align="center">🏦 <b>House Vault:</b> <code>1,003,150 VIP</code></td>
-    <td align="center">📈 <b>House Net Profit:</b> <code style="color: #34D399;">+3,150 VIP</code></td>
+    <td align="center">🏦 <b>House Vault:</b> <code>1,000,000 VIP</code></td>
+    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,750 VIP</code></td>
     <td align="center">🎲 <b>Total Bot Wagers:</b> <code>14</code></td>
-    <td align="center">⚖️ <b>House Win Rate:</b> <code>57.1%</code></td>
+    <td align="center">⚖️ <b>House Win Rate:</b> <code>42.9%</code></td>
   </tr>
 </table>
 

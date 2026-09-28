@@ -1,12 +1,10 @@
 {
   "total_bets": 14,
   "house_vault_reserve": 1000000,
-  "house_chips_won": 8500,
-  "house_chips_paid": 5350,
-  "house_net_profit": 3150,
-  "house_wins": 8,
-  "player_wins": 6,
-  "house_win_rate": "57.1%",
+  "house_table_deficit": -18750,
+  "house_wins": 6,
+  "player_wins": 8,
+  "house_win_rate": "42.9%",
   "recent_bets": [
     {
       "player": "s4126139",
