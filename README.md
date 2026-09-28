@@ -90,10 +90,10 @@
 <!-- CASINO_TABLE_START -->
 <table width="100%">
   <tr>
-    <td align="center">🏦 <b>House Vault:</b> <code>1,003,200 VIP</code></td>
-    <td align="center">📈 <b>House Net Profit:</b> <code style="color: #34D399;">+3,200 VIP</code></td>
-    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>13</code></td>
-    <td align="center">⚖️ <b>House Win Rate:</b> <code>61.5%</code></td>
+    <td align="center">🏦 <b>House Vault:</b> <code>1,003,150 VIP</code></td>
+    <td align="center">📈 <b>House Net Profit:</b> <code style="color: #34D399;">+3,150 VIP</code></td>
+    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>14</code></td>
+    <td align="center">⚖️ <b>House Win Rate:</b> <code>57.1%</code></td>
   </tr>
 </table>
 
@@ -111,6 +111,13 @@
           <th>Result</th>
           <th>Outcome</th>
           <th>Chips</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/s4126139"><b>@s4126139</b></a></td>
+          <td><code>🎰 3 REELS</code></td>
+          <td><code>[♠ ♠ 🍒]</code></td>
+          <td><b>✨ PAIR MATCH</b></td>
+          <td><code>1,850</code></td>
         </tr>
         <tr>
           <td><a href="https://github.com/s4126139"><b>@s4126139</b></a></td>
@@ -164,7 +171,7 @@
         <tr>
           <td align="center">🥈</td>
           <td><a href="https://github.com/s4126139"><b>@s4126139</b></a></td>
-          <td><b>1,700 VIP</b></td>
+          <td><b>1,850 VIP</b></td>
         </tr>
         <tr>
           <td align="center">🥉</td>

@@ -1,13 +1,23 @@
 {
-  "total_bets": 13,
+  "total_bets": 14,
   "house_vault_reserve": 1000000,
   "house_chips_won": 8500,
-  "house_chips_paid": 5300,
-  "house_net_profit": 3200,
+  "house_chips_paid": 5350,
+  "house_net_profit": 3150,
   "house_wins": 8,
-  "player_wins": 5,
-  "house_win_rate": "61.5%",
+  "player_wins": 6,
+  "house_win_rate": "57.1%",
   "recent_bets": [
+    {
+      "player": "s4126139",
+      "game": "Slot 777",
+      "bet": "\ud83c\udfb0 3 REELS",
+      "roll": "[\u2660 \u2660 \ud83c\udf52]",
+      "outcome": "\u2728 PAIR MATCH",
+      "delta": "+150",
+      "balance": 1850,
+      "time": "08:38 UTC"
+    },
     {
       "player": "s4126139",
       "game": "Slot 777",
@@ -67,8 +77,8 @@
       "best_win": 2500
     },
     "s4126139": {
-      "chips": 1700,
-      "wins": 4,
+      "chips": 1850,
+      "wins": 5,
       "losses": 2,
       "best_win": 300
     },
