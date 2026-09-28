@@ -1,11 +1,21 @@
 {
-  "total_bets": 19,
+  "total_bets": 20,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -18740,
-  "house_wins": 8,
+  "house_table_deficit": -18705,
+  "house_wins": 9,
   "player_wins": 11,
-  "house_win_rate": "42.1%",
+  "house_win_rate": "45.0%",
   "recent_bets": [
+    {
+      "player": "QuantExplorer",
+      "game": "Roulette",
+      "bet": "\ud83d\udfe2 ZERO",
+      "roll": "\u26ab BLACK 13",
+      "outcome": "\ud83d\udc80 HOUSE WINS",
+      "delta": "-100",
+      "balance": 1100,
+      "time": "19:13 UTC"
+    },
     {
       "player": "s4126139",
       "game": "Roulette",
@@ -131,9 +141,9 @@
       "best_win": 300
     },
     "QuantExplorer": {
-      "chips": 1200,
+      "chips": 1100,
       "wins": 2,
-      "losses": 1,
+      "losses": 2,
       "best_win": 100
     },
     "MarkovChain": {
