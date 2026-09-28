@@ -1,0 +1,40 @@
+name: Casino Royale Dealer Bot
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  settle-wager:
+    if: startsWith(github.event.issue.title, 'casino:')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run Casino Dealer Engine
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: python scripts/play_casino.py
+
+      - name: Commit & Push Ledger Updates
+        run: |
+          git config --global user.name "casino-dealer-bot[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(casino): settle bet for @${{ github.event.issue.user.login }} [skip ci]" && git push)

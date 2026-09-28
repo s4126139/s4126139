@@ -49,6 +49,105 @@
 - 🏆 **House Record (Jackpot)**: **50% Tuition Merit Scholarship** · Engineering Mathematics: **97.6%** (*Breaking the House with Pure Math*)
 - 🎯 **Winning Strategy**: Developing toward **Applied AI / AI Engineering** with a complete-systems mindset (*Problem → Data → Model → Backend → Deploy*).
 - 🔬 **High-Stakes Focus**: **AI × Finance / FinTech**, Rigorous Model Evaluation, Monte Carlo Methods, and Forward Deployed Engineering.
+---
+
+### 🎲 The High-Roller Table: Place Your Bet!
+
+> 💡 **Welcome, Guest Player!** Every visitor receives **1,000 complimentary VIP Casino Chips**.
+> Click any wager below to place your bet. The **Dealer Bot** spins the wheel, calculates your payout, and records your score on the live Leaderboard!
+
+<div align="center">
+
+  <p>
+    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Abet%3Ared&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+European+Roulette%0A%E2%96%B6+**Wager**%3A+RED+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+2x+%28%2B100+Chips%29%0A%0A---%0A%3E+%E2%9CA8+**Click+%22Submit+new+issue%22+below+to+spin+the+wheel%21**%0A%3E+The+Dealer+bot+will+settle+your+bet+and+record+your+score+automatically."><img src="https://img.shields.io/badge/BET%20ON%20RED-Pays%202x-E11D48?style=for-the-badge&logo=target&logoColor=white&labelColor=0A1E14" alt="Bet on Red" /></a>
+    &nbsp;
+    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Abet%3Ablack&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+European+Roulette%0A%E2%96%B6+**Wager**%3A+BLACK+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+2x+%28%2B100+Chips%29%0A%0A---%0A%3E+%E2%9CA8+**Click+%22Submit+new+issue%22+below+to+spin+the+wheel%21**%0A%3E+The+Dealer+bot+will+settle+your+bet+and+record+your+score+automatically."><img src="https://img.shields.io/badge/BET%20ON%20BLACK-Pays%202x-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0A1E14" alt="Bet on Black" /></a>
+    &nbsp;
+    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Abet%3Azero&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+European+Roulette%0A%E2%96%B6+**Wager**%3A+ZERO+0+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+36x+Jackpot+%28%2B3%2C500+Chips%29%0A%0A---%0A%3E+%E2%9CA8+**Click+%22Submit+new+issue%22+below+to+spin+the+wheel%21**%0A%3E+The+Dealer+bot+will+settle+your+bet+and+record+your+score+automatically."><img src="https://img.shields.io/badge/BET%20ON%20ZERO-Pays%2036x-059669?style=for-the-badge&logo=target&logoColor=white&labelColor=0A1E14" alt="Bet on Zero" /></a>
+    &nbsp;
+    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Aspin%3Aslot&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+Lucky+777+Slot+Machine%0A%E2%96%B6+**Wager**%3A+Pull+Slot+Lever+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+Up+to+50x+Mega+Jackpot+%28777%29%0A%0A---%0A%3E+%E2%9CA8+**Click+%22Submit+new+issue%22+below+to+pull+the+lever%21**%0A%3E+The+Dealer+bot+will+spin+the+reels+and+settle+your+payout."><img src="https://img.shields.io/badge/SPIN%20SLOTS-Win%2050x-D4AF37?style=for-the-badge&logo=counterstrike&logoColor=white&labelColor=0A1E14" alt="Spin Slots" /></a>
+  </p>
+
+</div>
+
+<!-- CASINO_TABLE_START -->
+<table width="100%">
+  <tr>
+    <th width="60%"><b>🎲 Recent High-Roller Bets</b></th>
+    <th width="40%"><b>🏆 Casino Leaderboard</b></th>
+  </tr>
+  <tr>
+    <td valign="top">
+      <table>
+        <tr>
+          <th>Player</th>
+          <th>Bet</th>
+          <th>Result</th>
+          <th>Outcome</th>
+          <th>Chips</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/s4126139"><b>@s4126139</b></a></td>
+          <td><code>🔴 RED</code></td>
+          <td><code>🔴 Red 27</code></td>
+          <td><b>🎉 WIN</b></td>
+          <td><code>1,800</code></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/StochasticTrader"><b>@StochasticTrader</b></a></td>
+          <td><code>🎰 3 REELS</code></td>
+          <td><code>[💎 💎 💎]</code></td>
+          <td><b>🏆 DIAMOND JACKPOT</b></td>
+          <td><code>3,500</code></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/QuantExplorer"><b>@QuantExplorer</b></a></td>
+          <td><code>⚫ BLACK</code></td>
+          <td><code>⚫ Black 22</code></td>
+          <td><b>🎉 WIN</b></td>
+          <td><code>1,200</code></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/MarkovChain"><b>@MarkovChain</b></a></td>
+          <td><code>🟢 ZERO</code></td>
+          <td><code>🔴 Red 1</code></td>
+          <td><b>💀 HOUSE WINS</b></td>
+          <td><code>900</code></td>
+        </tr>
+      </table>
+    </td>
+    <td valign="top">
+      <table>
+        <tr>
+          <th>Rank</th>
+          <th>High Roller</th>
+          <th>Chip Stack</th>
+        </tr>
+        <tr>
+          <td align="center">🥇</td>
+          <td><a href="https://github.com/StochasticTrader"><b>@StochasticTrader</b></a></td>
+          <td><b>3,500 VIP</b></td>
+        </tr>
+        <tr>
+          <td align="center">🥈</td>
+          <td><a href="https://github.com/s4126139"><b>@s4126139</b></a></td>
+          <td><b>1,800 VIP</b></td>
+        </tr>
+        <tr>
+          <td align="center">🥉</td>
+          <td><a href="https://github.com/QuantExplorer"><b>@QuantExplorer</b></a></td>
+          <td><b>1,200 VIP</b></td>
+        </tr>
+        <tr>
+          <td align="center">4️⃣</td>
+          <td><a href="https://github.com/MarkovChain"><b>@MarkovChain</b></a></td>
+          <td><b>900 VIP</b></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- CASINO_TABLE_END -->
 
 ---
 

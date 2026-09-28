@@ -1,0 +1,72 @@
+{
+  "total_bets": 12,
+  "house_payout": 3800,
+  "recent_bets": [
+    {
+      "player": "s4126139",
+      "game": "Roulette",
+      "bet": "🔴 RED",
+      "roll": "🔴 Red 27",
+      "outcome": "🎉 WIN",
+      "delta": "+100",
+      "balance": 1800,
+      "time": "14:30 UTC"
+    },
+    {
+      "player": "StochasticTrader",
+      "game": "Slot 777",
+      "bet": "🎰 3 REELS",
+      "roll": "[💎 💎 💎]",
+      "outcome": "🏆 DIAMOND JACKPOT",
+      "delta": "+2500",
+      "balance": 3500,
+      "time": "14:15 UTC"
+    },
+    {
+      "player": "QuantExplorer",
+      "game": "Roulette",
+      "bet": "⚫ BLACK",
+      "roll": "⚫ Black 22",
+      "outcome": "🎉 WIN",
+      "delta": "+100",
+      "balance": 1200,
+      "time": "13:50 UTC"
+    },
+    {
+      "player": "MarkovChain",
+      "game": "Roulette",
+      "bet": "🟢 ZERO",
+      "roll": "🔴 Red 1",
+      "outcome": "💀 HOUSE WINS",
+      "delta": "-100",
+      "balance": 900,
+      "time": "12:10 UTC"
+    }
+  ],
+  "leaderboard": {
+    "StochasticTrader": {
+      "chips": 3500,
+      "wins": 3,
+      "losses": 1,
+      "best_win": 2500
+    },
+    "s4126139": {
+      "chips": 1800,
+      "wins": 4,
+      "losses": 1,
+      "best_win": 300
+    },
+    "QuantExplorer": {
+      "chips": 1200,
+      "wins": 2,
+      "losses": 1,
+      "best_win": 100
+    },
+    "MarkovChain": {
+      "chips": 900,
+      "wins": 0,
+      "losses": 1,
+      "best_win": 0
+    }
+  }
+}
