@@ -630,7 +630,7 @@
         </div>
 
         <div class="stat-card highlight">
-          <div class="stat-label">📈 HOUSE NET PROFIT (NHÀ CÁI THẮNG)</div>
+          <div class="stat-label">📈 HOUSE NET PROFIT</div>
           <div class="stat-val" id="statHouseProfit" style="color: #34D399;">+28,400 🪙</div>
           <div class="stat-sub" id="statHouseWinRate">House Win Rate: 54.4%</div>
         </div>
@@ -738,13 +738,13 @@
 
       if (now < cooldownUntil) {
         const remaining = Math.ceil((cooldownUntil - now) / 1000);
-        showToast(`⏳ Cooldown active! Vui lòng chờ <b>${remaining} giây</b> để nhận tiếp tế tiếp theo.`, 'warn');
+        showToast(`⏳ Cooldown active! Please wait <b>${remaining}s</b> before requesting your next refill.`, 'warn');
         soundEffects.lossBuzzer();
         return;
       }
 
       if (chips >= MIN_RELOAD_BALANCE) {
-        showToast(`⚠️ Bạn vẫn còn <b>${chips.toLocaleString()} VIP Chips</b>! Tiếp tế miễn phí chỉ dành cho người chơi có số dư dưới 200 Chips.`, 'warn');
+        showToast(`⚠️ Bankroll Active! You still have <b>${chips.toLocaleString()} VIP Chips</b>. Complimentary refills are reserved for low balances (&lt; 200 Chips).`, 'warn');
         soundEffects.lossBuzzer();
         return;
       }
@@ -755,7 +755,7 @@
       checkReloadCooldown();
       soundEffects.winChime();
       triggerConfetti(35);
-      showToast(`🎁 Đã tiếp tế <b>+500 VIP Chips</b> từ Nhà Cái Monte Carlo!`, 'success');
+      showToast(`🎁 Refill Granted! <b>+500 VIP Chips</b> credited by Monte Carlo House Management!`, 'success');
     }
 
     // =========================================================================
@@ -793,7 +793,7 @@
         sessionPlayerNet: 0
       });
       saveHouseStats();
-      showToast(`🔄 Đã đặt lại dữ liệu thống kê về mặc định!`, 'info');
+      showToast(`🔄 Session analytics have been reset to baseline defaults!`, 'info');
     }
 
     function recordHouseRound(playerWon, netPayout) {
@@ -1100,7 +1100,7 @@
       initAudio();
 
       if (chips < 100) {
-        showToast('⚠️ Không đủ phỉnh! Bạn cần ít nhất 100 Chips để gạt cần. Bấm "+500 Chips" để nhận tiếp tế.', 'warn');
+        showToast('⚠️ Insufficient Chips! You need at least 100 Chips to pull the lever. Click "+500 Chips" to reload.', 'warn');
         soundEffects.lossBuzzer();
         return;
       }
@@ -1261,7 +1261,7 @@
       initAudio();
 
       if (chips < 100) {
-        showToast('⚠️ Không đủ phỉnh! Bạn cần ít nhất 100 Chips để quay bánh xe. Bấm "+500 Chips" để nhận tiếp tế.', 'warn');
+        showToast('⚠️ Insufficient Chips! You need at least 100 Chips to spin the wheel. Click "+500 Chips" to reload.', 'warn');
         soundEffects.lossBuzzer();
         return;
       }

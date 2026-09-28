@@ -61,29 +61,29 @@
   <!-- Instant Browser Game Launcher -->
   <p>
     <a href="https://s4126139.github.io/s4126139/#slots">
-      <img src="https://img.shields.io/badge/%F0%9F%8E%B0_CH%C6%A0I_SPIN_SLOTS_TR%C3%8AN_WEB-N%E1%BB%95_H%C5%A9_777_Jackpot-D4AF37?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0A1E14" alt="Play Instant Slots" />
+      <img src="https://img.shields.io/badge/%F0%9F%8E%B0_PLAY_SLOTS_ON_WEB-Jackpot_777_Payouts-D4AF37?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0A1E14" alt="Play Instant Slots" />
     </a>
     &nbsp;
     <a href="https://s4126139.github.io/s4126139/#roulette">
-      <img src="https://img.shields.io/badge/%F0%9F%8E%B2_CH%C6%A0I_ROULETTE_TR%C3%8AN_WEB-B%C3%A1nh_Xe_3D-059669?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0A1E14" alt="Play Instant Roulette" />
+      <img src="https://img.shields.io/badge/%F0%9F%8E%B2_PLAY_ROULETTE_ON_WEB-Live_3D_Wheel-059669?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0A1E14" alt="Play Instant Roulette" />
     </a>
   </p>
-  <sub><i>👉 Bấm các nút trên để chơi ngay lập tức trên trình duyệt (có bàn xoay, cần gạt và âm thanh nổ hũ)!</i></sub>
+  <sub><i>👉 Click the badges above to launch the web casino (features interactive 3D wheel, slot lever, and realistic sound FX)!</i></sub>
 
   <br/><br/>
 
   <!-- Bot Betting Buttons -->
-  <p><b>Hoặc Đặt Cược Ghi Danh Bảng Vàng (Qua Dealer Bot):</b></p>
+  <p><b>Or Stake on the High-Roller Leaderboard (via Dealer Bot):</b></p>
   <p>
-    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Abet%3Ared&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+European+Roulette%0A%E2%96%B6+**Wager**%3A+RED+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+2x+%28%2B100+Chips%29%0A%0A---%0A%3E+%E2%9C%A8+**C%C3%81CH+CH%C6%A0I%3A**+Nh%E1%BA%A5n+n%C3%BAt+xanh+**%22Submit+new+issue%22**+b%C3%AAn+d%C6%B0%E1%BB%9Bi+%C4%91%E1%BB%83+quay+th%C6%B0%E1%BB%9Fng%21%0A%3E+Dealer+bot+s%E1%BA%BD+t%E1%BB%B1+%C4%91%E1%BB%99ng+tr%E1%BA%A3+k%E1%BA%BFt+qu%E1%BA%A3+v%C3%A0+ghi+danh+b%E1%BA%A1n+l%C3%AAn+B%E1%BA%A3ng+V%C3%A0ng+sau+15s."><img src="https://img.shields.io/badge/BET%20ON%20RED-Pays%202x-E11D48?style=for-the-badge&logo=target&logoColor=white&labelColor=0A1E14" alt="Bet on Red" /></a>
+    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Abet%3Ared&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+European+Roulette%0A%E2%96%B6+**Wager**%3A+RED+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+2x+%28%2B100+Chips%29%0A%0A---%0A%3E+%E2%9C%A8+**HOW+TO+PLAY%3A**+Click+the+green+**%22Submit+new+issue%22**+button+below+to+roll%21%0A%3E+The+Dealer+bot+will+automatically+settle+your+bet%2C+post+the+receipt%2C+and+record+your+score+on+the+Leaderboard+in+~15s."><img src="https://img.shields.io/badge/BET%20ON%20RED-Pays%202x-E11D48?style=for-the-badge&logo=target&logoColor=white&labelColor=0A1E14" alt="Bet on Red" /></a>
     &nbsp;
-    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Abet%3Ablack&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+European+Roulette%0A%E2%96%B6+**Wager**%3A+BLACK+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+2x+%28%2B100+Chips%29%0A%0A---%0A%3E+%E2%9C%A8+**C%C3%81CH+CH%C6%A0I%3A**+Nh%E1%BA%A5n+n%C3%BAt+xanh+**%22Submit+new+issue%22**+b%C3%AAn+d%C6%B0%E1%BB%9Bi+%C4%91%E1%BB%83+quay+th%C6%B0%E1%BB%9Fng%21%0A%3E+Dealer+bot+s%E1%BA%BD+t%E1%BB%B1+%C4%91%E1%BB%99ng+tr%E1%BA%A3+k%E1%BA%BFt+qu%E1%BA%A3+v%C3%A0+ghi+danh+b%E1%BA%A1n+l%C3%AAn+B%E1%BA%A3ng+V%C3%A0ng+sau+15s."><img src="https://img.shields.io/badge/BET%20ON%20BLACK-Pays%202x-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0A1E14" alt="Bet on Black" /></a>
+    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Abet%3Ablack&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+European+Roulette%0A%E2%96%B6+**Wager**%3A+BLACK+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+2x+%28%2B100+Chips%29%0A%0A---%0A%3E+%E2%9C%A8+**HOW+TO+PLAY%3A**+Click+the+green+**%22Submit+new+issue%22**+button+below+to+roll%21%0A%3E+The+Dealer+bot+will+automatically+settle+your+bet%2C+post+the+receipt%2C+and+record+your+score+on+the+Leaderboard+in+~15s."><img src="https://img.shields.io/badge/BET%20ON%20BLACK-Pays%202x-1E293B?style=for-the-badge&logo=github&logoColor=white&labelColor=0A1E14" alt="Bet on Black" /></a>
     &nbsp;
-    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Abet%3Azero&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+European+Roulette%0A%E2%96%B6+**Wager**%3A+ZERO+0+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+36x+Jackpot+%28%2B3%2C500+Chips%29%0A%0A---%0A%3E+%E2%9C%A8+**C%C3%81CH+CH%C6%A0I%3A**+Nh%E1%BA%A5n+n%C3%BAt+xanh+**%22Submit+new+issue%22**+b%C3%AAn+d%C6%B0%E1%BB%9Bi+%C4%91%E1%BB%83+quay+th%C6%B0%E1%BB%9Fng%21%0A%3E+Dealer+bot+s%E1%BA%BD+t%E1%BB%B1+%C4%91%E1%BB%99ng+tr%E1%BA%A3+k%E1%BA%BFt+qu%E1%BA%A3+v%C3%A0+ghi+danh+b%E1%BA%A1n+l%C3%AAn+B%E1%BA%A3ng+V%C3%A0ng+sau+15s."><img src="https://img.shields.io/badge/BET%20ON%20ZERO-Pays%2036x-059669?style=for-the-badge&logo=target&logoColor=white&labelColor=0A1E14" alt="Bet on Zero" /></a>
+    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Abet%3Azero&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+European+Roulette%0A%E2%96%B6+**Wager**%3A+ZERO+0+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+36x+Jackpot+%28%2B3%2C500+Chips%29%0A%0A---%0A%3E+%E2%9C%A8+**HOW+TO+PLAY%3A**+Click+the+green+**%22Submit+new+issue%22**+button+below+to+roll%21%0A%3E+The+Dealer+bot+will+automatically+settle+your+bet%2C+post+the+receipt%2C+and+record+your+score+on+the+Leaderboard+in+~15s."><img src="https://img.shields.io/badge/BET%20ON%20ZERO-Pays%2036x-059669?style=for-the-badge&logo=target&logoColor=white&labelColor=0A1E14" alt="Bet on Zero" /></a>
     &nbsp;
-    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Aspin%3Aslot&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+Lucky+777+Slot+Machine%0A%E2%96%B6+**Wager**%3A+G%E1%BA%A1t+c%E1%BA%A7n+Slots+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+N%E1%BB%95+h%C5%A9+t%E1%BB%9Bi+50x+Mega+Jackpot+%28777%29%0A%0A---%0A%3E+%E2%9C%A8+**C%C3%81CH+CH%C6%A0I%3A**+Nh%E1%BA%A5n+n%C3%BAt+xanh+**%22Submit+new+issue%22**+b%C3%AAn+d%C6%B0%E1%BB%9Bi+%C4%91%E1%BB%83+g%E1%BA%A1t+c%E1%BA%A7n%21%0A%3E+Dealer+bot+s%E1%BA%BD+t%E1%BB%B1+%C4%91%E1%BB%99ng+quay+3+tr%E1%BB%A5c+v%C3%A0+tr%E1%BA%A3+th%C6%B0%E1%BB%9Fng+sau+15s."><img src="https://img.shields.io/badge/SPIN%20SLOTS-Win%2050x-D4AF37?style=for-the-badge&logo=counterstrike&logoColor=white&labelColor=0A1E14" alt="Spin Slots" /></a>
+    <a href="https://github.com/s4126139/s4126139/issues/new?title=casino%3Aspin%3Aslot&body=%F0%9F%8E%B0+**CASINO+ROYALE+WAGER**%0A%0A%E2%96%B6+**Game**%3A+Lucky+777+Slot+Machine%0A%E2%96%B6+**Wager**%3A+Spin+Slots+%28100+VIP+Chips%29%0A%E2%96%B6+**Payout**%3A+Up+to+50x+Mega+Jackpot+%28777%29%0A%0A---%0A%3E+%E2%9C%A8+**HOW+TO+PLAY%3A**+Click+the+green+**%22Submit+new+issue%22**+button+below+to+spin%21%0A%3E+The+Dealer+bot+will+automatically+spin+all+3+reels+and+settle+payouts+in+~15s."><img src="https://img.shields.io/badge/SPIN%20SLOTS-Win%2050x-D4AF37?style=for-the-badge&logo=counterstrike&logoColor=white&labelColor=0A1E14" alt="Spin Slots" /></a>
   </p>
-  <sub><i>(Khi bấm nút cược của Bot, hãy nhấn nút xanh <b>"Submit new issue"</b> để hệ thống bắt đầu quay thưởng)</i></sub>
+  <sub><i>(When clicking a Bot Wager, simply click the green <b>"Submit new issue"</b> button to initiate the spin)</i></sub>
 
 </div>
 
@@ -91,7 +91,7 @@
 <table width="100%">
   <tr>
     <td align="center">🏦 <b>House Vault:</b> <code>1,003,200 VIP</code></td>
-    <td align="center">📈 <b>House Net Profit (Nhà Cái Thắng):</b> <code style="color: #34D399;">+3,200 VIP</code></td>
+    <td align="center">📈 <b>House Net Profit:</b> <code style="color: #34D399;">+3,200 VIP</code></td>
     <td align="center">🎲 <b>Total Bot Wagers:</b> <code>13</code></td>
     <td align="center">⚖️ <b>House Win Rate:</b> <code>61.5%</code></td>
   </tr>

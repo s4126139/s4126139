@@ -154,7 +154,7 @@ def render_markdown_tables(ledger: dict) -> str:
     lines.append('<table width="100%">')
     lines.append('  <tr>')
     lines.append(f'    <td align="center">🏦 <b>House Vault:</b> <code>{vault_total:,} VIP</code></td>')
-    lines.append(f'    <td align="center">📈 <b>House Net Profit (Nhà Cái Thắng):</b> <code style="color: #34D399;">{profit_prefix}{net_profit:,} VIP</code></td>')
+    lines.append(f'    <td align="center">📈 <b>House Net Profit:</b> <code style="color: #34D399;">{profit_prefix}{net_profit:,} VIP</code></td>')
     lines.append(f'    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>{total_bets}</code></td>')
     lines.append(f'    <td align="center">⚖️ <b>House Win Rate:</b> <code>{win_rate}</code></td>')
     lines.append('  </tr>')
