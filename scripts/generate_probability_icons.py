@@ -80,7 +80,7 @@ def build_probability_icons_svg(theme: str = "dark") -> str:
 
   <text x="20" y="32" fill="{coin_rim}" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', monospace" font-size="9" font-weight="900" letter-spacing="1">🎰 CASINO ROYALE</text>
   <text x="20" y="48" fill="{text_secondary}" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', monospace" font-size="11" font-weight="800" letter-spacing="0.6">PROBABILITY</text>
-  <text x="20" y="64" fill="{text_muted}" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="8.5" font-weight="700">&amp; GAME THEORY · MIT 18.05</text>
+  <text x="20" y="64" fill="{text_muted}" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="8.5" font-weight="700">MIT 18.05 THEORY</text>
 
   <!-- ================= ELEMENT 1: 100% BULLETPROOF NO-OVERLAP 3D COIN FLIP ================= -->
   <g transform="translate(206, {height / 2})">

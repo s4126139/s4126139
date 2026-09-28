@@ -12,23 +12,23 @@
   <!-- Dynamic Casino Royale Typing Subtitle -->
   <a href="https://github.com/s4126139">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=3000&pause=1200&color=F59E0B&center=true&vCenter=true&random=false&width=840&lines=%F0%9F%8E%B0+Casino+Royale%3A+Kai+Nguyen+%C2%B7+High-Stakes+AI+%26+Systems;%F0%9F%8E%B2+Beating+the+House+with+Pure+Math%3A+Problem+%E2%86%92+Data+%E2%86%92+Model+%E2%86%92+System;%E2%99%A0+AI+%C3%97+Quantitative+Finance+%C2%B7+Monte+Carlo+Methods+%C2%B7+Deep+Learning;%E2%99%A3+MIT+Math+%26+Stochastic+Foundations+%C2%B7+RMIT+50%25+Merit+Scholarship" />
-      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=3000&pause=1200&color=B45309&center=true&vCenter=true&random=false&width=840&lines=%F0%9F%8E%B0+Casino+Royale%3A+Kai+Nguyen+%C2%B7+High-Stakes+AI+%26+Systems;%F0%9F%8E%B2+Beating+the+House+with+Pure+Math%3A+Problem+%E2%86%92+Data+%E2%86%92+Model+%E2%86%92+System;%E2%99%A0+AI+%C3%97+Quantitative+Finance+%C2%B7+Monte+Carlo+Methods+%C2%B7+Deep+Learning;%E2%99%A3+MIT+Math+%26+Stochastic+Foundations+%C2%B7+RMIT+50%25+Merit+Scholarship" />
-      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=3000&pause=1200&color=F59E0B&center=true&vCenter=true&random=false&width=840&lines=%F0%9F%8E%B0+Casino+Royale%3A+Kai+Nguyen+%C2%B7+High-Stakes+AI+%26+Systems;%F0%9F%8E%B2+Beating+the+House+with+Pure+Math%3A+Problem+%E2%86%92+Data+%E2%86%92+Model+%E2%86%92+System;%E2%99%A0+AI+%C3%97+Quantitative+Finance+%C2%B7+Monte+Carlo+Methods+%C2%B7+Deep+Learning;%E2%99%A3+MIT+Math+%26+Stochastic+Foundations+%C2%B7+RMIT+50%25+Merit+Scholarship" alt="Typing SVG" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=3000&pause=1200&color=F59E0B&center=true&vCenter=true&random=false&width=780&lines=Casino+Royale%3A+Kai+Nguyen+%C2%B7+High-Stakes+AI+%26+Systems;Problem+%E2%86%92+Data+%E2%86%92+Model+%E2%86%92+System;AI+%C3%97+Quantitative+Finance+%C2%B7+Monte+Carlo+Methods;MIT+Foundations+%C2%B7+RMIT+50%25+Merit+Scholarship" />
+      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=3000&pause=1200&color=B45309&center=true&vCenter=true&random=false&width=780&lines=Casino+Royale%3A+Kai+Nguyen+%C2%B7+High-Stakes+AI+%26+Systems;Problem+%E2%86%92+Data+%E2%86%92+Model+%E2%86%92+System;AI+%C3%97+Quantitative+Finance+%C2%B7+Monte+Carlo+Methods;MIT+Foundations+%C2%B7+RMIT+50%25+Merit+Scholarship" />
+      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=3000&pause=1200&color=F59E0B&center=true&vCenter=true&random=false&width=780&lines=Casino+Royale%3A+Kai+Nguyen+%C2%B7+High-Stakes+AI+%26+Systems;Problem+%E2%86%92+Data+%E2%86%92+Model+%E2%86%92+System;AI+%C3%97+Quantitative+Finance+%C2%B7+Monte+Carlo+Methods;MIT+Foundations+%C2%B7+RMIT+50%25+Merit+Scholarship" alt="Typing SVG" />
     </picture>
   </a>
 
   <!-- Casino High-Roller Status Badges -->
   <p align="center">
-    <a href="https://www.rmit.edu.vn/"><img src="https://img.shields.io/badge/%E2%99%A0_RMIT_Vietnam-Information_Technology-D4AF37?style=for-the-badge&logo=googlescholar&logoColor=white&labelColor=0A1E14" alt="RMIT Vietnam VIP Table" /></a>
-    <img src="https://img.shields.io/badge/%F0%9F%8E%B0_Jackpot-50%25_Tuition_Scholarship-E11D48?style=for-the-badge&logo=target&logoColor=white&labelColor=0A1E14" alt="50% Tuition Scholarship" />
-    <img src="https://img.shields.io/badge/%F0%9F%8E%B2_Card_Counter-Math_97.6%25-059669?style=for-the-badge&logo=checkmarx&logoColor=white&labelColor=0A1E14" alt="Engineering Math 97.6%" />
+    <a href="https://www.rmit.edu.vn/"><img src="https://img.shields.io/badge/RMIT%20Vietnam-Information%20Technology-D4AF37?style=for-the-badge&logo=googlescholar&logoColor=white&labelColor=0A1E14" alt="RMIT Vietnam VIP Table" /></a>
+    <img src="https://img.shields.io/badge/Jackpot%20Award-50%25%20Tuition%20Merit-E11D48?style=for-the-badge&logo=target&logoColor=white&labelColor=0A1E14" alt="50% Tuition Scholarship" />
+    <img src="https://img.shields.io/badge/Card%20Counter-Math%2097.6%25-059669?style=for-the-badge&logo=checkmarx&logoColor=white&labelColor=0A1E14" alt="Engineering Math 97.6%" />
     <br/>
-    <img src="https://img.shields.io/badge/%E2%99%A6_House_Special-Applied_AI_%26_Systems-D97706?style=for-the-badge&logo=openai&logoColor=white&labelColor=0A1E14" alt="Applied AI & Systems" />
-    <img src="https://img.shields.io/badge/%F0%9F%93%8D_Floor_Location-Ho_Chi_Minh%2C_VN-2547A8?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0A1E14" alt="Location" />
+    <img src="https://img.shields.io/badge/House%20Special-Applied%20AI%20%26%20Systems-D97706?style=for-the-badge&logo=openai&logoColor=white&labelColor=0A1E14" alt="Applied AI & Systems" />
+    <img src="https://img.shields.io/badge/Table%20Location-Ho%20Chi%20Minh%2C%20VN-2547A8?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0A1E14" alt="Location" />
     <br/>
     <img src="https://komarev.com/ghpvc/?username=s4126139&label=VIP%20Spectators&color=D4AF37&style=for-the-badge" alt="Profile Views" />
-    <a href="https://github.com/s4126139?tab=repositories"><img src="https://img.shields.io/badge/%E2%99%A3_High_Stakes-Open_Source_Explorer-059669?style=for-the-badge&logo=github&logoColor=white&labelColor=0A1E14" alt="Open Source Explorer" /></a>
+    <a href="https://github.com/s4126139?tab=repositories"><img src="https://img.shields.io/badge/High%20Stakes-Open%20Source%20Explorer-059669?style=for-the-badge&logo=github&logoColor=white&labelColor=0A1E14" alt="Open Source Explorer" /></a>
   </p>
 
   <!-- Live Global Markets & Odds Marquee -->
@@ -277,10 +277,10 @@
 <div align="center">
 
   <p>
-    <a href="mailto:kainguyen254@gmail.com"><img src="https://img.shields.io/badge/%E2%99%A0_Personal_Email-kainguyen254%40gmail.com-D4AF37?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A1E14" alt="Personal Email" /></a>
-    <a href="mailto:s4126139@rmit.edu.vn"><img src="https://img.shields.io/badge/%E2%99%A6_RMIT_Email-s4126139%40rmit.edu.vn-D4AF37?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A1E14" alt="School Email" /></a>
-    <a href="https://github.com/s4126139"><img src="https://img.shields.io/badge/%E2%99%A3_GitHub-s4126139-D4AF37?style=for-the-badge&logo=github&logoColor=white&labelColor=0A1E14" alt="GitHub" /></a>
-    <a href="https://linkedin.com/"><img src="https://img.shields.io/badge/%E2%99%A5_LinkedIn-Kai%20Nguyen-D4AF37?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A1E14" alt="LinkedIn" /></a>
+    <a href="mailto:kainguyen254@gmail.com"><img src="https://img.shields.io/badge/Personal%20Email-kainguyen254%40gmail.com-D4AF37?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A1E14" alt="Personal Email" /></a>
+    <a href="mailto:s4126139@rmit.edu.vn"><img src="https://img.shields.io/badge/RMIT%20Email-s4126139%40rmit.edu.vn-D4AF37?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A1E14" alt="School Email" /></a>
+    <a href="https://github.com/s4126139"><img src="https://img.shields.io/badge/GitHub-s4126139-D4AF37?style=for-the-badge&logo=github&logoColor=white&labelColor=0A1E14" alt="GitHub" /></a>
+    <a href="https://linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-Kai%20Nguyen-D4AF37?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A1E14" alt="LinkedIn" /></a>
   </p>
 
   <sub>🎰 Built by <a href="https://github.com/s4126139">Kai Nguyen</a> · <i>"In the casino of life, mathematics is the only edge that never fades."</i> · <b>Problem → Data → Model → System</b></sub>
