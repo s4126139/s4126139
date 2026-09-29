@@ -91,9 +91,9 @@
 <table width="100%">
   <tr>
     <td align="center">🏦 <b>House Vault:</b> <code>1,000,000 VIP</code></td>
-    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,705 VIP</code></td>
-    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>20</code></td>
-    <td align="center">⚖️ <b>House Win Rate:</b> <code>45.0%</code></td>
+    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,725 VIP</code></td>
+    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>21</code></td>
+    <td align="center">⚖️ <b>House Win Rate:</b> <code>42.9%</code></td>
   </tr>
 </table>
 
@@ -111,6 +111,13 @@
           <th>Result</th>
           <th>Outcome</th>
           <th>Chips</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/StochasticTrader"><b>@StochasticTrader</b></a></td>
+          <td><code>🎰 3 REELS</code></td>
+          <td><code>[♠ 🍒 ♠]</code></td>
+          <td><b>✨ PAIR MATCH</b></td>
+          <td><code>3,420</code></td>
         </tr>
         <tr>
           <td><a href="https://github.com/QuantExplorer"><b>@QuantExplorer</b></a></td>
@@ -161,13 +168,6 @@
           <td><b>✨ PAIR MATCH</b></td>
           <td><code>1,850</code></td>
         </tr>
-        <tr>
-          <td><a href="https://github.com/s4126139"><b>@s4126139</b></a></td>
-          <td><code>🎰 3 REELS</code></td>
-          <td><code>[♠ 💎 🍋]</code></td>
-          <td><b>💀 HOUSE WINS</b></td>
-          <td><code>1,700</code></td>
-        </tr>
       </table>
     </td>
     <td valign="top">
@@ -180,7 +180,7 @@
         <tr>
           <td align="center">🥇</td>
           <td><a href="https://github.com/StochasticTrader"><b>@StochasticTrader</b></a></td>
-          <td><b>3,400 VIP</b></td>
+          <td><b>3,420 VIP</b></td>
         </tr>
         <tr>
           <td align="center">🥈</td>

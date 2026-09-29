@@ -1,11 +1,21 @@
 {
-  "total_bets": 20,
+  "total_bets": 21,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -18705,
+  "house_table_deficit": -18725,
   "house_wins": 9,
-  "player_wins": 11,
-  "house_win_rate": "45.0%",
+  "player_wins": 12,
+  "house_win_rate": "42.9%",
   "recent_bets": [
+    {
+      "player": "StochasticTrader",
+      "game": "Slot 777",
+      "bet": "\ud83c\udfb0 3 REELS",
+      "roll": "[\u2660 \ud83c\udf52 \u2660]",
+      "outcome": "\u2728 PAIR MATCH",
+      "delta": "+20",
+      "balance": 3420,
+      "time": "00:10 UTC"
+    },
     {
       "player": "QuantExplorer",
       "game": "Roulette",
@@ -129,8 +139,8 @@
   ],
   "leaderboard": {
     "StochasticTrader": {
-      "chips": 3400,
-      "wins": 3,
+      "chips": 3420,
+      "wins": 4,
       "losses": 2,
       "best_win": 2500
     },
