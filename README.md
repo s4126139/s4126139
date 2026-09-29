@@ -91,9 +91,9 @@
 <table width="100%">
   <tr>
     <td align="center">🏦 <b>House Vault:</b> <code>1,000,000 VIP</code></td>
-    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,725 VIP</code></td>
-    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>21</code></td>
-    <td align="center">⚖️ <b>House Win Rate:</b> <code>42.9%</code></td>
+    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,745 VIP</code></td>
+    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>22</code></td>
+    <td align="center">⚖️ <b>House Win Rate:</b> <code>41.5%</code></td>
   </tr>
 </table>
 
@@ -111,6 +111,13 @@
           <th>Result</th>
           <th>Outcome</th>
           <th>Chips</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DeepAlpha"><b>@DeepAlpha</b></a></td>
+          <td><code>🎰 3 REELS</code></td>
+          <td><code>[🍒 ♠ 🍒]</code></td>
+          <td><b>✨ PAIR MATCH</b></td>
+          <td><code>1,020</code></td>
         </tr>
         <tr>
           <td><a href="https://github.com/StochasticTrader"><b>@StochasticTrader</b></a></td>
@@ -161,13 +168,6 @@
           <td><b>✨ PAIR MATCH</b></td>
           <td><code>1,870</code></td>
         </tr>
-        <tr>
-          <td><a href="https://github.com/s4126139"><b>@s4126139</b></a></td>
-          <td><code>🎰 3 REELS</code></td>
-          <td><code>[♠ ♠ 🍒]</code></td>
-          <td><b>✨ PAIR MATCH</b></td>
-          <td><code>1,850</code></td>
-        </tr>
       </table>
     </td>
     <td valign="top">
@@ -199,8 +199,8 @@
         </tr>
         <tr>
           <td align="center">5️⃣</td>
-          <td><a href="https://github.com/MarkovChain"><b>@MarkovChain</b></a></td>
-          <td><b>920 VIP</b></td>
+          <td><a href="https://github.com/DeepAlpha"><b>@DeepAlpha</b></a></td>
+          <td><b>1,020 VIP</b></td>
         </tr>
       </table>
     </td>
