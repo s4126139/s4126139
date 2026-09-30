@@ -1,11 +1,21 @@
 {
-  "total_bets": 25,
+  "total_bets": 26,
   "house_vault_reserve": 1000000,
   "house_table_deficit": -18730,
   "house_wins": 10,
-  "player_wins": 15,
+  "player_wins": 16,
   "house_win_rate": "41.5%",
   "recent_bets": [
+    {
+      "player": "BayesMaster",
+      "game": "Roulette",
+      "bet": "\ud83d\udd34 RED",
+      "roll": "\ud83d\udd34 RED 36",
+      "outcome": "\ud83c\udf89 WIN",
+      "delta": "+100",
+      "balance": 1120,
+      "time": "10:19 UTC"
+    },
     {
       "player": "EntropyHedge",
       "game": "Roulette",
@@ -145,16 +155,6 @@
       "delta": "+100",
       "balance": 1800,
       "time": "14:30 UTC"
-    },
-    {
-      "player": "StochasticTrader",
-      "game": "Slot 777",
-      "bet": "\ud83c\udfb0 3 REELS",
-      "roll": "[\ud83d\udc8e \ud83d\udc8e \ud83d\udc8e]",
-      "outcome": "\ud83c\udfc6 DIAMOND JACKPOT",
-      "delta": "+2500",
-      "balance": 3500,
-      "time": "14:15 UTC"
     }
   ],
   "leaderboard": {
@@ -183,8 +183,8 @@
       "best_win": 120
     },
     "BayesMaster": {
-      "chips": 1020,
-      "wins": 1,
+      "chips": 1120,
+      "wins": 2,
       "losses": 0,
       "best_win": 120
     },
