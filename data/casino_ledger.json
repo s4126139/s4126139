@@ -1,11 +1,21 @@
 {
-  "total_bets": 26,
+  "total_bets": 27,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -18730,
-  "house_wins": 10,
+  "house_table_deficit": -18695,
+  "house_wins": 11,
   "player_wins": 16,
   "house_win_rate": "41.5%",
   "recent_bets": [
+    {
+      "player": "MarkovChain",
+      "game": "Slot 777",
+      "bet": "\ud83c\udfb0 3 REELS",
+      "roll": "[\u2660 \ud83c\udf52 \ud83d\udd14]",
+      "outcome": "\ud83d\udc80 HOUSE WINS",
+      "delta": "-100",
+      "balance": 840,
+      "time": "17:35 UTC"
+    },
     {
       "player": "BayesMaster",
       "game": "Roulette",
@@ -145,16 +155,6 @@
       "delta": "-100",
       "balance": 1700,
       "time": "08:21 UTC"
-    },
-    {
-      "player": "s4126139",
-      "game": "Roulette",
-      "bet": "\ud83d\udd34 RED",
-      "roll": "\ud83d\udd34 Red 27",
-      "outcome": "\ud83c\udf89 WIN",
-      "delta": "+100",
-      "balance": 1800,
-      "time": "14:30 UTC"
     }
   ],
   "leaderboard": {
@@ -177,9 +177,9 @@
       "best_win": 100
     },
     "MarkovChain": {
-      "chips": 940,
+      "chips": 840,
       "wins": 2,
-      "losses": 1,
+      "losses": 2,
       "best_win": 120
     },
     "BayesMaster": {

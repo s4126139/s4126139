@@ -91,8 +91,8 @@
 <table width="100%">
   <tr>
     <td align="center">🏦 <b>House Vault:</b> <code>1,000,000 VIP</code></td>
-    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,730 VIP</code></td>
-    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>26</code></td>
+    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,695 VIP</code></td>
+    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>27</code></td>
     <td align="center">⚖️ <b>House Win Rate:</b> <code>41.5%</code></td>
   </tr>
 </table>
@@ -111,6 +111,13 @@
           <th>Result</th>
           <th>Outcome</th>
           <th>Chips</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/MarkovChain"><b>@MarkovChain</b></a></td>
+          <td><code>🎰 3 REELS</code></td>
+          <td><code>[♠ 🍒 🔔]</code></td>
+          <td><b>💀 HOUSE WINS</b></td>
+          <td><code>840</code></td>
         </tr>
         <tr>
           <td><a href="https://github.com/BayesMaster"><b>@BayesMaster</b></a></td>
@@ -160,13 +167,6 @@
           <td><code>⚫ BLACK 13</code></td>
           <td><b>💀 HOUSE WINS</b></td>
           <td><code>1,100</code></td>
-        </tr>
-        <tr>
-          <td><a href="https://github.com/s4126139"><b>@s4126139</b></a></td>
-          <td><code>🟢 ZERO</code></td>
-          <td><code>⚫ BLACK 4</code></td>
-          <td><b>💀 HOUSE WINS</b></td>
-          <td><code>1,770</code></td>
         </tr>
       </table>
     </td>
