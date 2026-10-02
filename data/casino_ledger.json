@@ -1,11 +1,21 @@
 {
-  "total_bets": 32,
+  "total_bets": 33,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -18945,
+  "house_table_deficit": -18965,
   "house_wins": 13,
-  "player_wins": 19,
+  "player_wins": 20,
   "house_win_rate": "41.5%",
   "recent_bets": [
+    {
+      "player": "QuantExplorer",
+      "game": "Slot 777",
+      "bet": "\ud83c\udfb0 3 REELS",
+      "roll": "[\ud83c\udf52 \u2660 \u2660]",
+      "outcome": "\u2728 PAIR MATCH",
+      "delta": "+20",
+      "balance": 1120,
+      "time": "14:26 UTC"
+    },
     {
       "player": "AlphaGoose",
       "game": "Roulette",
@@ -145,16 +155,6 @@
       "delta": "-100",
       "balance": 1770,
       "time": "10:52 UTC"
-    },
-    {
-      "player": "StochasticTrader",
-      "game": "Roulette",
-      "bet": "\ud83d\udd34 RED",
-      "roll": "\u26ab BLACK 13",
-      "outcome": "\ud83d\udc80 HOUSE WINS",
-      "delta": "-100",
-      "balance": 3400,
-      "time": "10:45 UTC"
     }
   ],
   "leaderboard": {
@@ -171,10 +171,10 @@
       "best_win": 300
     },
     "QuantExplorer": {
-      "chips": 1100,
-      "wins": 2,
+      "chips": 1120,
+      "wins": 3,
       "losses": 2,
-      "best_win": 100
+      "best_win": 120
     },
     "MarkovChain": {
       "chips": 740,
