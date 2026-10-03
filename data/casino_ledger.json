@@ -1,11 +1,21 @@
 {
-  "total_bets": 36,
+  "total_bets": 37,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -18950,
-  "house_wins": 14,
+  "house_table_deficit": -18915,
+  "house_wins": 15,
   "player_wins": 22,
   "house_win_rate": "41.5%",
   "recent_bets": [
+    {
+      "player": "AlphaGoose",
+      "game": "Roulette",
+      "bet": "\ud83d\udfe2 ZERO",
+      "roll": "\ud83d\udd34 RED 16",
+      "outcome": "\ud83d\udc80 HOUSE WINS",
+      "delta": "-100",
+      "balance": 1300,
+      "time": "15:42 UTC"
+    },
     {
       "player": "BayesMaster",
       "game": "Roulette",
@@ -145,16 +155,6 @@
       "delta": "+20",
       "balance": 940,
       "time": "17:36 UTC"
-    },
-    {
-      "player": "DeepAlpha",
-      "game": "Slot 777",
-      "bet": "\ud83c\udfb0 3 REELS",
-      "roll": "[\ud83c\udf52 \u2660 \ud83c\udf52]",
-      "outcome": "\u2728 PAIR MATCH",
-      "delta": "+20",
-      "balance": 1020,
-      "time": "10:23 UTC"
     }
   ],
   "leaderboard": {
@@ -201,9 +201,9 @@
       "best_win": 120
     },
     "AlphaGoose": {
-      "chips": 1400,
+      "chips": 1300,
       "wins": 2,
-      "losses": 0,
+      "losses": 1,
       "best_win": 400
     }
   }
