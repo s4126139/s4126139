@@ -1,11 +1,21 @@
 {
-  "total_bets": 38,
+  "total_bets": 39,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -18880,
+  "house_table_deficit": -18900,
   "house_wins": 16,
-  "player_wins": 22,
-  "house_win_rate": "42.1%",
+  "player_wins": 23,
+  "house_win_rate": "41.5%",
   "recent_bets": [
+    {
+      "player": "EntropyHedge",
+      "game": "Slot 777",
+      "bet": "\ud83c\udfb0 3 REELS",
+      "roll": "[\ud83c\udf4b \ud83c\udf52 \ud83c\udf4b]",
+      "outcome": "\u2728 PAIR MATCH",
+      "delta": "+20",
+      "balance": 1160,
+      "time": "22:39 UTC"
+    },
     {
       "player": "StochasticTrader",
       "game": "Roulette",
@@ -145,16 +155,6 @@
       "delta": "+100",
       "balance": 1100,
       "time": "03:56 UTC"
-    },
-    {
-      "player": "DeepAlpha",
-      "game": "Slot 777",
-      "bet": "\ud83c\udfb0 3 REELS",
-      "roll": "[\ud83c\udf4b \ud83c\udf52 \u2660]",
-      "outcome": "\ud83d\udc80 HOUSE WINS",
-      "delta": "-100",
-      "balance": 920,
-      "time": "23:25 UTC"
     }
   ],
   "leaderboard": {
@@ -195,8 +195,8 @@
       "best_win": 120
     },
     "EntropyHedge": {
-      "chips": 1140,
-      "wins": 3,
+      "chips": 1160,
+      "wins": 4,
       "losses": 0,
       "best_win": 120
     },
