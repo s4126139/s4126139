@@ -91,9 +91,9 @@
 <table width="100%">
   <tr>
     <td align="center">🏦 <b>House Vault:</b> <code>1,000,000 VIP</code></td>
-    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,900 VIP</code></td>
-    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>39</code></td>
-    <td align="center">⚖️ <b>House Win Rate:</b> <code>41.5%</code></td>
+    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,865 VIP</code></td>
+    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>40</code></td>
+    <td align="center">⚖️ <b>House Win Rate:</b> <code>42.5%</code></td>
   </tr>
 </table>
 
@@ -111,6 +111,13 @@
           <th>Result</th>
           <th>Outcome</th>
           <th>Chips</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/QuantExplorer"><b>@QuantExplorer</b></a></td>
+          <td><code>🎰 3 REELS</code></td>
+          <td><code>[7️⃣ 🍒 🔔]</code></td>
+          <td><b>💀 HOUSE WINS</b></td>
+          <td><code>1,020</code></td>
         </tr>
         <tr>
           <td><a href="https://github.com/EntropyHedge"><b>@EntropyHedge</b></a></td>
@@ -160,13 +167,6 @@
           <td><code>[🍒 ♠ ♠]</code></td>
           <td><b>✨ PAIR MATCH</b></td>
           <td><code>1,120</code></td>
-        </tr>
-        <tr>
-          <td><a href="https://github.com/AlphaGoose"><b>@AlphaGoose</b></a></td>
-          <td><code>⚫ BLACK</code></td>
-          <td><code>⚫ BLACK 35</code></td>
-          <td><b>🎉 WIN</b></td>
-          <td><code>1,400</code></td>
         </tr>
       </table>
     </td>
