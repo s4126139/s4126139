@@ -91,9 +91,9 @@
 <table width="100%">
   <tr>
     <td align="center">🏦 <b>House Vault:</b> <code>1,000,000 VIP</code></td>
-    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,760 VIP</code></td>
-    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>43</code></td>
-    <td align="center">⚖️ <b>House Win Rate:</b> <code>46.5%</code></td>
+    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,725 VIP</code></td>
+    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>44</code></td>
+    <td align="center">⚖️ <b>House Win Rate:</b> <code>47.7%</code></td>
   </tr>
 </table>
 
@@ -111,6 +111,13 @@
           <th>Result</th>
           <th>Outcome</th>
           <th>Chips</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/QuantExplorer"><b>@QuantExplorer</b></a></td>
+          <td><code>⚫ BLACK</code></td>
+          <td><code>🔴 RED 1</code></td>
+          <td><b>💀 HOUSE WINS</b></td>
+          <td><code>920</code></td>
         </tr>
         <tr>
           <td><a href="https://github.com/AlphaGoose"><b>@AlphaGoose</b></a></td>
@@ -160,13 +167,6 @@
           <td><code>🔴 RED 16</code></td>
           <td><b>💀 HOUSE WINS</b></td>
           <td><code>1,300</code></td>
-        </tr>
-        <tr>
-          <td><a href="https://github.com/BayesMaster"><b>@BayesMaster</b></a></td>
-          <td><code>⚫ BLACK</code></td>
-          <td><code>⚫ BLACK 15</code></td>
-          <td><b>🎉 WIN</b></td>
-          <td><code>1,220</code></td>
         </tr>
       </table>
     </td>
