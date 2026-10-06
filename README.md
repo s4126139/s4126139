@@ -91,8 +91,8 @@
 <table width="100%">
   <tr>
     <td align="center">🏦 <b>House Vault:</b> <code>1,000,000 VIP</code></td>
-    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,675 VIP</code></td>
-    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>47</code></td>
+    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,640 VIP</code></td>
+    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>48</code></td>
     <td align="center">⚖️ <b>House Win Rate:</b> <code>48.8%</code></td>
   </tr>
 </table>
@@ -111,6 +111,13 @@
           <th>Result</th>
           <th>Outcome</th>
           <th>Chips</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/EntropyHedge"><b>@EntropyHedge</b></a></td>
+          <td><code>🟢 ZERO</code></td>
+          <td><code>🔴 RED 23</code></td>
+          <td><b>💀 HOUSE WINS</b></td>
+          <td><code>1,060</code></td>
         </tr>
         <tr>
           <td><a href="https://github.com/QuantExplorer"><b>@QuantExplorer</b></a></td>
@@ -161,13 +168,6 @@
           <td><b>💀 HOUSE WINS</b></td>
           <td><code>1,120</code></td>
         </tr>
-        <tr>
-          <td><a href="https://github.com/QuantExplorer"><b>@QuantExplorer</b></a></td>
-          <td><code>🎰 3 REELS</code></td>
-          <td><code>[7️⃣ 🍒 🔔]</code></td>
-          <td><b>💀 HOUSE WINS</b></td>
-          <td><code>1,020</code></td>
-        </tr>
       </table>
     </td>
     <td valign="top">
@@ -195,7 +195,7 @@
         <tr>
           <td align="center">4️⃣</td>
           <td><a href="https://github.com/EntropyHedge"><b>@EntropyHedge</b></a></td>
-          <td><b>1,160 VIP</b></td>
+          <td><b>1,060 VIP</b></td>
         </tr>
         <tr>
           <td align="center">5️⃣</td>

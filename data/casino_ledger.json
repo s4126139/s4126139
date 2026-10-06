@@ -1,11 +1,21 @@
 {
-  "total_bets": 47,
+  "total_bets": 48,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -18675,
-  "house_wins": 23,
+  "house_table_deficit": -18640,
+  "house_wins": 24,
   "player_wins": 24,
   "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "EntropyHedge",
+      "game": "Roulette",
+      "bet": "\ud83d\udfe2 ZERO",
+      "roll": "\ud83d\udd34 RED 23",
+      "outcome": "\ud83d\udc80 HOUSE WINS",
+      "delta": "-100",
+      "balance": 1060,
+      "time": "17:54 UTC"
+    },
     {
       "player": "QuantExplorer",
       "game": "Slot 777",
@@ -145,16 +155,6 @@
       "delta": "-100",
       "balance": 3320,
       "time": "20:20 UTC"
-    },
-    {
-      "player": "QuantExplorer",
-      "game": "Slot 777",
-      "bet": "\ud83c\udfb0 3 REELS",
-      "roll": "[\ud83c\udf52 \u2660 \u2660]",
-      "outcome": "\u2728 PAIR MATCH",
-      "delta": "+20",
-      "balance": 1120,
-      "time": "14:26 UTC"
     }
   ],
   "leaderboard": {
@@ -195,9 +195,9 @@
       "best_win": 120
     },
     "EntropyHedge": {
-      "chips": 1160,
+      "chips": 1060,
       "wins": 4,
-      "losses": 0,
+      "losses": 1,
       "best_win": 120
     },
     "AlphaGoose": {
