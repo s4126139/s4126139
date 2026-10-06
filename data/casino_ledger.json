@@ -1,11 +1,21 @@
 {
-  "total_bets": 48,
+  "total_bets": 49,
   "house_vault_reserve": 1000000,
   "house_table_deficit": -18640,
   "house_wins": 24,
-  "player_wins": 24,
+  "player_wins": 25,
   "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "QuantExplorer",
+      "game": "Roulette",
+      "bet": "\ud83d\udd34 RED",
+      "roll": "\ud83d\udd34 RED 23",
+      "outcome": "\ud83c\udf89 WIN",
+      "delta": "+100",
+      "balance": 1040,
+      "time": "23:33 UTC"
+    },
     {
       "player": "EntropyHedge",
       "game": "Roulette",
@@ -145,16 +155,6 @@
       "delta": "+20",
       "balance": 1140,
       "time": "03:45 UTC"
-    },
-    {
-      "player": "StochasticTrader",
-      "game": "Roulette",
-      "bet": "\u26ab BLACK",
-      "roll": "\ud83d\udd34 RED 27",
-      "outcome": "\ud83d\udc80 HOUSE WINS",
-      "delta": "-100",
-      "balance": 3320,
-      "time": "20:20 UTC"
     }
   ],
   "leaderboard": {
@@ -171,8 +171,8 @@
       "best_win": 300
     },
     "QuantExplorer": {
-      "chips": 940,
-      "wins": 4,
+      "chips": 1040,
+      "wins": 5,
       "losses": 4,
       "best_win": 120
     },
