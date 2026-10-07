@@ -1,11 +1,21 @@
 {
-  "total_bets": 50,
+  "total_bets": 51,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -18660,
-  "house_wins": 24,
+  "house_table_deficit": -18625,
+  "house_wins": 25,
   "player_wins": 26,
-  "house_win_rate": "48.0%",
+  "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "MarkovChain",
+      "game": "Roulette",
+      "bet": "\ud83d\udfe2 ZERO",
+      "roll": "\ud83d\udd34 RED 25",
+      "outcome": "\ud83d\udc80 HOUSE WINS",
+      "delta": "-100",
+      "balance": 540,
+      "time": "15:03 UTC"
+    },
     {
       "player": "DeepAlpha",
       "game": "Slot 777",
@@ -145,16 +155,6 @@
       "delta": "-100",
       "balance": 1300,
       "time": "15:42 UTC"
-    },
-    {
-      "player": "BayesMaster",
-      "game": "Roulette",
-      "bet": "\u26ab BLACK",
-      "roll": "\u26ab BLACK 15",
-      "outcome": "\ud83c\udf89 WIN",
-      "delta": "+100",
-      "balance": 1220,
-      "time": "09:39 UTC"
     }
   ],
   "leaderboard": {
@@ -177,9 +177,9 @@
       "best_win": 120
     },
     "MarkovChain": {
-      "chips": 640,
+      "chips": 540,
       "wins": 2,
-      "losses": 4,
+      "losses": 5,
       "best_win": 120
     },
     "BayesMaster": {
