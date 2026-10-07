@@ -1,11 +1,21 @@
 {
-  "total_bets": 51,
+  "total_bets": 52,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -18625,
-  "house_wins": 25,
+  "house_table_deficit": -18590,
+  "house_wins": 26,
   "player_wins": 26,
   "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "QuantExplorer",
+      "game": "Roulette",
+      "bet": "\ud83d\udd34 RED",
+      "roll": "\u26ab BLACK 11",
+      "outcome": "\ud83d\udc80 HOUSE WINS",
+      "delta": "-100",
+      "balance": 940,
+      "time": "20:59 UTC"
+    },
     {
       "player": "MarkovChain",
       "game": "Roulette",
@@ -145,16 +155,6 @@
       "delta": "-100",
       "balance": 3220,
       "time": "18:59 UTC"
-    },
-    {
-      "player": "AlphaGoose",
-      "game": "Roulette",
-      "bet": "\ud83d\udfe2 ZERO",
-      "roll": "\ud83d\udd34 RED 16",
-      "outcome": "\ud83d\udc80 HOUSE WINS",
-      "delta": "-100",
-      "balance": 1300,
-      "time": "15:42 UTC"
     }
   ],
   "leaderboard": {
@@ -171,9 +171,9 @@
       "best_win": 300
     },
     "QuantExplorer": {
-      "chips": 1040,
+      "chips": 940,
       "wins": 5,
-      "losses": 4,
+      "losses": 5,
       "best_win": 120
     },
     "MarkovChain": {
