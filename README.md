@@ -92,7 +92,7 @@
   <tr>
     <td align="center">🏦 <b>House Vault:</b> <code>1,000,000 VIP</code></td>
     <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,345 VIP</code></td>
-    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>60</code></td>
+    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>61</code></td>
     <td align="center">⚖️ <b>House Win Rate:</b> <code>48.8%</code></td>
   </tr>
 </table>
@@ -111,6 +111,13 @@
           <th>Result</th>
           <th>Outcome</th>
           <th>Chips</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/QuantExplorer"><b>@QuantExplorer</b></a></td>
+          <td><code>🔴 RED</code></td>
+          <td><code>🔴 RED 25</code></td>
+          <td><b>🎉 WIN</b></td>
+          <td><code>840</code></td>
         </tr>
         <tr>
           <td><a href="https://github.com/StochasticTrader"><b>@StochasticTrader</b></a></td>
@@ -160,13 +167,6 @@
           <td><code>⚫ BLACK 17</code></td>
           <td><b>🎉 WIN</b></td>
           <td><code>1,200</code></td>
-        </tr>
-        <tr>
-          <td><a href="https://github.com/AlphaGoose"><b>@AlphaGoose</b></a></td>
-          <td><code>🔴 RED</code></td>
-          <td><code>⚫ BLACK 4</code></td>
-          <td><b>💀 HOUSE WINS</b></td>
-          <td><code>1,100</code></td>
         </tr>
       </table>
     </td>
