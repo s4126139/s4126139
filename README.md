@@ -91,8 +91,8 @@
 <table width="100%">
   <tr>
     <td align="center">🏦 <b>House Vault:</b> <code>1,000,000 VIP</code></td>
-    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,095 VIP</code></td>
-    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>77</code></td>
+    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,060 VIP</code></td>
+    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>78</code></td>
     <td align="center">⚖️ <b>House Win Rate:</b> <code>48.8%</code></td>
   </tr>
 </table>
@@ -111,6 +111,13 @@
           <th>Result</th>
           <th>Outcome</th>
           <th>Chips</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/BayesMaster"><b>@BayesMaster</b></a></td>
+          <td><code>🎰 3 REELS</code></td>
+          <td><code>[🍒 ♠ 🍋]</code></td>
+          <td><b>💀 HOUSE WINS</b></td>
+          <td><code>820</code></td>
         </tr>
         <tr>
           <td><a href="https://github.com/StochasticTrader"><b>@StochasticTrader</b></a></td>
@@ -161,13 +168,6 @@
           <td><b>🎉 WIN</b></td>
           <td><code>1,100</code></td>
         </tr>
-        <tr>
-          <td><a href="https://github.com/QuantExplorer"><b>@QuantExplorer</b></a></td>
-          <td><code>🔴 RED</code></td>
-          <td><code>⚫ BLACK 6</code></td>
-          <td><b>💀 HOUSE WINS</b></td>
-          <td><code>740</code></td>
-        </tr>
       </table>
     </td>
     <td valign="top">
@@ -194,13 +194,13 @@
         </tr>
         <tr>
           <td align="center">4️⃣</td>
-          <td><a href="https://github.com/BayesMaster"><b>@BayesMaster</b></a></td>
-          <td><b>920 VIP</b></td>
+          <td><a href="https://github.com/EntropyHedge"><b>@EntropyHedge</b></a></td>
+          <td><b>880 VIP</b></td>
         </tr>
         <tr>
           <td align="center">5️⃣</td>
-          <td><a href="https://github.com/EntropyHedge"><b>@EntropyHedge</b></a></td>
-          <td><b>880 VIP</b></td>
+          <td><a href="https://github.com/BayesMaster"><b>@BayesMaster</b></a></td>
+          <td><b>820 VIP</b></td>
         </tr>
       </table>
     </td>
