@@ -1,11 +1,21 @@
 {
-  "total_bets": 93,
+  "total_bets": 94,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -18180,
+  "house_table_deficit": -18200,
   "house_wins": 52,
-  "player_wins": 41,
+  "player_wins": 42,
   "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "EntropyHedge",
+      "game": "Slot 777",
+      "bet": "\ud83c\udfb0 3 REELS",
+      "roll": "[\ud83c\udf4b 7\ufe0f\u20e3 \ud83c\udf4b]",
+      "outcome": "\u2728 PAIR MATCH",
+      "delta": "+20",
+      "balance": 1220,
+      "time": "22:12 UTC"
+    },
     {
       "player": "DeepAlpha",
       "game": "Slot 777",
@@ -145,16 +155,6 @@
       "delta": "-100",
       "balance": 1040,
       "time": "22:52 UTC"
-    },
-    {
-      "player": "EntropyHedge",
-      "game": "Slot 777",
-      "bet": "\ud83c\udfb0 3 REELS",
-      "roll": "[\ud83c\udf52 \ud83c\udf52 \u2660]",
-      "outcome": "\u2728 PAIR MATCH",
-      "delta": "+20",
-      "balance": 900,
-      "time": "16:17 UTC"
     }
   ],
   "leaderboard": {
@@ -195,8 +195,8 @@
       "best_win": 120
     },
     "EntropyHedge": {
-      "chips": 1200,
-      "wins": 7,
+      "chips": 1220,
+      "wins": 8,
       "losses": 3,
       "best_win": 400
     },
