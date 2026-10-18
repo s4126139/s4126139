@@ -91,8 +91,8 @@
 <table width="100%">
   <tr>
     <td align="center">🏦 <b>House Vault:</b> <code>1,000,000 VIP</code></td>
-    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,285 VIP</code></td>
-    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>90</code></td>
+    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,250 VIP</code></td>
+    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>91</code></td>
     <td align="center">⚖️ <b>House Win Rate:</b> <code>48.8%</code></td>
   </tr>
 </table>
@@ -111,6 +111,13 @@
           <th>Result</th>
           <th>Outcome</th>
           <th>Chips</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/QuantExplorer"><b>@QuantExplorer</b></a></td>
+          <td><code>⚫ BLACK</code></td>
+          <td><code>🔴 RED 27</code></td>
+          <td><b>💀 HOUSE WINS</b></td>
+          <td><code>660</code></td>
         </tr>
         <tr>
           <td><a href="https://github.com/AlphaGoose"><b>@AlphaGoose</b></a></td>
@@ -161,13 +168,6 @@
           <td><b>💀 HOUSE WINS</b></td>
           <td><code>960</code></td>
         </tr>
-        <tr>
-          <td><a href="https://github.com/AlphaGoose"><b>@AlphaGoose</b></a></td>
-          <td><code>🎰 3 REELS</code></td>
-          <td><code>[🍋 🍋 ♠]</code></td>
-          <td><b>✨ PAIR MATCH</b></td>
-          <td><code>1,060</code></td>
-        </tr>
       </table>
     </td>
     <td valign="top">
@@ -199,8 +199,8 @@
         </tr>
         <tr>
           <td align="center">5️⃣</td>
-          <td><a href="https://github.com/QuantExplorer"><b>@QuantExplorer</b></a></td>
-          <td><b>760 VIP</b></td>
+          <td><a href="https://github.com/BayesMaster"><b>@BayesMaster</b></a></td>
+          <td><b>720 VIP</b></td>
         </tr>
       </table>
     </td>
