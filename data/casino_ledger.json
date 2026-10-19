@@ -1,11 +1,21 @@
 {
-  "total_bets": 94,
+  "total_bets": 95,
   "house_vault_reserve": 1000000,
   "house_table_deficit": -18200,
   "house_wins": 52,
-  "player_wins": 42,
+  "player_wins": 43,
   "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "DeepAlpha",
+      "game": "Roulette",
+      "bet": "\ud83d\udd34 RED",
+      "roll": "\ud83d\udd34 RED 18",
+      "outcome": "\ud83c\udf89 WIN",
+      "delta": "+100",
+      "balance": 660,
+      "time": "03:12 UTC"
+    },
     {
       "player": "EntropyHedge",
       "game": "Slot 777",
@@ -145,16 +155,6 @@
       "delta": "+20",
       "balance": 760,
       "time": "03:05 UTC"
-    },
-    {
-      "player": "AlphaGoose",
-      "game": "Roulette",
-      "bet": "\ud83d\udfe2 ZERO",
-      "roll": "\u26ab BLACK 28",
-      "outcome": "\ud83d\udc80 HOUSE WINS",
-      "delta": "-100",
-      "balance": 1040,
-      "time": "22:52 UTC"
     }
   ],
   "leaderboard": {
@@ -189,8 +189,8 @@
       "best_win": 120
     },
     "DeepAlpha": {
-      "chips": 560,
-      "wins": 4,
+      "chips": 660,
+      "wins": 5,
       "losses": 6,
       "best_win": 120
     },
