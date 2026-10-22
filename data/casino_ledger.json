@@ -1,11 +1,21 @@
 {
-  "total_bets": 108,
+  "total_bets": 109,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -18055,
-  "house_wins": 59,
+  "house_table_deficit": -18020,
+  "house_wins": 60,
   "player_wins": 49,
   "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "AlphaGoose",
+      "game": "Slot 777",
+      "bet": "\ud83c\udfb0 3 REELS",
+      "roll": "[\u2660 \ud83c\udf4b \ud83d\udd14]",
+      "outcome": "\ud83d\udc80 HOUSE WINS",
+      "delta": "-100",
+      "balance": 760,
+      "time": "16:36 UTC"
+    },
     {
       "player": "MarkovChain",
       "game": "Slot 777",
@@ -145,16 +155,6 @@
       "delta": "+100",
       "balance": 660,
       "time": "03:12 UTC"
-    },
-    {
-      "player": "EntropyHedge",
-      "game": "Slot 777",
-      "bet": "\ud83c\udfb0 3 REELS",
-      "roll": "[\ud83c\udf4b 7\ufe0f\u20e3 \ud83c\udf4b]",
-      "outcome": "\u2728 PAIR MATCH",
-      "delta": "+20",
-      "balance": 1220,
-      "time": "22:12 UTC"
     }
   ],
   "leaderboard": {
@@ -201,9 +201,9 @@
       "best_win": 400
     },
     "AlphaGoose": {
-      "chips": 860,
+      "chips": 760,
       "wins": 8,
-      "losses": 9,
+      "losses": 10,
       "best_win": 400
     }
   }
