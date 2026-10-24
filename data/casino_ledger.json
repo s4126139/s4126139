@@ -1,11 +1,21 @@
 {
-  "total_bets": 118,
+  "total_bets": 119,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -17960,
+  "house_table_deficit": -17980,
   "house_wins": 64,
-  "player_wins": 54,
+  "player_wins": 55,
   "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "BayesMaster",
+      "game": "Slot 777",
+      "bet": "\ud83c\udfb0 3 REELS",
+      "roll": "[\ud83c\udf52 \ud83c\udf52 \ud83c\udf4b]",
+      "outcome": "\u2728 PAIR MATCH",
+      "delta": "+20",
+      "balance": 580,
+      "time": "22:13 UTC"
+    },
     {
       "player": "AlphaGoose",
       "game": "Slot 777",
@@ -145,16 +155,6 @@
       "delta": "+100",
       "balance": 860,
       "time": "16:35 UTC"
-    },
-    {
-      "player": "StochasticTrader",
-      "game": "Slot 777",
-      "bet": "\ud83c\udfb0 3 REELS",
-      "roll": "[\ud83c\udf52 \ud83c\udf4b \ud83c\udf4b]",
-      "outcome": "\u2728 PAIR MATCH",
-      "delta": "+20",
-      "balance": 2660,
-      "time": "09:06 UTC"
     }
   ],
   "leaderboard": {
@@ -183,8 +183,8 @@
       "best_win": 120
     },
     "BayesMaster": {
-      "chips": 560,
-      "wins": 6,
+      "chips": 580,
+      "wins": 7,
       "losses": 8,
       "best_win": 120
     },
