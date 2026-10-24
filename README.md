@@ -92,7 +92,7 @@
   <tr>
     <td align="center">🏦 <b>House Vault:</b> <code>1,000,000 VIP</code></td>
     <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-17,940 VIP</code></td>
-    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>116</code></td>
+    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>117</code></td>
     <td align="center">⚖️ <b>House Win Rate:</b> <code>48.8%</code></td>
   </tr>
 </table>
@@ -111,6 +111,13 @@
           <th>Result</th>
           <th>Outcome</th>
           <th>Chips</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/BayesMaster"><b>@BayesMaster</b></a></td>
+          <td><code>⚫ BLACK</code></td>
+          <td><code>⚫ BLACK 4</code></td>
+          <td><b>🎉 WIN</b></td>
+          <td><code>560</code></td>
         </tr>
         <tr>
           <td><a href="https://github.com/StochasticTrader"><b>@StochasticTrader</b></a></td>
@@ -160,13 +167,6 @@
           <td><code>⚫ BLACK 24</code></td>
           <td><b>💀 HOUSE WINS</b></td>
           <td><code>460</code></td>
-        </tr>
-        <tr>
-          <td><a href="https://github.com/AlphaGoose"><b>@AlphaGoose</b></a></td>
-          <td><code>🎰 3 REELS</code></td>
-          <td><code>[♠ 🍋 🔔]</code></td>
-          <td><b>💀 HOUSE WINS</b></td>
-          <td><code>760</code></td>
         </tr>
       </table>
     </td>
