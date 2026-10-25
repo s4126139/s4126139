@@ -1,11 +1,21 @@
 {
-  "total_bets": 119,
+  "total_bets": 120,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -17980,
-  "house_wins": 64,
+  "house_table_deficit": -17945,
+  "house_wins": 65,
   "player_wins": 55,
   "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "EntropyHedge",
+      "game": "Roulette",
+      "bet": "\u26ab BLACK",
+      "roll": "\ud83d\udd34 RED 7",
+      "outcome": "\ud83d\udc80 HOUSE WINS",
+      "delta": "-100",
+      "balance": 1140,
+      "time": "03:09 UTC"
+    },
     {
       "player": "BayesMaster",
       "game": "Slot 777",
@@ -145,16 +155,6 @@
       "delta": "-100",
       "balance": 560,
       "time": "23:00 UTC"
-    },
-    {
-      "player": "AlphaGoose",
-      "game": "Roulette",
-      "bet": "\u26ab BLACK",
-      "roll": "\u26ab BLACK 17",
-      "outcome": "\ud83c\udf89 WIN",
-      "delta": "+100",
-      "balance": 860,
-      "time": "16:35 UTC"
     }
   ],
   "leaderboard": {
@@ -195,9 +195,9 @@
       "best_win": 120
     },
     "EntropyHedge": {
-      "chips": 1240,
+      "chips": 1140,
       "wins": 9,
-      "losses": 3,
+      "losses": 4,
       "best_win": 400
     },
     "AlphaGoose": {
