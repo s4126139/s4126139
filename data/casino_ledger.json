@@ -1,11 +1,21 @@
 {
-  "total_bets": 126,
+  "total_bets": 127,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -17845,
+  "house_table_deficit": -17865,
   "house_wins": 69,
-  "player_wins": 57,
+  "player_wins": 58,
   "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "DeepAlpha",
+      "game": "Slot 777",
+      "bet": "\ud83c\udfb0 3 REELS",
+      "roll": "[\ud83c\udf4b \ud83c\udf4b \ud83d\udd14]",
+      "outcome": "\u2728 PAIR MATCH",
+      "delta": "+20",
+      "balance": 280,
+      "time": "18:13 UTC"
+    },
     {
       "player": "MarkovChain",
       "game": "Slot 777",
@@ -145,16 +155,6 @@
       "delta": "+20",
       "balance": 240,
       "time": "16:26 UTC"
-    },
-    {
-      "player": "StochasticTrader",
-      "game": "Slot 777",
-      "bet": "\ud83c\udfb0 3 REELS",
-      "roll": "[\ud83d\udd14 \u2660 \ud83c\udf52]",
-      "outcome": "\ud83d\udc80 HOUSE WINS",
-      "delta": "-100",
-      "balance": 2560,
-      "time": "09:05 UTC"
     }
   ],
   "leaderboard": {
@@ -189,8 +189,8 @@
       "best_win": 120
     },
     "DeepAlpha": {
-      "chips": 260,
-      "wins": 5,
+      "chips": 280,
+      "wins": 6,
       "losses": 10,
       "best_win": 120
     },
