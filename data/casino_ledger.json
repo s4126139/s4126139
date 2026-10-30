@@ -1,11 +1,21 @@
 {
-  "total_bets": 141,
+  "total_bets": 142,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -17735,
+  "house_table_deficit": -18035,
   "house_wins": 75,
-  "player_wins": 66,
+  "player_wins": 67,
   "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "MarkovChain",
+      "game": "Slot 777",
+      "bet": "\ud83c\udfb0 3 REELS",
+      "roll": "[\ud83c\udf4b \ud83c\udf4b \ud83c\udf4b]",
+      "outcome": "\ud83c\udf89 TRIPLE MATCH",
+      "delta": "+300",
+      "balance": 900,
+      "time": "20:23 UTC"
+    },
     {
       "player": "QuantExplorer",
       "game": "Roulette",
@@ -145,16 +155,6 @@
       "delta": "-100",
       "balance": 180,
       "time": "23:33 UTC"
-    },
-    {
-      "player": "DeepAlpha",
-      "game": "Slot 777",
-      "bet": "\ud83c\udfb0 3 REELS",
-      "roll": "[\ud83c\udf4b \ud83c\udf4b \ud83d\udd14]",
-      "outcome": "\u2728 PAIR MATCH",
-      "delta": "+20",
-      "balance": 280,
-      "time": "18:13 UTC"
     }
   ],
   "leaderboard": {
@@ -177,10 +177,10 @@
       "best_win": 120
     },
     "MarkovChain": {
-      "chips": 600,
-      "wins": 9,
+      "chips": 900,
+      "wins": 10,
       "losses": 11,
-      "best_win": 120
+      "best_win": 400
     },
     "BayesMaster": {
       "chips": 580,
