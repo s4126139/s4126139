@@ -1,11 +1,21 @@
 {
-  "total_bets": 142,
+  "total_bets": 143,
   "house_vault_reserve": 1000000,
   "house_table_deficit": -18035,
   "house_wins": 75,
-  "player_wins": 67,
+  "player_wins": 68,
   "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "AlphaGoose",
+      "game": "Roulette",
+      "bet": "\u26ab BLACK",
+      "roll": "\u26ab BLACK 26",
+      "outcome": "\ud83c\udf89 WIN",
+      "delta": "+100",
+      "balance": 780,
+      "time": "03:59 UTC"
+    },
     {
       "player": "MarkovChain",
       "game": "Slot 777",
@@ -145,16 +155,6 @@
       "delta": "+100",
       "balance": 2460,
       "time": "03:40 UTC"
-    },
-    {
-      "player": "DeepAlpha",
-      "game": "Roulette",
-      "bet": "\ud83d\udd34 RED",
-      "roll": "\u26ab BLACK 29",
-      "outcome": "\ud83d\udc80 HOUSE WINS",
-      "delta": "-100",
-      "balance": 180,
-      "time": "23:33 UTC"
     }
   ],
   "leaderboard": {
@@ -201,8 +201,8 @@
       "best_win": 400
     },
     "AlphaGoose": {
-      "chips": 680,
-      "wins": 9,
+      "chips": 780,
+      "wins": 10,
       "losses": 11,
       "best_win": 400
     }
