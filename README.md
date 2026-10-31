@@ -91,8 +91,8 @@
 <table width="100%">
   <tr>
     <td align="center">🏦 <b>House Vault:</b> <code>1,000,000 VIP</code></td>
-    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-18,000 VIP</code></td>
-    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>144</code></td>
+    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-17,965 VIP</code></td>
+    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>145</code></td>
     <td align="center">⚖️ <b>House Win Rate:</b> <code>48.8%</code></td>
   </tr>
 </table>
@@ -111,6 +111,13 @@
           <th>Result</th>
           <th>Outcome</th>
           <th>Chips</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DeepAlpha"><b>@DeepAlpha</b></a></td>
+          <td><code>🎰 3 REELS</code></td>
+          <td><code>[🍒 🍋 🔔]</code></td>
+          <td><b>💀 HOUSE WINS</b></td>
+          <td><code>80</code></td>
         </tr>
         <tr>
           <td><a href="https://github.com/StochasticTrader"><b>@StochasticTrader</b></a></td>
@@ -160,13 +167,6 @@
           <td><code>[♠ 🍒 ♠]</code></td>
           <td><b>✨ PAIR MATCH</b></td>
           <td><code>2,380</code></td>
-        </tr>
-        <tr>
-          <td><a href="https://github.com/EntropyHedge"><b>@EntropyHedge</b></a></td>
-          <td><code>🎰 3 REELS</code></td>
-          <td><code>[🍒 🔔 🔔]</code></td>
-          <td><b>✨ PAIR MATCH</b></td>
-          <td><code>1,300</code></td>
         </tr>
       </table>
     </td>
