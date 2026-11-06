@@ -1,11 +1,21 @@
 {
-  "total_bets": 160,
+  "total_bets": 161,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -18395,
-  "house_wins": 83,
+  "house_table_deficit": -18360,
+  "house_wins": 84,
   "player_wins": 77,
   "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "StochasticTrader",
+      "game": "Slot 777",
+      "bet": "\ud83c\udfb0 3 REELS",
+      "roll": "[\ud83c\udf4b \ud83c\udf52 \ud83d\udc8e]",
+      "outcome": "\ud83d\udc80 HOUSE WINS",
+      "delta": "-100",
+      "balance": 2180,
+      "time": "00:43 UTC"
+    },
     {
       "player": "DeepAlpha",
       "game": "Slot 777",
@@ -145,23 +155,13 @@
       "delta": "+100",
       "balance": 600,
       "time": "04:20 UTC"
-    },
-    {
-      "player": "AlphaGoose",
-      "game": "Roulette",
-      "bet": "\u26ab BLACK",
-      "roll": "\u26ab BLACK 8",
-      "outcome": "\ud83c\udf89 WIN",
-      "delta": "+100",
-      "balance": 880,
-      "time": "23:04 UTC"
     }
   ],
   "leaderboard": {
     "StochasticTrader": {
-      "chips": 2280,
+      "chips": 2180,
       "wins": 8,
-      "losses": 15,
+      "losses": 16,
       "best_win": 2500
     },
     "s4126139": {
