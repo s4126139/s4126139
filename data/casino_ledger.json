@@ -1,11 +1,21 @@
 {
-  "total_bets": 181,
+  "total_bets": 182,
   "house_vault_reserve": 1000000,
   "house_table_deficit": -17840,
   "house_wins": 100,
-  "player_wins": 81,
+  "player_wins": 82,
   "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "EntropyHedge",
+      "game": "Roulette",
+      "bet": "\u26ab BLACK",
+      "roll": "\u26ab BLACK 15",
+      "outcome": "\ud83c\udf89 WIN",
+      "delta": "+100",
+      "balance": 700,
+      "time": "00:52 UTC"
+    },
     {
       "player": "EntropyHedge",
       "game": "Slot 777",
@@ -145,16 +155,6 @@
       "delta": "-100",
       "balance": 300,
       "time": "23:24 UTC"
-    },
-    {
-      "player": "MarkovChain",
-      "game": "Slot 777",
-      "bet": "\ud83c\udfb0 3 REELS",
-      "roll": "[\u2660 \ud83d\udc8e \ud83c\udf4b]",
-      "outcome": "\ud83d\udc80 HOUSE WINS",
-      "delta": "-100",
-      "balance": 1200,
-      "time": "19:51 UTC"
     }
   ],
   "leaderboard": {
@@ -195,8 +195,8 @@
       "best_win": 120
     },
     "EntropyHedge": {
-      "chips": 600,
-      "wins": 13,
+      "chips": 700,
+      "wins": 14,
       "losses": 11,
       "best_win": 400
     },
