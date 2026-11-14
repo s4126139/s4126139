@@ -1,0 +1,125 @@
+<svg width="100%" height="84" viewBox="0 0 1000 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Coin Gold Gradient -->
+    <linearGradient id="coinGrad_light" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="45%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+
+    <!-- Card Shadow Filter -->
+    <filter id="cardShadow_light" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="1000" height="84" rx="8" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="1"/>
+
+  <!-- Left Header Badge -->
+  <rect x="0" y="0" width="168" height="84" rx="8" fill="#F6F8FA"/>
+  <rect x="158" y="0" width="10" height="84" fill="#F6F8FA"/>
+  <line x1="168" y1="0" x2="168" y2="84" stroke="#D0D7DE" stroke-width="1"/>
+
+  <text x="20" y="32" fill="#D97706" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', monospace" font-size="9" font-weight="900" letter-spacing="1">🎰 CASINO ROYALE</text>
+  <text x="20" y="48" fill="#2547A8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', monospace" font-size="11" font-weight="800" letter-spacing="0.6">PROBABILITY</text>
+  <text x="20" y="64" fill="#57606A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="8.5" font-weight="700">MIT 18.05 THEORY</text>
+
+  <!-- ================= ELEMENT 1: 100% BULLETPROOF NO-OVERLAP 3D COIN FLIP ================= -->
+  <g transform="translate(206, 42.0)">
+    <g>
+      <!-- ScaleX oscillation creates 3D spin: edge-on at t=0.25 and t=0.75 -->
+      <animateTransform attributeName="transform" type="scale" values="1 1; 0.04 1; 1 1; 0.04 1; 1 1" keyTimes="0; 0.25; 0.5; 0.75; 1" dur="2.4s" repeatCount="indefinite" additive="sum"/>
+      
+      <!-- Coin Rim -->
+      <circle cx="0" cy="0" r="23" fill="url(#coinGrad_light)" stroke="#D97706" stroke-width="1.8"/>
+      <circle cx="0" cy="0" r="19" fill="none" stroke="#FEF3C7" stroke-width="1" stroke-dasharray="3,2"/>
+
+      <!-- Face H: Visible only on first half of flip (t: 0 -> 0.245 and 0.755 -> 1.0) -->
+      <g opacity="1" visibility="visible">
+        <animate attributeName="opacity" values="1; 1; 0; 0; 1; 1" keyTimes="0; 0.245; 0.255; 0.745; 0.755; 1" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="visibility" values="visible; visible; hidden; hidden; visible; visible" keyTimes="0; 0.245; 0.255; 0.745; 0.755; 1" dur="2.4s" repeatCount="indefinite"/>
+        <text x="0" y="7" fill="#78350F" font-family="'JetBrains Mono', Georgia, serif" font-size="18" font-weight="900" text-anchor="middle">H</text>
+      </g>
+
+      <!-- Face T: Visible only on second half of flip (t: 0.255 -> 0.745) -->
+      <g opacity="0" visibility="hidden">
+        <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.245; 0.255; 0.745; 0.755; 1" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="visibility" values="hidden; hidden; visible; visible; hidden; hidden" keyTimes="0; 0.245; 0.255; 0.745; 0.755; 1" dur="2.4s" repeatCount="indefinite"/>
+        <text x="0" y="7" fill="#78350F" font-family="'JetBrains Mono', Georgia, serif" font-size="18" font-weight="900" text-anchor="middle">T</text>
+      </g>
+    </g>
+  </g>
+  <text x="246" y="38" fill="#24292F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" font-weight="700">Bernoulli Trial (Coin Flip: H / T)</text>
+  <text x="246" y="55" fill="#57606A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="9.5">Fair Coin P(H) = P(T) = 0.5 · Random Walk</text>
+
+  <!-- Vertical Divider 1 -->
+  <line x1="445" y1="12" x2="445" y2="72" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="2,2"/>
+
+  <!-- ================= ELEMENT 2: ROLLING TUMBLING DICE ================= -->
+  <g transform="translate(484, 42.0)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0; 18; -12; 360" dur="3.4s" repeatCount="indefinite"/>
+      <rect x="-16" y="-16" width="32" height="32" rx="6.5" fill="#FFFFFF" stroke="#2547A8" stroke-width="1.8"/>
+      <circle cx="-7" cy="-7" r="2.8" fill="#24292F"/>
+      <circle cx="7" cy="-7" r="2.8" fill="#24292F"/>
+      <circle cx="0" cy="0" r="2.8" fill="#E11D48"/>
+      <circle cx="-7" cy="7" r="2.8" fill="#24292F"/>
+      <circle cx="7" cy="7" r="2.8" fill="#24292F"/>
+    </g>
+  </g>
+  <text x="522" y="38" fill="#24292F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" font-weight="700">Discrete Law of Large Numbers</text>
+  <text x="522" y="55" fill="#57606A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="9.5">Fair Die: E[X] = 3.5 · Var[X] = 35/12</text>
+
+  <!-- Vertical Divider 2 -->
+  <line x1="728" y1="12" x2="728" y2="72" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="2,2"/>
+
+  <!-- ================= ELEMENT 3: DYNAMIC DEALING & FANNING CARD HAND ================= -->
+  <g transform="translate(776, 42.0)">
+    
+    <!-- Card 1: Left - Ace of Diamonds ♦ (Slides left & fans out) -->
+    <g filter="url(#cardShadow_light)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0; -18 -3; -18 -3; 0 0" keyTimes="0; 0.28; 0.72; 1" dur="3.6s" repeatCount="indefinite"/>
+        <g>
+          <animateTransform attributeName="transform" type="rotate" values="0 0 20; -26 0 20; -26 0 20; 0 0 20" keyTimes="0; 0.28; 0.72; 1" dur="3.6s" repeatCount="indefinite"/>
+          <rect x="-13" y="-22" width="26" height="44" rx="3.5" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+          <text x="-8" y="-11" fill="#CF222E" font-family="'JetBrains Mono', Georgia, serif" font-size="9" font-weight="800">A</text>
+          <text x="-8" y="-1.5" fill="#CF222E" font-size="8.5">♦</text>
+          <text x="0" y="8" fill="#CF222E" font-size="15" text-anchor="middle">♦</text>
+          <text x="8" y="17" fill="#CF222E" font-family="'JetBrains Mono', Georgia, serif" font-size="7.5" font-weight="800" text-anchor="end" transform="rotate(180 5.5 13.5)">A</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Card 3: Right - King of Hearts ♥ (Slides right & fans out) -->
+    <g filter="url(#cardShadow_light)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0; 18 -3; 18 -3; 0 0" keyTimes="0; 0.28; 0.72; 1" dur="3.6s" repeatCount="indefinite"/>
+        <g>
+          <animateTransform attributeName="transform" type="rotate" values="0 0 20; 26 0 20; 26 0 20; 0 0 20" keyTimes="0; 0.28; 0.72; 1" dur="3.6s" repeatCount="indefinite"/>
+          <rect x="-13" y="-22" width="26" height="44" rx="3.5" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+          <text x="-8" y="-11" fill="#CF222E" font-family="'JetBrains Mono', Georgia, serif" font-size="9" font-weight="800">K</text>
+          <text x="-8" y="-1.5" fill="#CF222E" font-size="8.5">♥</text>
+          <text x="0" y="8" fill="#CF222E" font-size="15" text-anchor="middle">♥</text>
+          <text x="8" y="17" fill="#CF222E" font-family="'JetBrains Mono', Georgia, serif" font-size="7.5" font-weight="800" text-anchor="end" transform="rotate(180 5.5 13.5)">K</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Card 2: Center - Ace of Spades ♠ (Leading Card, floats upward & hovers) -->
+    <g filter="url(#cardShadow_light)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -13; 0 -13; 0 0" keyTimes="0; 0.28; 0.72; 1" dur="3.6s" repeatCount="indefinite"/>
+        <rect x="-14" y="-23" width="28" height="46" rx="4.5" fill="#FFFFFF" stroke="#2547A8" stroke-width="1.6"/>
+        <text x="-8.5" y="-11.5" fill="#1E293B" font-family="'JetBrains Mono', Georgia, serif" font-size="9.5" font-weight="900">A</text>
+        <text x="-8.5" y="-1.5" fill="#1E293B" font-size="9">♠</text>
+        <text x="0" y="9" fill="#1E293B" font-size="17" text-anchor="middle">♠</text>
+        <text x="8.5" y="18" fill="#1E293B" font-family="'JetBrains Mono', Georgia, serif" font-size="8" font-weight="900" text-anchor="end" transform="rotate(180 6 14.5)">A</text>
+      </g>
+    </g>
+  </g>
+
+  <text x="822" y="38" fill="#24292F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" font-weight="700">Kelly Sizing &amp; Game Theory</text>
+  <text x="822" y="55" fill="#57606A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="9.5">f* = (bp - q) / b · Thorp Blackjack Odds</text>
+</svg>
