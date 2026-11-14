@@ -91,8 +91,8 @@
 <table width="100%">
   <tr>
     <td align="center">🏦 <b>House Vault:</b> <code>1,000,000 VIP</code></td>
-    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-17,755 VIP</code></td>
-    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>187</code></td>
+    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-21,155 VIP</code></td>
+    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>188</code></td>
     <td align="center">⚖️ <b>House Win Rate:</b> <code>48.8%</code></td>
   </tr>
 </table>
@@ -111,6 +111,13 @@
           <th>Result</th>
           <th>Outcome</th>
           <th>Chips</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/MarkovChain"><b>@MarkovChain</b></a></td>
+          <td><code>🟢 ZERO</code></td>
+          <td><code>🟢 ZERO 0</code></td>
+          <td><b>🏆 JACKPOT</b></td>
+          <td><code>4,600</code></td>
         </tr>
         <tr>
           <td><a href="https://github.com/StochasticTrader"><b>@StochasticTrader</b></a></td>
@@ -161,13 +168,6 @@
           <td><b>💀 HOUSE WINS</b></td>
           <td><code>600</code></td>
         </tr>
-        <tr>
-          <td><a href="https://github.com/BayesMaster"><b>@BayesMaster</b></a></td>
-          <td><code>🔴 RED</code></td>
-          <td><code>⚫ BLACK 2</code></td>
-          <td><b>💀 HOUSE WINS</b></td>
-          <td><code>540</code></td>
-        </tr>
       </table>
     </td>
     <td valign="top">
@@ -179,18 +179,18 @@
         </tr>
         <tr>
           <td align="center">🥇</td>
+          <td><a href="https://github.com/MarkovChain"><b>@MarkovChain</b></a></td>
+          <td><b>4,600 VIP</b></td>
+        </tr>
+        <tr>
+          <td align="center">🥈</td>
           <td><a href="https://github.com/StochasticTrader"><b>@StochasticTrader</b></a></td>
           <td><b>2,220 VIP</b></td>
         </tr>
         <tr>
-          <td align="center">🥈</td>
+          <td align="center">🥉</td>
           <td><a href="https://github.com/s4126139"><b>@s4126139</b></a></td>
           <td><b>1,770 VIP</b></td>
-        </tr>
-        <tr>
-          <td align="center">🥉</td>
-          <td><a href="https://github.com/MarkovChain"><b>@MarkovChain</b></a></td>
-          <td><b>1,100 VIP</b></td>
         </tr>
         <tr>
           <td align="center">4️⃣</td>
