@@ -91,8 +91,8 @@
 <table width="100%">
   <tr>
     <td align="center">🏦 <b>House Vault:</b> <code>1,000,000 VIP</code></td>
-    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-17,770 VIP</code></td>
-    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>185</code></td>
+    <td align="center">📉 <b>House Table Deficit:</b> <code style="color: #F87171;">-17,735 VIP</code></td>
+    <td align="center">🎲 <b>Total Bot Wagers:</b> <code>186</code></td>
     <td align="center">⚖️ <b>House Win Rate:</b> <code>48.8%</code></td>
   </tr>
 </table>
@@ -111,6 +111,13 @@
           <th>Result</th>
           <th>Outcome</th>
           <th>Chips</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/QuantExplorer"><b>@QuantExplorer</b></a></td>
+          <td><code>⚫ BLACK</code></td>
+          <td><code>🔴 RED 12</code></td>
+          <td><b>💀 HOUSE WINS</b></td>
+          <td><code>200</code></td>
         </tr>
         <tr>
           <td><a href="https://github.com/StochasticTrader"><b>@StochasticTrader</b></a></td>
@@ -160,13 +167,6 @@
           <td><code>⚫ BLACK 26</code></td>
           <td><b>💀 HOUSE WINS</b></td>
           <td><code>300</code></td>
-        </tr>
-        <tr>
-          <td><a href="https://github.com/EntropyHedge"><b>@EntropyHedge</b></a></td>
-          <td><code>⚫ BLACK</code></td>
-          <td><code>🔴 RED 3</code></td>
-          <td><b>💀 HOUSE WINS</b></td>
-          <td><code>700</code></td>
         </tr>
       </table>
     </td>
