@@ -1,11 +1,21 @@
 {
-  "total_bets": 190,
+  "total_bets": 191,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -21175,
-  "house_wins": 103,
+  "house_table_deficit": -21140,
+  "house_wins": 104,
   "player_wins": 87,
   "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "StochasticTrader",
+      "game": "Roulette",
+      "bet": "\ud83d\udd34 RED",
+      "roll": "\u26ab BLACK 6",
+      "outcome": "\ud83d\udc80 HOUSE WINS",
+      "delta": "-100",
+      "balance": 2120,
+      "time": "20:48 UTC"
+    },
     {
       "player": "QuantExplorer",
       "game": "Slot 777",
@@ -145,23 +155,13 @@
       "delta": "-100",
       "balance": 800,
       "time": "04:40 UTC"
-    },
-    {
-      "player": "BayesMaster",
-      "game": "Slot 777",
-      "bet": "\ud83c\udfb0 3 REELS",
-      "roll": "[\u2660 \u2660 \ud83d\udd14]",
-      "outcome": "\u2728 PAIR MATCH",
-      "delta": "+20",
-      "balance": 640,
-      "time": "21:38 UTC"
     }
   ],
   "leaderboard": {
     "StochasticTrader": {
-      "chips": 2220,
+      "chips": 2120,
       "wins": 11,
-      "losses": 17,
+      "losses": 18,
       "best_win": 2500
     },
     "s4126139": {
