@@ -1,11 +1,21 @@
 {
-  "total_bets": 195,
+  "total_bets": 196,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -21000,
+  "house_table_deficit": -21020,
   "house_wins": 108,
-  "player_wins": 87,
+  "player_wins": 88,
   "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "StochasticTrader",
+      "game": "Slot 777",
+      "bet": "\ud83c\udfb0 3 REELS",
+      "roll": "[\ud83c\udf4b \ud83d\udd14 \ud83d\udd14]",
+      "outcome": "\u2728 PAIR MATCH",
+      "delta": "+20",
+      "balance": 2140,
+      "time": "23:19 UTC"
+    },
     {
       "player": "BayesMaster",
       "game": "Slot 777",
@@ -145,22 +155,12 @@
       "delta": "+100",
       "balance": 700,
       "time": "00:52 UTC"
-    },
-    {
-      "player": "EntropyHedge",
-      "game": "Slot 777",
-      "bet": "\ud83c\udfb0 3 REELS",
-      "roll": "[7\ufe0f\u20e3 \ud83c\udf4b \ud83d\udd14]",
-      "outcome": "\ud83d\udc80 HOUSE WINS",
-      "delta": "-100",
-      "balance": 600,
-      "time": "16:33 UTC"
     }
   ],
   "leaderboard": {
     "StochasticTrader": {
-      "chips": 2120,
-      "wins": 11,
+      "chips": 2140,
+      "wins": 12,
       "losses": 18,
       "best_win": 2500
     },
