@@ -1,11 +1,21 @@
 {
-  "total_bets": 198,
+  "total_bets": 199,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -21005,
-  "house_wins": 109,
+  "house_table_deficit": -20970,
+  "house_wins": 110,
   "player_wins": 89,
   "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "StochasticTrader",
+      "game": "Roulette",
+      "bet": "\ud83d\udfe2 ZERO",
+      "roll": "\u26ab BLACK 29",
+      "outcome": "\ud83d\udc80 HOUSE WINS",
+      "delta": "-100",
+      "balance": 2040,
+      "time": "01:41 UTC"
+    },
     {
       "player": "MarkovChain",
       "game": "Slot 777",
@@ -145,23 +155,13 @@
       "delta": "-100",
       "balance": 2200,
       "time": "00:39 UTC"
-    },
-    {
-      "player": "EntropyHedge",
-      "game": "Roulette",
-      "bet": "\ud83d\udd34 RED",
-      "roll": "\ud83d\udd34 RED 30",
-      "outcome": "\ud83c\udf89 WIN",
-      "delta": "+100",
-      "balance": 800,
-      "time": "19:11 UTC"
     }
   ],
   "leaderboard": {
     "StochasticTrader": {
-      "chips": 2140,
+      "chips": 2040,
       "wins": 12,
-      "losses": 18,
+      "losses": 19,
       "best_win": 2500
     },
     "s4126139": {
