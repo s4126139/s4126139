@@ -1,11 +1,21 @@
 {
-  "total_bets": 203,
+  "total_bets": 204,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -20920,
-  "house_wins": 112,
+  "house_table_deficit": -20885,
+  "house_wins": 113,
   "player_wins": 91,
   "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "AlphaGoose",
+      "game": "Roulette",
+      "bet": "\ud83d\udd34 RED",
+      "roll": "\u26ab BLACK 24",
+      "outcome": "\ud83d\udc80 HOUSE WINS",
+      "delta": "-100",
+      "balance": 500,
+      "time": "01:03 UTC"
+    },
     {
       "player": "EntropyHedge",
       "game": "Roulette",
@@ -145,16 +155,6 @@
       "delta": "+20",
       "balance": 220,
       "time": "15:19 UTC"
-    },
-    {
-      "player": "MarkovChain",
-      "game": "Roulette",
-      "bet": "\ud83d\udd34 RED",
-      "roll": "\ud83d\udd34 RED 12",
-      "outcome": "\ud83c\udf89 WIN",
-      "delta": "+100",
-      "balance": 4700,
-      "time": "04:46 UTC"
     }
   ],
   "leaderboard": {
@@ -201,9 +201,9 @@
       "best_win": 400
     },
     "AlphaGoose": {
-      "chips": 600,
+      "chips": 500,
       "wins": 12,
-      "losses": 14,
+      "losses": 15,
       "best_win": 400
     }
   }
