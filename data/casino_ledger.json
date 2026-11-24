@@ -1,11 +1,21 @@
 {
-  "total_bets": 212,
+  "total_bets": 213,
   "house_vault_reserve": 1000000,
-  "house_table_deficit": -20695,
+  "house_table_deficit": -20715,
   "house_wins": 119,
-  "player_wins": 93,
+  "player_wins": 94,
   "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "StochasticTrader",
+      "game": "Slot 777",
+      "bet": "\ud83c\udfb0 3 REELS",
+      "roll": "[\ud83c\udf4b \ud83c\udf52 \ud83c\udf4b]",
+      "outcome": "\u2728 PAIR MATCH",
+      "delta": "+20",
+      "balance": 1960,
+      "time": "19:18 UTC"
+    },
     {
       "player": "DeepAlpha",
       "game": "Slot 777",
@@ -145,22 +155,12 @@
       "delta": "-100",
       "balance": 2040,
       "time": "01:41 UTC"
-    },
-    {
-      "player": "MarkovChain",
-      "game": "Slot 777",
-      "bet": "\ud83c\udfb0 3 REELS",
-      "roll": "[\u2660 \u2660 \ud83c\udf52]",
-      "outcome": "\u2728 PAIR MATCH",
-      "delta": "+20",
-      "balance": 4620,
-      "time": "16:55 UTC"
     }
   ],
   "leaderboard": {
     "StochasticTrader": {
-      "chips": 1940,
-      "wins": 12,
+      "chips": 1960,
+      "wins": 13,
       "losses": 20,
       "best_win": 2500
     },
