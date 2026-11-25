@@ -1,11 +1,21 @@
 {
-  "total_bets": 215,
+  "total_bets": 216,
   "house_vault_reserve": 1000000,
   "house_table_deficit": -20735,
   "house_wins": 119,
-  "player_wins": 96,
+  "player_wins": 97,
   "house_win_rate": "48.8%",
   "recent_bets": [
+    {
+      "player": "DeepAlpha",
+      "game": "Roulette",
+      "bet": "\u26ab BLACK",
+      "roll": "\u26ab BLACK 22",
+      "outcome": "\ud83c\udf89 WIN",
+      "delta": "+100",
+      "balance": 440,
+      "time": "23:58 UTC"
+    },
     {
       "player": "MarkovChain",
       "game": "Roulette",
@@ -145,16 +155,6 @@
       "delta": "-100",
       "balance": 600,
       "time": "05:41 UTC"
-    },
-    {
-      "player": "AlphaGoose",
-      "game": "Slot 777",
-      "bet": "\ud83c\udfb0 3 REELS",
-      "roll": "[\ud83c\udf4b \ud83c\udf52 \ud83c\udf52]",
-      "outcome": "\u2728 PAIR MATCH",
-      "delta": "+20",
-      "balance": 600,
-      "time": "22:53 UTC"
     }
   ],
   "leaderboard": {
@@ -189,8 +189,8 @@
       "best_win": 400
     },
     "DeepAlpha": {
-      "chips": 340,
-      "wins": 12,
+      "chips": 440,
+      "wins": 13,
       "losses": 18,
       "best_win": 120
     },
